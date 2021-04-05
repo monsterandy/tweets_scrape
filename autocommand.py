@@ -1,9 +1,9 @@
+from config import hashtags, start_date, until_date
+
 import os
 from pathlib import Path
 
 from datetime import date, timedelta
-# MODIFY hashtags here
-hashtags = ['#covidvaccine', '#covidvaccinesideeffects', '#FireFauci']
 
 if not Path('data/').exists():
     os.system('mkdir data')
@@ -15,9 +15,6 @@ for i in range(len(hashtags)):
 
 command_list = []
 for i in range(len(hashtags)):
-    # MODIFY start and until date here
-    start_date = date(2020, 8, 1)
-    until_date = date(2020, 8, 31)
     delta = timedelta(days=(7-1))
     cycle = 1
     start_date_cycle = start_date

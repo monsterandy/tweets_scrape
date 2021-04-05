@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-from api_keys import consumer_key, consumer_secret, access_token, access_token_secret
+from config import consumer_key, consumer_secret, access_token, access_token_secret
 
 import os
 import glob

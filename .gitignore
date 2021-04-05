@@ -1,6 +1,6 @@
 # Customize
 data/
-api_keys.py
+config.py
 test.py
 .vscode
 commands.txt
