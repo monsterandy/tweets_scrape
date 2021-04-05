@@ -4,8 +4,8 @@
 
 ### Prerequisites
 
-- `snscrape` is a scraper for social networking services (SNS).
-- `tweepy` is a library of Python to access Twitter API (If you use Python 3.9 or higher, please install the developer version).
+- [`snscrape`](https://github.com/JustAnotherArchivist/snscrape) is a scraper for social networking services (SNS).
+- [`tweepy`](https://github.com/itsayushisaxena/tweepy) is a library of Python to access Twitter API (If you use Python 3.9 or higher, please install the developer version).
 - A twitter developer account alongwith the API credentials. Please create an `api_keys.py` file at the same directory to save them.
 
 Example of `api_keys.py` file:
