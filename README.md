@@ -18,3 +18,4 @@
 
 `image_extract.py` - This file is to get the images from the media_url of each tweet.
 
+**Please execute these three scripts in order**
