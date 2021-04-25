@@ -19,3 +19,5 @@
 `image_extract.py` - This file is to get the images from the media_url of each tweet.
 
 **Please execute these three scripts in order**
+
+`preprocessing.ipynb` - This jupyter file will generate a concatenated dataframe for all the tweets and images in the data folder. Please first rename the data folder in the form of `data_{topic_name}`, and you only need to modify the variables in the first cell. The concatenated dataframe has all the tweets information linked with image path for each image. It will be stored in the `csv_data` folder.
