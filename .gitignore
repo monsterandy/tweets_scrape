@@ -4,6 +4,8 @@ config.py
 test.py
 .vscode
 commands.txt
+*.zip
+data_*/
 
 
 # Byte-compiled / optimized / DLL files
