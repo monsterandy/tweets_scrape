@@ -13,14 +13,18 @@ class TextDetector:
 
         # load the input image and grab the image dimensions
         image = cv2.imread(path)
-        orig = image.copy()
+        # print(type(image))
+        if image is None:
+            print('0 - {}'.format(path))
+            return 0
+        # orig = image.copy()
         (H, W) = image.shape[:2]
 
         # set the new width and height and then determine the ratio in change
         # for both the width and height
         (newW, newH) = (width, height)
-        rW = W / float(newW)
-        rH = H / float(newH)
+        # rW = W / float(newW)
+        # rH = H / float(newH)
 
         # resize the image and grab the new image dimensions
         image = cv2.resize(image, (newW, newH))
