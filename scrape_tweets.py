@@ -30,14 +30,15 @@ for i in entries:
 def fetch_tw(ids, csv_path):
     tw_statuses = api.statuses_lookup(ids, tweet_mode="extended")
 
-    data = pd.DataFrame()
+    data = pd.DataFrame(columns=['media', 'text_data', 'tweet_id', 'tweet_url'])
     for status in tw_statuses:
-        if('media' in status.entities):
+        if('media' in status.entities) and status.lang == 'en':
+            # print('{} - lang: {}'.format(status.id, status.lang))
             tweet_elem = {"tweet_id": status.id,
                           "media": status.entities['media'][0]['media_url'], "text_data": status.full_text, 'tweet_url': 'https://twitter.com/i/web/status/'+status.id_str}
             data = data.append(tweet_elem, ignore_index=True)
 
-    # if file does not exist write header
+    # if file does not exist, write header
     if not os.path.isfile(csv_path[:-4]+'.csv'):
         data.to_csv(csv_path[:-4]+".csv", index=False)
     else:  # else it exists so append without writing the header
