@@ -6,6 +6,7 @@ test.py
 commands.txt
 *.zip
 data_*/
+yolo-coco/yolov4.weights
 
 
 # Byte-compiled / optimized / DLL files
