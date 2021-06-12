@@ -1,7 +1,7 @@
 # Customize
 data/
 config.py
-test.py
+test.*
 .vscode
 commands.txt
 *.zip
