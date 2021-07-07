@@ -6,6 +6,7 @@ import os
 from pathlib import Path
 import requests
 import pandas as pd
+from tqdm import tqdm
 
 entries = os.listdir('data/')
 text = []
@@ -19,9 +20,9 @@ for i in entries:
 
 
 print('CSV FILE COUNT: {}'.format(len(text)))
-for path in text:
+for path in tqdm(text):
     data = pd.read_csv(path, index_col=False)
-    for i in data['media']:
+    for i in tqdm(data['media'], leave=False):
         image_url = i
     #     print(image_url)
         if pd.isnull(image_url):
@@ -41,6 +42,6 @@ for path in text:
                     # write the contents of the response (r.content)
                     # to a new file in binary mode.
                     f.write(r.content)
-                    print("SUCCESS {}".format(path[:-4]+'/'+img_name))
+                    # print("SUCCESS {}".format(path[:-4]+'/'+img_name))
             except:
-                print("FAILED AT URL: {}".format(image_url))
+                print("FAILED AT PATH: {}, URL: {}".format(path, image_url))
