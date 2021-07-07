@@ -4,9 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 import pytesseract
+from PIL import Image
 
-custom_config = r"--oem 3 --psm 11 -c tessedit_char_whitelist= 'ABCDEFGHIJKLMNOPQRSTUVWXYZ '"
-pytesseract.pytesseract.tesseract_cmd = r'/usr/local/bin/tesseract'
+custom_config = r"--oem 3 --psm 12 -c tessedit_char_whitelist='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz '"
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 
 
 PERFORM_THRESHOLDING = True
@@ -23,3 +24,8 @@ def TextRecognition(image_path):
             img, lang='eng', config=custom_config)
         # text = text.replace('\n', ',')
         return text
+
+def raw_ocr(image_path):
+    img = Image.open(image_path)
+    text = pytesseract.image_to_string(img, lang='eng', config=custom_config)
+    return text
