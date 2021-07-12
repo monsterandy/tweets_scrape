@@ -4,14 +4,22 @@
 import glob
 import os
 from pathlib import Path
+from argparse import ArgumentParser
 import requests
 import pandas as pd
 from tqdm import tqdm
 
-entries = os.listdir('data/')
+parser = ArgumentParser()
+parser.add_argument('-n', '--name', dest='folder_name', help='folder name', metavar='FOLDER')
+args = parser.parse_args()
+
+folder_name = args.folder_name
+folder_path = 'tweet_data/' + folder_name + '/'
+
+entries = os.listdir(folder_path)
 text = []
 for i in entries:
-    listfiles = glob.glob('data/'+i+'/*.csv')
+    listfiles = glob.glob(folder_path + i + '/*.csv')
     for entry in listfiles:
         entry_path = Path(entry[:-4])
         if not entry_path.exists():
@@ -20,9 +28,9 @@ for i in entries:
 
 
 print('CSV FILE COUNT: {}'.format(len(text)))
-for path in tqdm(text):
+for path in tqdm(text, miniters=1):
     data = pd.read_csv(path, index_col=False)
-    for i in tqdm(data['media'], leave=False):
+    for i in data['media']:
         image_url = i
     #     print(image_url)
         if pd.isnull(image_url):

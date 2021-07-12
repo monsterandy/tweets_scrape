@@ -1,17 +1,34 @@
-from config import hashtags, start_date, until_date
-
 import os
 from pathlib import Path
+from argparse import ArgumentParser
+from datetime import timedelta, datetime
 
-from datetime import date, timedelta
+parser = ArgumentParser()
+parser.add_argument('-t', '--topic', dest='topic_name', help='topic name', metavar='TOPIC')
+parser.add_argument('-s', '--start', dest='start_date', help='start date in YYYY-mm-dd', metavar='START')
+parser.add_argument('-e', '--end', dest='end_date', help='end date in YYYY-mm-dd', metavar='END')
+args = parser.parse_args()
 
-if not Path('data/').exists():
-    os.system('mkdir data')
+topic_name = args.topic_name
+start_date = datetime.strptime(args.start_date, '%Y-%m-%d').date()
+end_date = datetime.strptime(args.end_date, '%Y-%m-%d').date()
+month = '{:02d}'.format(start_date.month)
+
+hashtag_path = 'hashtag_list/' + topic_name
+with open(hashtag_path) as file:
+    hashtags = [line.rstrip('\n') for line in file]
+
+if not Path('tweet_data/').exists():
+    os.system('mkdir tweet_data')
+
+data_path = 'tweet_data/' + topic_name + '_' + month + '/'
+if not Path(data_path).exists():
+    os.system('mkdir ' + data_path)
 
 # making directories for each hashtags
 for i in range(len(hashtags)):
-    if not Path('data/' + hashtags[i][1:]).exists():
-        os.system('mkdir data/' + hashtags[i][1:])
+    if not Path(data_path + hashtags[i]).exists():
+        os.system('mkdir ' + data_path + hashtags[i])
 
 command_list = []
 for i in range(len(hashtags)):
@@ -19,16 +36,16 @@ for i in range(len(hashtags)):
     cycle = 1
     start_date_cycle = start_date
 
-    while start_date_cycle <= until_date:
+    while start_date_cycle <= end_date:
         # make sure the next cycle not exceed the until date
-        if start_date_cycle + delta < until_date:
-            until_date_cycle = start_date_cycle + delta
+        if start_date_cycle + delta < end_date:
+            end_date_cycle = start_date_cycle + delta
         else:
-            until_date_cycle = until_date
+            end_date_cycle = end_date
         
-        cycle_command = 'snscrape twitter-search' + ' "' + \
-            hashtags[i]+' since:' + str(start_date_cycle) + ' until:' + str(until_date_cycle) + \
-            ' filter:images" > data/' + hashtags[i][1:]+'/tweets' + str(cycle) + '.txt'
+        cycle_command = 'snscrape twitter-search' + ' "#' + \
+            hashtags[i]+' since:' + str(start_date_cycle) + ' until:' + str(end_date_cycle) + \
+            ' filter:images" > '+ data_path + hashtags[i]+'/tweets' + str(cycle) + '.txt'
         command_list.append(cycle_command)
 
         # add 7 days to circle

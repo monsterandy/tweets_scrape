@@ -1,11 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 from config import consumer_key, consumer_secret, access_token, access_token_secret
 
 import os
 import glob
 from pathlib import Path
+from argparse import ArgumentParser
 import pandas as pd
 import tweepy
 
@@ -14,12 +12,18 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
+parser = ArgumentParser()
+parser.add_argument('-n', '--name', dest='folder_name', help='folder name', metavar='FOLDER')
+args = parser.parse_args()
 
-entries = os.listdir('data/')
+folder_name = args.folder_name
+folder_path = 'tweet_data/' + folder_name + '/'
+
+entries = os.listdir(folder_path)
 
 text = []
 for i in entries:
-    listfiles = glob.glob('data/'+i+'/*.txt')
+    listfiles = glob.glob(folder_path + i + '/*.txt')
     for entry in listfiles:
         entry_path = Path(entry[:-3] + 'csv')
         if not entry_path.exists():

@@ -1,0 +1,341 @@
+cpn-k07-04-01.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6156821
+SLURM_JOB_NODELIST=cpn-k07-04-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6156821
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape/ccr_scripts
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+snscrape twitter-search "#JoeBlow since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/JoeBlow/tweets1.txt
+
+snscrape twitter-search "#JoeBlow since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/JoeBlow/tweets2.txt
+
+snscrape twitter-search "#JoeBlow since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/JoeBlow/tweets3.txt
+
+snscrape twitter-search "#JoeBlow since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/JoeBlow/tweets4.txt
+
+snscrape twitter-search "#JoeBlow since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/JoeBlow/tweets5.txt
+
+snscrape twitter-search "#JoeAndTheHoe since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/JoeAndTheHoe/tweets1.txt
+
+snscrape twitter-search "#JoeAndTheHoe since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/JoeAndTheHoe/tweets2.txt
+
+snscrape twitter-search "#JoeAndTheHoe since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/JoeAndTheHoe/tweets3.txt
+
+snscrape twitter-search "#JoeAndTheHoe since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/JoeAndTheHoe/tweets4.txt
+
+snscrape twitter-search "#JoeAndTheHoe since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/JoeAndTheHoe/tweets5.txt
+
+snscrape twitter-search "#JoeAndBlow since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/JoeAndBlow/tweets1.txt
+
+snscrape twitter-search "#JoeAndBlow since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/JoeAndBlow/tweets2.txt
+
+snscrape twitter-search "#JoeAndBlow since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/JoeAndBlow/tweets3.txt
+
+snscrape twitter-search "#JoeAndBlow since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/JoeAndBlow/tweets4.txt
+
+snscrape twitter-search "#JoeAndBlow since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/JoeAndBlow/tweets5.txt
+
+snscrape twitter-search "#PedoJoe since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/PedoJoe/tweets1.txt
+
+snscrape twitter-search "#PedoJoe since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/PedoJoe/tweets2.txt
+
+snscrape twitter-search "#PedoJoe since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/PedoJoe/tweets3.txt
+
+snscrape twitter-search "#PedoJoe since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/PedoJoe/tweets4.txt
+
+snscrape twitter-search "#PedoJoe since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/PedoJoe/tweets5.txt
+
+snscrape twitter-search "#CreepyJoe since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/CreepyJoe/tweets1.txt
+
+snscrape twitter-search "#CreepyJoe since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/CreepyJoe/tweets2.txt
+
+snscrape twitter-search "#CreepyJoe since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/CreepyJoe/tweets3.txt
+
+snscrape twitter-search "#CreepyJoe since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/CreepyJoe/tweets4.txt
+
+snscrape twitter-search "#CreepyJoe since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/CreepyJoe/tweets5.txt
+
+snscrape twitter-search "#RedChinaJoe since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/RedChinaJoe/tweets1.txt
+
+snscrape twitter-search "#RedChinaJoe since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/RedChinaJoe/tweets2.txt
+
+snscrape twitter-search "#RedChinaJoe since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/RedChinaJoe/tweets3.txt
+
+snscrape twitter-search "#RedChinaJoe since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/RedChinaJoe/tweets4.txt
+
+snscrape twitter-search "#RedChinaJoe since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/RedChinaJoe/tweets5.txt
+
+snscrape twitter-search "#TrumpCult since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/TrumpCult/tweets1.txt
+
+snscrape twitter-search "#TrumpCult since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/TrumpCult/tweets2.txt
+
+snscrape twitter-search "#TrumpCult since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/TrumpCult/tweets3.txt
+
+snscrape twitter-search "#TrumpCult since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/TrumpCult/tweets4.txt
+
+snscrape twitter-search "#TrumpCult since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/TrumpCult/tweets5.txt
+
+snscrape twitter-search "#Chameleon since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/Chameleon/tweets1.txt
+
+snscrape twitter-search "#Chameleon since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/Chameleon/tweets2.txt
+
+snscrape twitter-search "#Chameleon since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/Chameleon/tweets3.txt
+
+snscrape twitter-search "#Chameleon since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/Chameleon/tweets4.txt
+
+snscrape twitter-search "#Chameleon since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/Chameleon/tweets5.txt
+
+snscrape twitter-search "#QAnonCult since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/QAnonCult/tweets1.txt
+
+snscrape twitter-search "#QAnonCult since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/QAnonCult/tweets2.txt
+
+snscrape twitter-search "#QAnonCult since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/QAnonCult/tweets3.txt
+
+snscrape twitter-search "#QAnonCult since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/QAnonCult/tweets4.txt
+
+snscrape twitter-search "#QAnonCult since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/QAnonCult/tweets5.txt
+
+snscrape twitter-search "#RacistInChief since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/RacistInChief/tweets1.txt
+
+snscrape twitter-search "#RacistInChief since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/RacistInChief/tweets2.txt
+
+snscrape twitter-search "#RacistInChief since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/RacistInChief/tweets3.txt
+
+snscrape twitter-search "#RacistInChief since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/RacistInChief/tweets4.txt
+
+snscrape twitter-search "#RacistInChief since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/RacistInChief/tweets5.txt
+
+snscrape twitter-search "#bunkerboy since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/bunkerboy/tweets1.txt
+
+snscrape twitter-search "#bunkerboy since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/bunkerboy/tweets2.txt
+
+snscrape twitter-search "#bunkerboy since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/bunkerboy/tweets3.txt
+
+snscrape twitter-search "#bunkerboy since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/bunkerboy/tweets4.txt
+
+snscrape twitter-search "#bunkerboy since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/bunkerboy/tweets5.txt
+
+snscrape twitter-search "#kag since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/kag/tweets1.txt
+
+snscrape twitter-search "#kag since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/kag/tweets2.txt
+
+snscrape twitter-search "#kag since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/kag/tweets3.txt
+
+snscrape twitter-search "#kag since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/kag/tweets4.txt
+
+snscrape twitter-search "#kag since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/kag/tweets5.txt
+
+snscrape twitter-search "#PersonWomanManCameraTv since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/PersonWomanManCameraTv/tweets1.txt
+
+snscrape twitter-search "#PersonWomanManCameraTv since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/PersonWomanManCameraTv/tweets2.txt
+
+snscrape twitter-search "#PersonWomanManCameraTv since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/PersonWomanManCameraTv/tweets3.txt
+
+snscrape twitter-search "#PersonWomanManCameraTv since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/PersonWomanManCameraTv/tweets4.txt
+
+snscrape twitter-search "#PersonWomanManCameraTv since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/PersonWomanManCameraTv/tweets5.txt
+
+snscrape twitter-search "#Trump2020Landslide since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/Trump2020Landslide/tweets1.txt
+
+snscrape twitter-search "#Trump2020Landslide since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/Trump2020Landslide/tweets2.txt
+
+snscrape twitter-search "#Trump2020Landslide since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/Trump2020Landslide/tweets3.txt
+
+snscrape twitter-search "#Trump2020Landslide since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/Trump2020Landslide/tweets4.txt
+
+snscrape twitter-search "#Trump2020Landslide since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/Trump2020Landslide/tweets5.txt
+
+snscrape twitter-search "#HidinBiden since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/HidinBiden/tweets1.txt
+
+snscrape twitter-search "#HidinBiden since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/HidinBiden/tweets2.txt
+
+snscrape twitter-search "#HidinBiden since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/HidinBiden/tweets3.txt
+
+snscrape twitter-search "#HidinBiden since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/HidinBiden/tweets4.txt
+
+snscrape twitter-search "#HidinBiden since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/HidinBiden/tweets5.txt
+
+snscrape twitter-search "#goodvsevil since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/goodvsevil/tweets1.txt
+
+snscrape twitter-search "#goodvsevil since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/goodvsevil/tweets2.txt
+
+snscrape twitter-search "#goodvsevil since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/goodvsevil/tweets3.txt
+
+snscrape twitter-search "#goodvsevil since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/goodvsevil/tweets4.txt
+
+snscrape twitter-search "#goodvsevil since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/goodvsevil/tweets5.txt
+
+snscrape twitter-search "#STOPSOCIALISM since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/STOPSOCIALISM/tweets1.txt
+
+snscrape twitter-search "#STOPSOCIALISM since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/STOPSOCIALISM/tweets2.txt
+
+snscrape twitter-search "#STOPSOCIALISM since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/STOPSOCIALISM/tweets3.txt
+
+snscrape twitter-search "#STOPSOCIALISM since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/STOPSOCIALISM/tweets4.txt
+
+snscrape twitter-search "#STOPSOCIALISM since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/STOPSOCIALISM/tweets5.txt
+
+snscrape twitter-search "#PedoGateIsReal since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/PedoGateIsReal/tweets1.txt
+
+snscrape twitter-search "#PedoGateIsReal since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/PedoGateIsReal/tweets2.txt
+
+snscrape twitter-search "#PedoGateIsReal since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/PedoGateIsReal/tweets3.txt
+
+snscrape twitter-search "#PedoGateIsReal since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/PedoGateIsReal/tweets4.txt
+
+snscrape twitter-search "#PedoGateIsReal since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/PedoGateIsReal/tweets5.txt
+
+snscrape twitter-search "#TrumpChaos since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/TrumpChaos/tweets1.txt
+
+snscrape twitter-search "#TrumpChaos since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/TrumpChaos/tweets2.txt
+
+snscrape twitter-search "#TrumpChaos since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/TrumpChaos/tweets3.txt
+
+snscrape twitter-search "#TrumpChaos since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/TrumpChaos/tweets4.txt
+
+snscrape twitter-search "#TrumpChaos since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/TrumpChaos/tweets5.txt
+
+snscrape twitter-search "#TrumpIsALaughingStock since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/TrumpIsALaughingStock/tweets1.txt
+
+snscrape twitter-search "#TrumpIsALaughingStock since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/TrumpIsALaughingStock/tweets2.txt
+
+snscrape twitter-search "#TrumpIsALaughingStock since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/TrumpIsALaughingStock/tweets3.txt
+
+snscrape twitter-search "#TrumpIsALaughingStock since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/TrumpIsALaughingStock/tweets4.txt
+
+snscrape twitter-search "#TrumpIsALaughingStock since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/TrumpIsALaughingStock/tweets5.txt
+
+snscrape twitter-search "#InterruptTrump since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/InterruptTrump/tweets1.txt
+
+snscrape twitter-search "#InterruptTrump since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/InterruptTrump/tweets2.txt
+
+snscrape twitter-search "#InterruptTrump since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/InterruptTrump/tweets3.txt
+
+snscrape twitter-search "#InterruptTrump since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/InterruptTrump/tweets4.txt
+
+snscrape twitter-search "#InterruptTrump since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/InterruptTrump/tweets5.txt
+
+snscrape twitter-search "#TrumpIsACompleteFailure since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/TrumpIsACompleteFailure/tweets1.txt
+
+snscrape twitter-search "#TrumpIsACompleteFailure since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/TrumpIsACompleteFailure/tweets2.txt
+
+snscrape twitter-search "#TrumpIsACompleteFailure since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/TrumpIsACompleteFailure/tweets3.txt
+
+snscrape twitter-search "#TrumpIsACompleteFailure since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/TrumpIsACompleteFailure/tweets4.txt
+
+snscrape twitter-search "#TrumpIsACompleteFailure since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/TrumpIsACompleteFailure/tweets5.txt
+
+snscrape twitter-search "#LiarInChief since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/LiarInChief/tweets1.txt
+
+snscrape twitter-search "#LiarInChief since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/LiarInChief/tweets2.txt
+
+snscrape twitter-search "#LiarInChief since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/LiarInChief/tweets3.txt
+
+snscrape twitter-search "#LiarInChief since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/LiarInChief/tweets4.txt
+
+snscrape twitter-search "#LiarInChief since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/LiarInChief/tweets5.txt
+
+snscrape twitter-search "#CDCBowsToTrump since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/CDCBowsToTrump/tweets1.txt
+
+snscrape twitter-search "#CDCBowsToTrump since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/CDCBowsToTrump/tweets2.txt
+
+snscrape twitter-search "#CDCBowsToTrump since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/CDCBowsToTrump/tweets3.txt
+
+snscrape twitter-search "#CDCBowsToTrump since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/CDCBowsToTrump/tweets4.txt
+
+snscrape twitter-search "#CDCBowsToTrump since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/CDCBowsToTrump/tweets5.txt
+
+snscrape twitter-search "#TrumpGenocide since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/TrumpGenocide/tweets1.txt
+
+snscrape twitter-search "#TrumpGenocide since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/TrumpGenocide/tweets2.txt
+
+snscrape twitter-search "#TrumpGenocide since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/TrumpGenocide/tweets3.txt
+
+snscrape twitter-search "#TrumpGenocide since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/TrumpGenocide/tweets4.txt
+
+snscrape twitter-search "#TrumpGenocide since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/TrumpGenocide/tweets5.txt
+
+snscrape twitter-search "#TrumpGestapo since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/TrumpGestapo/tweets1.txt
+
+snscrape twitter-search "#TrumpGestapo since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/TrumpGestapo/tweets2.txt
+
+snscrape twitter-search "#TrumpGestapo since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/TrumpGestapo/tweets3.txt
+
+snscrape twitter-search "#TrumpGestapo since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/TrumpGestapo/tweets4.txt
+
+snscrape twitter-search "#TrumpGestapo since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/TrumpGestapo/tweets5.txt
+
+snscrape twitter-search "#TrumpIsAMasdMurderer since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/TrumpIsAMasdMurderer/tweets1.txt
+
+snscrape twitter-search "#TrumpIsAMasdMurderer since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/TrumpIsAMasdMurderer/tweets2.txt
+
+snscrape twitter-search "#TrumpIsAMasdMurderer since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/TrumpIsAMasdMurderer/tweets3.txt
+
+snscrape twitter-search "#TrumpIsAMasdMurderer since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/TrumpIsAMasdMurderer/tweets4.txt
+
+snscrape twitter-search "#TrumpIsAMasdMurderer since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/TrumpIsAMasdMurderer/tweets5.txt
+
+snscrape twitter-search "#TrumpIsARapist since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/TrumpIsARapist/tweets1.txt
+
+snscrape twitter-search "#TrumpIsARapist since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/TrumpIsARapist/tweets2.txt
+
+snscrape twitter-search "#TrumpIsARapist since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/TrumpIsARapist/tweets3.txt
+
+snscrape twitter-search "#TrumpIsARapist since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/TrumpIsARapist/tweets4.txt
+
+snscrape twitter-search "#TrumpIsARapist since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/TrumpIsARapist/tweets5.txt
+
+snscrape twitter-search "#TrumpIsANationalDisgrace since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/TrumpIsANationalDisgrace/tweets1.txt
+
+snscrape twitter-search "#TrumpIsANationalDisgrace since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/TrumpIsANationalDisgrace/tweets2.txt
+
+snscrape twitter-search "#TrumpIsANationalDisgrace since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/TrumpIsANationalDisgrace/tweets3.txt
+
+snscrape twitter-search "#TrumpIsANationalDisgrace since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/TrumpIsANationalDisgrace/tweets4.txt
+
+snscrape twitter-search "#TrumpIsANationalDisgrace since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/TrumpIsANationalDisgrace/tweets5.txt
+
+snscrape twitter-search "#AmericaOrTrump since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/AmericaOrTrump/tweets1.txt
+
+snscrape twitter-search "#AmericaOrTrump since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/AmericaOrTrump/tweets2.txt
+
+snscrape twitter-search "#AmericaOrTrump since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/AmericaOrTrump/tweets3.txt
+
+snscrape twitter-search "#AmericaOrTrump since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/AmericaOrTrump/tweets4.txt
+
+snscrape twitter-search "#AmericaOrTrump since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/AmericaOrTrump/tweets5.txt
+
+snscrape twitter-search "#TrumpsVaccineIsALie since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/TrumpsVaccineIsALie/tweets1.txt
+
+snscrape twitter-search "#TrumpsVaccineIsALie since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/TrumpsVaccineIsALie/tweets2.txt
+
+snscrape twitter-search "#TrumpsVaccineIsALie since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/TrumpsVaccineIsALie/tweets3.txt
+
+snscrape twitter-search "#TrumpsVaccineIsALie since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/TrumpsVaccineIsALie/tweets4.txt
+
+snscrape twitter-search "#TrumpsVaccineIsALie since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/TrumpsVaccineIsALie/tweets5.txt
+
+snscrape twitter-search "#TrumpLiesPeopleDie since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/TrumpLiesPeopleDie/tweets1.txt
+
+snscrape twitter-search "#TrumpLiesPeopleDie since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/TrumpLiesPeopleDie/tweets2.txt
+
+snscrape twitter-search "#TrumpLiesPeopleDie since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/TrumpLiesPeopleDie/tweets3.txt
+
+snscrape twitter-search "#TrumpLiesPeopleDie since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/TrumpLiesPeopleDie/tweets4.txt
+
+snscrape twitter-search "#TrumpLiesPeopleDie since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/TrumpLiesPeopleDie/tweets5.txt
+
+snscrape twitter-search "#dictatordan since:2020-08-01 until:2020-08-07 filter:images" > tweet_data/politics_08/dictatordan/tweets1.txt
+
+snscrape twitter-search "#dictatordan since:2020-08-08 until:2020-08-14 filter:images" > tweet_data/politics_08/dictatordan/tweets2.txt
+
+snscrape twitter-search "#dictatordan since:2020-08-15 until:2020-08-21 filter:images" > tweet_data/politics_08/dictatordan/tweets3.txt
+
+snscrape twitter-search "#dictatordan since:2020-08-22 until:2020-08-28 filter:images" > tweet_data/politics_08/dictatordan/tweets4.txt
+
+snscrape twitter-search "#dictatordan since:2020-08-29 until:2020-08-31 filter:images" > tweet_data/politics_08/dictatordan/tweets5.txt
+
