@@ -1,0 +1,510 @@
+cpn-k07-02-01.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6156820
+SLURM_JOB_NODELIST=cpn-k07-02-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6156820
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape/ccr_scripts
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+snscrape twitter-search "#JoeBlow since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/JoeBlow/tweets1.txt
+
+snscrape twitter-search "#JoeBlow since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/JoeBlow/tweets2.txt
+
+snscrape twitter-search "#JoeBlow since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/JoeBlow/tweets3.txt
+
+snscrape twitter-search "#JoeBlow since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/JoeBlow/tweets4.txt
+
+snscrape twitter-search "#JoeBlow since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/JoeBlow/tweets5.txt
+
+snscrape twitter-search "#JoeAndTheHoe since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/JoeAndTheHoe/tweets1.txt
+
+snscrape twitter-search "#JoeAndTheHoe since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/JoeAndTheHoe/tweets2.txt
+
+snscrape twitter-search "#JoeAndTheHoe since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/JoeAndTheHoe/tweets3.txt
+
+snscrape twitter-search "#JoeAndTheHoe since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/JoeAndTheHoe/tweets4.txt
+
+snscrape twitter-search "#JoeAndTheHoe since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/JoeAndTheHoe/tweets5.txt
+
+snscrape twitter-search "#JoeAndBlow since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/JoeAndBlow/tweets1.txt
+
+snscrape twitter-search "#JoeAndBlow since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/JoeAndBlow/tweets2.txt
+
+snscrape twitter-search "#JoeAndBlow since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/JoeAndBlow/tweets3.txt
+
+snscrape twitter-search "#JoeAndBlow since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/JoeAndBlow/tweets4.txt
+
+snscrape twitter-search "#JoeAndBlow since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/JoeAndBlow/tweets5.txt
+
+snscrape twitter-search "#PedoJoe since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/PedoJoe/tweets1.txt
+
+snscrape twitter-search "#PedoJoe since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/PedoJoe/tweets2.txt
+
+snscrape twitter-search "#PedoJoe since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/PedoJoe/tweets3.txt
+
+snscrape twitter-search "#PedoJoe since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/PedoJoe/tweets4.txt
+
+snscrape twitter-search "#PedoJoe since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/PedoJoe/tweets5.txt
+
+snscrape twitter-search "#CreepyJoe since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/CreepyJoe/tweets1.txt
+
+snscrape twitter-search "#CreepyJoe since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/CreepyJoe/tweets2.txt
+
+snscrape twitter-search "#CreepyJoe since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/CreepyJoe/tweets3.txt
+
+snscrape twitter-search "#CreepyJoe since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/CreepyJoe/tweets4.txt
+
+snscrape twitter-search "#CreepyJoe since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/CreepyJoe/tweets5.txt
+
+snscrape twitter-search "#RedChinaJoe since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/RedChinaJoe/tweets1.txt
+
+snscrape twitter-search "#RedChinaJoe since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/RedChinaJoe/tweets2.txt
+
+snscrape twitter-search "#RedChinaJoe since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/RedChinaJoe/tweets3.txt
+
+snscrape twitter-search "#RedChinaJoe since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/RedChinaJoe/tweets4.txt
+
+snscrape twitter-search "#RedChinaJoe since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/RedChinaJoe/tweets5.txt
+
+snscrape twitter-search "#TrumpCult since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/TrumpCult/tweets1.txt
+
+snscrape twitter-search "#TrumpCult since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/TrumpCult/tweets2.txt
+
+snscrape twitter-search "#TrumpCult since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/TrumpCult/tweets3.txt
+
+snscrape twitter-search "#TrumpCult since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/TrumpCult/tweets4.txt
+
+snscrape twitter-search "#TrumpCult since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/TrumpCult/tweets5.txt
+
+snscrape twitter-search "#Chameleon since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/Chameleon/tweets1.txt
+
+snscrape twitter-search "#Chameleon since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/Chameleon/tweets2.txt
+
+snscrape twitter-search "#Chameleon since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/Chameleon/tweets3.txt
+
+snscrape twitter-search "#Chameleon since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/Chameleon/tweets4.txt
+
+snscrape twitter-search "#Chameleon since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/Chameleon/tweets5.txt
+
+snscrape twitter-search "#QAnonCult since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/QAnonCult/tweets1.txt
+
+snscrape twitter-search "#QAnonCult since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/QAnonCult/tweets2.txt
+
+snscrape twitter-search "#QAnonCult since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/QAnonCult/tweets3.txt
+
+snscrape twitter-search "#QAnonCult since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/QAnonCult/tweets4.txt
+
+snscrape twitter-search "#QAnonCult since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/QAnonCult/tweets5.txt
+
+snscrape twitter-search "#RacistInChief since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/RacistInChief/tweets1.txt
+
+snscrape twitter-search "#RacistInChief since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/RacistInChief/tweets2.txt
+
+snscrape twitter-search "#RacistInChief since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/RacistInChief/tweets3.txt
+
+snscrape twitter-search "#RacistInChief since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/RacistInChief/tweets4.txt
+
+snscrape twitter-search "#RacistInChief since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/RacistInChief/tweets5.txt
+
+snscrape twitter-search "#bunkerboy since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/bunkerboy/tweets1.txt
+
+snscrape twitter-search "#bunkerboy since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/bunkerboy/tweets2.txt
+
+snscrape twitter-search "#bunkerboy since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/bunkerboy/tweets3.txt
+
+snscrape twitter-search "#bunkerboy since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/bunkerboy/tweets4.txt
+
+snscrape twitter-search "#bunkerboy since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/bunkerboy/tweets5.txt
+
+snscrape twitter-search "#kag since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/kag/tweets1.txt
+
+snscrape twitter-search "#kag since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/kag/tweets2.txt
+
+snscrape twitter-search "#kag since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/kag/tweets3.txt
+
+snscrape twitter-search "#kag since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/kag/tweets4.txt
+
+snscrape twitter-search "#kag since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/kag/tweets5.txt
+
+snscrape twitter-search "#PersonWomanManCameraTv since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/PersonWomanManCameraTv/tweets1.txt
+
+snscrape twitter-search "#PersonWomanManCameraTv since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/PersonWomanManCameraTv/tweets2.txt
+
+snscrape twitter-search "#PersonWomanManCameraTv since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/PersonWomanManCameraTv/tweets3.txt
+
+snscrape twitter-search "#PersonWomanManCameraTv since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/PersonWomanManCameraTv/tweets4.txt
+
+snscrape twitter-search "#PersonWomanManCameraTv since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/PersonWomanManCameraTv/tweets5.txt
+
+snscrape twitter-search "#Trump2020Landslide since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/Trump2020Landslide/tweets1.txt
+
+snscrape twitter-search "#Trump2020Landslide since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/Trump2020Landslide/tweets2.txt
+
+snscrape twitter-search "#Trump2020Landslide since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/Trump2020Landslide/tweets3.txt
+
+snscrape twitter-search "#Trump2020Landslide since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/Trump2020Landslide/tweets4.txt
+
+snscrape twitter-search "#Trump2020Landslide since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/Trump2020Landslide/tweets5.txt
+
+snscrape twitter-search "#HidinBiden since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/HidinBiden/tweets1.txt
+
+snscrape twitter-search "#HidinBiden since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/HidinBiden/tweets2.txt
+
+snscrape twitter-search "#HidinBiden since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/HidinBiden/tweets3.txt
+
+snscrape twitter-search "#HidinBiden since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/HidinBiden/tweets4.txt
+
+snscrape twitter-search "#HidinBiden since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/HidinBiden/tweets5.txt
+
+snscrape twitter-search "#goodvsevil since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/goodvsevil/tweets1.txt
+
+snscrape twitter-search "#goodvsevil since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/goodvsevil/tweets2.txt
+
+snscrape twitter-search "#goodvsevil since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/goodvsevil/tweets3.txt
+
+snscrape twitter-search "#goodvsevil since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/goodvsevil/tweets4.txt
+
+snscrape twitter-search "#goodvsevil since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/goodvsevil/tweets5.txt
+
+snscrape twitter-search "#STOPSOCIALISM since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/STOPSOCIALISM/tweets1.txt
+
+snscrape twitter-search "#STOPSOCIALISM since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/STOPSOCIALISM/tweets2.txt
+
+snscrape twitter-search "#STOPSOCIALISM since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/STOPSOCIALISM/tweets3.txt
+
+snscrape twitter-search "#STOPSOCIALISM since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/STOPSOCIALISM/tweets4.txt
+
+snscrape twitter-search "#STOPSOCIALISM since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/STOPSOCIALISM/tweets5.txt
+
+snscrape twitter-search "#PedoGateIsReal since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/PedoGateIsReal/tweets1.txt
+
+snscrape twitter-search "#PedoGateIsReal since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/PedoGateIsReal/tweets2.txt
+
+snscrape twitter-search "#PedoGateIsReal since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/PedoGateIsReal/tweets3.txt
+
+snscrape twitter-search "#PedoGateIsReal since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/PedoGateIsReal/tweets4.txt
+
+snscrape twitter-search "#PedoGateIsReal since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/PedoGateIsReal/tweets5.txt
+
+snscrape twitter-search "#TrumpChaos since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/TrumpChaos/tweets1.txt
+
+snscrape twitter-search "#TrumpChaos since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/TrumpChaos/tweets2.txt
+
+snscrape twitter-search "#TrumpChaos since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/TrumpChaos/tweets3.txt
+
+snscrape twitter-search "#TrumpChaos since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/TrumpChaos/tweets4.txt
+
+snscrape twitter-search "#TrumpChaos since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/TrumpChaos/tweets5.txt
+
+snscrape twitter-search "#TrumpIsALaughingStock since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/TrumpIsALaughingStock/tweets1.txt
+
+snscrape twitter-search "#TrumpIsALaughingStock since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/TrumpIsALaughingStock/tweets2.txt
+
+snscrape twitter-search "#TrumpIsALaughingStock since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/TrumpIsALaughingStock/tweets3.txt
+
+snscrape twitter-search "#TrumpIsALaughingStock since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/TrumpIsALaughingStock/tweets4.txt
+
+snscrape twitter-search "#TrumpIsALaughingStock since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/TrumpIsALaughingStock/tweets5.txt
+
+snscrape twitter-search "#InterruptTrump since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/InterruptTrump/tweets1.txt
+
+snscrape twitter-search "#InterruptTrump since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/InterruptTrump/tweets2.txt
+
+snscrape twitter-search "#InterruptTrump since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/InterruptTrump/tweets3.txt
+
+snscrape twitter-search "#InterruptTrump since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/InterruptTrump/tweets4.txt
+
+snscrape twitter-search "#InterruptTrump since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/InterruptTrump/tweets5.txt
+
+snscrape twitter-search "#TrumpIsACompleteFailure since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/TrumpIsACompleteFailure/tweets1.txt
+
+snscrape twitter-search "#TrumpIsACompleteFailure since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/TrumpIsACompleteFailure/tweets2.txt
+
+snscrape twitter-search "#TrumpIsACompleteFailure since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/TrumpIsACompleteFailure/tweets3.txt
+
+snscrape twitter-search "#TrumpIsACompleteFailure since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/TrumpIsACompleteFailure/tweets4.txt
+
+snscrape twitter-search "#TrumpIsACompleteFailure since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/TrumpIsACompleteFailure/tweets5.txt
+
+snscrape twitter-search "#LiarInChief since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/LiarInChief/tweets1.txt
+
+snscrape twitter-search "#LiarInChief since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/LiarInChief/tweets2.txt
+
+snscrape twitter-search "#LiarInChief since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/LiarInChief/tweets3.txt
+
+snscrape twitter-search "#LiarInChief since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/LiarInChief/tweets4.txt
+
+snscrape twitter-search "#LiarInChief since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/LiarInChief/tweets5.txt
+
+snscrape twitter-search "#CDCBowsToTrump since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/CDCBowsToTrump/tweets1.txt
+
+snscrape twitter-search "#CDCBowsToTrump since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/CDCBowsToTrump/tweets2.txt
+
+snscrape twitter-search "#CDCBowsToTrump since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/CDCBowsToTrump/tweets3.txt
+
+snscrape twitter-search "#CDCBowsToTrump since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/CDCBowsToTrump/tweets4.txt
+
+snscrape twitter-search "#CDCBowsToTrump since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/CDCBowsToTrump/tweets5.txt
+
+snscrape twitter-search "#TrumpGenocide since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/TrumpGenocide/tweets1.txt
+
+snscrape twitter-search "#TrumpGenocide since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/TrumpGenocide/tweets2.txt
+
+snscrape twitter-search "#TrumpGenocide since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/TrumpGenocide/tweets3.txt
+
+snscrape twitter-search "#TrumpGenocide since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/TrumpGenocide/tweets4.txt
+
+snscrape twitter-search "#TrumpGenocide since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/TrumpGenocide/tweets5.txt
+
+snscrape twitter-search "#TrumpGestapo since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/TrumpGestapo/tweets1.txt
+
+snscrape twitter-search "#TrumpGestapo since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/TrumpGestapo/tweets2.txt
+
+snscrape twitter-search "#TrumpGestapo since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/TrumpGestapo/tweets3.txt
+
+snscrape twitter-search "#TrumpGestapo since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/TrumpGestapo/tweets4.txt
+
+snscrape twitter-search "#TrumpGestapo since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/TrumpGestapo/tweets5.txt
+
+snscrape twitter-search "#TrumpIsAMasdMurderer since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/TrumpIsAMasdMurderer/tweets1.txt
+
+snscrape twitter-search "#TrumpIsAMasdMurderer since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/TrumpIsAMasdMurderer/tweets2.txt
+
+snscrape twitter-search "#TrumpIsAMasdMurderer since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/TrumpIsAMasdMurderer/tweets3.txt
+
+snscrape twitter-search "#TrumpIsAMasdMurderer since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/TrumpIsAMasdMurderer/tweets4.txt
+
+snscrape twitter-search "#TrumpIsAMasdMurderer since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/TrumpIsAMasdMurderer/tweets5.txt
+
+snscrape twitter-search "#TrumpIsARapist since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/TrumpIsARapist/tweets1.txt
+
+snscrape twitter-search "#TrumpIsARapist since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/TrumpIsARapist/tweets2.txt
+
+snscrape twitter-search "#TrumpIsARapist since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/TrumpIsARapist/tweets3.txt
+
+snscrape twitter-search "#TrumpIsARapist since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/TrumpIsARapist/tweets4.txt
+
+snscrape twitter-search "#TrumpIsARapist since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/TrumpIsARapist/tweets5.txt
+
+snscrape twitter-search "#TrumpIsANationalDisgrace since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/TrumpIsANationalDisgrace/tweets1.txt
+
+snscrape twitter-search "#TrumpIsANationalDisgrace since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/TrumpIsANationalDisgrace/tweets2.txt
+
+snscrape twitter-search "#TrumpIsANationalDisgrace since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/TrumpIsANationalDisgrace/tweets3.txt
+
+snscrape twitter-search "#TrumpIsANationalDisgrace since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/TrumpIsANationalDisgrace/tweets4.txt
+
+snscrape twitter-search "#TrumpIsANationalDisgrace since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/TrumpIsANationalDisgrace/tweets5.txt
+
+snscrape twitter-search "#AmericaOrTrump since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/AmericaOrTrump/tweets1.txt
+
+snscrape twitter-search "#AmericaOrTrump since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/AmericaOrTrump/tweets2.txt
+
+snscrape twitter-search "#AmericaOrTrump since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/AmericaOrTrump/tweets3.txt
+
+snscrape twitter-search "#AmericaOrTrump since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/AmericaOrTrump/tweets4.txt
+
+snscrape twitter-search "#AmericaOrTrump since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/AmericaOrTrump/tweets5.txt
+
+snscrape twitter-search "#TrumpsVaccineIsALie since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/TrumpsVaccineIsALie/tweets1.txt
+
+snscrape twitter-search "#TrumpsVaccineIsALie since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/TrumpsVaccineIsALie/tweets2.txt
+
+snscrape twitter-search "#TrumpsVaccineIsALie since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/TrumpsVaccineIsALie/tweets3.txt
+
+snscrape twitter-search "#TrumpsVaccineIsALie since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/TrumpsVaccineIsALie/tweets4.txt
+
+snscrape twitter-search "#TrumpsVaccineIsALie since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/TrumpsVaccineIsALie/tweets5.txt
+
+snscrape twitter-search "#TrumpLiesPeopleDie since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/TrumpLiesPeopleDie/tweets1.txt
+
+snscrape twitter-search "#TrumpLiesPeopleDie since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/TrumpLiesPeopleDie/tweets2.txt
+
+snscrape twitter-search "#TrumpLiesPeopleDie since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/TrumpLiesPeopleDie/tweets3.txt
+
+snscrape twitter-search "#TrumpLiesPeopleDie since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/TrumpLiesPeopleDie/tweets4.txt
+
+snscrape twitter-search "#TrumpLiesPeopleDie since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/TrumpLiesPeopleDie/tweets5.txt
+
+snscrape twitter-search "#dictatordan since:2020-04-01 until:2020-04-07 filter:images" > tweet_data/politics_04/dictatordan/tweets1.txt
+
+snscrape twitter-search "#dictatordan since:2020-04-08 until:2020-04-14 filter:images" > tweet_data/politics_04/dictatordan/tweets2.txt
+
+snscrape twitter-search "#dictatordan since:2020-04-15 until:2020-04-21 filter:images" > tweet_data/politics_04/dictatordan/tweets3.txt
+
+snscrape twitter-search "#dictatordan since:2020-04-22 until:2020-04-28 filter:images" > tweet_data/politics_04/dictatordan/tweets4.txt
+
+snscrape twitter-search "#dictatordan since:2020-04-29 until:2020-04-30 filter:images" > tweet_data/politics_04/dictatordan/tweets5.txt
+
+0 tweets in file tweet_data/politics_04/AmericaOrTrump/tweets1.txt
+0 tweets in file tweet_data/politics_04/AmericaOrTrump/tweets2.txt
+0 tweets in file tweet_data/politics_04/AmericaOrTrump/tweets3.txt
+0 tweets in file tweet_data/politics_04/AmericaOrTrump/tweets4.txt
+0 tweets in file tweet_data/politics_04/AmericaOrTrump/tweets5.txt
+0 tweets in file tweet_data/politics_04/CDCBowsToTrump/tweets1.txt
+0 tweets in file tweet_data/politics_04/CDCBowsToTrump/tweets2.txt
+0 tweets in file tweet_data/politics_04/CDCBowsToTrump/tweets3.txt
+0 tweets in file tweet_data/politics_04/CDCBowsToTrump/tweets4.txt
+0 tweets in file tweet_data/politics_04/CDCBowsToTrump/tweets5.txt
+50 tweets in file tweet_data/politics_04/Chameleon/tweets1.txt
+41 tweets in file tweet_data/politics_04/Chameleon/tweets2.txt
+44 tweets in file tweet_data/politics_04/Chameleon/tweets3.txt
+54 tweets in file tweet_data/politics_04/Chameleon/tweets4.txt
+19 tweets in file tweet_data/politics_04/Chameleon/tweets5.txt
+60 tweets in file tweet_data/politics_04/CreepyJoe/tweets1.txt
+178 tweets in file tweet_data/politics_04/CreepyJoe/tweets2.txt
+217 tweets in file tweet_data/politics_04/CreepyJoe/tweets3.txt
+138 tweets in file tweet_data/politics_04/CreepyJoe/tweets4.txt
+32 tweets in file tweet_data/politics_04/CreepyJoe/tweets5.txt
+15 tweets in file tweet_data/politics_04/HidinBiden/tweets1.txt
+6 tweets in file tweet_data/politics_04/HidinBiden/tweets2.txt
+3 tweets in file tweet_data/politics_04/HidinBiden/tweets3.txt
+7 tweets in file tweet_data/politics_04/HidinBiden/tweets4.txt
+2 tweets in file tweet_data/politics_04/HidinBiden/tweets5.txt
+0 tweets in file tweet_data/politics_04/InterruptTrump/tweets1.txt
+0 tweets in file tweet_data/politics_04/InterruptTrump/tweets2.txt
+0 tweets in file tweet_data/politics_04/InterruptTrump/tweets3.txt
+0 tweets in file tweet_data/politics_04/InterruptTrump/tweets4.txt
+0 tweets in file tweet_data/politics_04/InterruptTrump/tweets5.txt
+0 tweets in file tweet_data/politics_04/JoeAndBlow/tweets1.txt
+0 tweets in file tweet_data/politics_04/JoeAndBlow/tweets2.txt
+0 tweets in file tweet_data/politics_04/JoeAndBlow/tweets3.txt
+0 tweets in file tweet_data/politics_04/JoeAndBlow/tweets4.txt
+0 tweets in file tweet_data/politics_04/JoeAndBlow/tweets5.txt
+0 tweets in file tweet_data/politics_04/JoeAndTheHoe/tweets1.txt
+0 tweets in file tweet_data/politics_04/JoeAndTheHoe/tweets2.txt
+0 tweets in file tweet_data/politics_04/JoeAndTheHoe/tweets3.txt
+0 tweets in file tweet_data/politics_04/JoeAndTheHoe/tweets4.txt
+0 tweets in file tweet_data/politics_04/JoeAndTheHoe/tweets5.txt
+0 tweets in file tweet_data/politics_04/JoeBlow/tweets1.txt
+0 tweets in file tweet_data/politics_04/JoeBlow/tweets2.txt
+0 tweets in file tweet_data/politics_04/JoeBlow/tweets3.txt
+2 tweets in file tweet_data/politics_04/JoeBlow/tweets4.txt
+0 tweets in file tweet_data/politics_04/JoeBlow/tweets5.txt
+618 tweets in file tweet_data/politics_04/LiarInChief/tweets1.txt
+665 tweets in file tweet_data/politics_04/LiarInChief/tweets2.txt
+906 tweets in file tweet_data/politics_04/LiarInChief/tweets3.txt
+797 tweets in file tweet_data/politics_04/LiarInChief/tweets4.txt
+79 tweets in file tweet_data/politics_04/LiarInChief/tweets5.txt
+8 tweets in file tweet_data/politics_04/PedoGateIsReal/tweets1.txt
+4 tweets in file tweet_data/politics_04/PedoGateIsReal/tweets2.txt
+12 tweets in file tweet_data/politics_04/PedoGateIsReal/tweets3.txt
+10 tweets in file tweet_data/politics_04/PedoGateIsReal/tweets4.txt
+4 tweets in file tweet_data/politics_04/PedoGateIsReal/tweets5.txt
+9 tweets in file tweet_data/politics_04/PedoJoe/tweets1.txt
+24 tweets in file tweet_data/politics_04/PedoJoe/tweets2.txt
+55 tweets in file tweet_data/politics_04/PedoJoe/tweets3.txt
+61 tweets in file tweet_data/politics_04/PedoJoe/tweets4.txt
+5 tweets in file tweet_data/politics_04/PedoJoe/tweets5.txt
+0 tweets in file tweet_data/politics_04/PersonWomanManCameraTv/tweets1.txt
+0 tweets in file tweet_data/politics_04/PersonWomanManCameraTv/tweets2.txt
+0 tweets in file tweet_data/politics_04/PersonWomanManCameraTv/tweets3.txt
+0 tweets in file tweet_data/politics_04/PersonWomanManCameraTv/tweets4.txt
+0 tweets in file tweet_data/politics_04/PersonWomanManCameraTv/tweets5.txt
+1 tweets in file tweet_data/politics_04/QAnonCult/tweets1.txt
+0 tweets in file tweet_data/politics_04/QAnonCult/tweets2.txt
+0 tweets in file tweet_data/politics_04/QAnonCult/tweets3.txt
+0 tweets in file tweet_data/politics_04/QAnonCult/tweets4.txt
+0 tweets in file tweet_data/politics_04/QAnonCult/tweets5.txt
+344 tweets in file tweet_data/politics_04/RacistInChief/tweets1.txt
+289 tweets in file tweet_data/politics_04/RacistInChief/tweets2.txt
+265 tweets in file tweet_data/politics_04/RacistInChief/tweets3.txt
+61 tweets in file tweet_data/politics_04/RacistInChief/tweets4.txt
+3 tweets in file tweet_data/politics_04/RacistInChief/tweets5.txt
+0 tweets in file tweet_data/politics_04/RedChinaJoe/tweets1.txt
+0 tweets in file tweet_data/politics_04/RedChinaJoe/tweets2.txt
+1 tweets in file tweet_data/politics_04/RedChinaJoe/tweets3.txt
+0 tweets in file tweet_data/politics_04/RedChinaJoe/tweets4.txt
+0 tweets in file tweet_data/politics_04/RedChinaJoe/tweets5.txt
+3 tweets in file tweet_data/politics_04/STOPSOCIALISM/tweets1.txt
+2 tweets in file tweet_data/politics_04/STOPSOCIALISM/tweets2.txt
+2 tweets in file tweet_data/politics_04/STOPSOCIALISM/tweets3.txt
+4 tweets in file tweet_data/politics_04/STOPSOCIALISM/tweets4.txt
+0 tweets in file tweet_data/politics_04/STOPSOCIALISM/tweets5.txt
+391 tweets in file tweet_data/politics_04/Trump2020Landslide/tweets1.txt
+468 tweets in file tweet_data/politics_04/Trump2020Landslide/tweets2.txt
+710 tweets in file tweet_data/politics_04/Trump2020Landslide/tweets3.txt
+604 tweets in file tweet_data/politics_04/Trump2020Landslide/tweets4.txt
+81 tweets in file tweet_data/politics_04/Trump2020Landslide/tweets5.txt
+3 tweets in file tweet_data/politics_04/TrumpChaos/tweets1.txt
+1 tweets in file tweet_data/politics_04/TrumpChaos/tweets2.txt
+0 tweets in file tweet_data/politics_04/TrumpChaos/tweets3.txt
+4 tweets in file tweet_data/politics_04/TrumpChaos/tweets4.txt
+1 tweets in file tweet_data/politics_04/TrumpChaos/tweets5.txt
+155 tweets in file tweet_data/politics_04/TrumpCult/tweets1.txt
+141 tweets in file tweet_data/politics_04/TrumpCult/tweets2.txt
+238 tweets in file tweet_data/politics_04/TrumpCult/tweets3.txt
+317 tweets in file tweet_data/politics_04/TrumpCult/tweets4.txt
+23 tweets in file tweet_data/politics_04/TrumpCult/tweets5.txt
+3002 tweets in file tweet_data/politics_04/TrumpGenocide/tweets1.txt
+2279 tweets in file tweet_data/politics_04/TrumpGenocide/tweets2.txt
+1947 tweets in file tweet_data/politics_04/TrumpGenocide/tweets3.txt
+1896 tweets in file tweet_data/politics_04/TrumpGenocide/tweets4.txt
+429 tweets in file tweet_data/politics_04/TrumpGenocide/tweets5.txt
+0 tweets in file tweet_data/politics_04/TrumpGestapo/tweets1.txt
+0 tweets in file tweet_data/politics_04/TrumpGestapo/tweets2.txt
+0 tweets in file tweet_data/politics_04/TrumpGestapo/tweets3.txt
+0 tweets in file tweet_data/politics_04/TrumpGestapo/tweets4.txt
+0 tweets in file tweet_data/politics_04/TrumpGestapo/tweets5.txt
+734 tweets in file tweet_data/politics_04/TrumpIsACompleteFailure/tweets1.txt
+840 tweets in file tweet_data/politics_04/TrumpIsACompleteFailure/tweets2.txt
+1697 tweets in file tweet_data/politics_04/TrumpIsACompleteFailure/tweets3.txt
+612 tweets in file tweet_data/politics_04/TrumpIsACompleteFailure/tweets4.txt
+91 tweets in file tweet_data/politics_04/TrumpIsACompleteFailure/tweets5.txt
+10 tweets in file tweet_data/politics_04/TrumpIsALaughingStock/tweets1.txt
+3 tweets in file tweet_data/politics_04/TrumpIsALaughingStock/tweets2.txt
+22 tweets in file tweet_data/politics_04/TrumpIsALaughingStock/tweets3.txt
+8107 tweets in file tweet_data/politics_04/TrumpIsALaughingStock/tweets4.txt
+108 tweets in file tweet_data/politics_04/TrumpIsALaughingStock/tweets5.txt
+0 tweets in file tweet_data/politics_04/TrumpIsAMasdMurderer/tweets1.txt
+0 tweets in file tweet_data/politics_04/TrumpIsAMasdMurderer/tweets2.txt
+0 tweets in file tweet_data/politics_04/TrumpIsAMasdMurderer/tweets3.txt
+0 tweets in file tweet_data/politics_04/TrumpIsAMasdMurderer/tweets4.txt
+0 tweets in file tweet_data/politics_04/TrumpIsAMasdMurderer/tweets5.txt
+97 tweets in file tweet_data/politics_04/TrumpIsANationalDisgrace/tweets1.txt
+154 tweets in file tweet_data/politics_04/TrumpIsANationalDisgrace/tweets2.txt
+152 tweets in file tweet_data/politics_04/TrumpIsANationalDisgrace/tweets3.txt
+118 tweets in file tweet_data/politics_04/TrumpIsANationalDisgrace/tweets4.txt
+16 tweets in file tweet_data/politics_04/TrumpIsANationalDisgrace/tweets5.txt
+15 tweets in file tweet_data/politics_04/TrumpIsARapist/tweets1.txt
+12 tweets in file tweet_data/politics_04/TrumpIsARapist/tweets2.txt
+4 tweets in file tweet_data/politics_04/TrumpIsARapist/tweets3.txt
+30 tweets in file tweet_data/politics_04/TrumpIsARapist/tweets4.txt
+14 tweets in file tweet_data/politics_04/TrumpIsARapist/tweets5.txt
+2834 tweets in file tweet_data/politics_04/TrumpLiesPeopleDie/tweets1.txt
+2253 tweets in file tweet_data/politics_04/TrumpLiesPeopleDie/tweets2.txt
+2497 tweets in file tweet_data/politics_04/TrumpLiesPeopleDie/tweets3.txt
+2459 tweets in file tweet_data/politics_04/TrumpLiesPeopleDie/tweets4.txt
+277 tweets in file tweet_data/politics_04/TrumpLiesPeopleDie/tweets5.txt
+0 tweets in file tweet_data/politics_04/TrumpsVaccineIsALie/tweets1.txt
+0 tweets in file tweet_data/politics_04/TrumpsVaccineIsALie/tweets2.txt
+0 tweets in file tweet_data/politics_04/TrumpsVaccineIsALie/tweets3.txt
+0 tweets in file tweet_data/politics_04/TrumpsVaccineIsALie/tweets4.txt
+0 tweets in file tweet_data/politics_04/TrumpsVaccineIsALie/tweets5.txt
+0 tweets in file tweet_data/politics_04/bunkerboy/tweets1.txt
+0 tweets in file tweet_data/politics_04/bunkerboy/tweets2.txt
+0 tweets in file tweet_data/politics_04/bunkerboy/tweets3.txt
+0 tweets in file tweet_data/politics_04/bunkerboy/tweets4.txt
+0 tweets in file tweet_data/politics_04/bunkerboy/tweets5.txt
+1 tweets in file tweet_data/politics_04/dictatordan/tweets1.txt
+1 tweets in file tweet_data/politics_04/dictatordan/tweets2.txt
+0 tweets in file tweet_data/politics_04/dictatordan/tweets3.txt
+0 tweets in file tweet_data/politics_04/dictatordan/tweets4.txt
+0 tweets in file tweet_data/politics_04/dictatordan/tweets5.txt
+26 tweets in file tweet_data/politics_04/goodvsevil/tweets1.txt
+22 tweets in file tweet_data/politics_04/goodvsevil/tweets2.txt
+33 tweets in file tweet_data/politics_04/goodvsevil/tweets3.txt
+25 tweets in file tweet_data/politics_04/goodvsevil/tweets4.txt
+3 tweets in file tweet_data/politics_04/goodvsevil/tweets5.txt
+1605 tweets in file tweet_data/politics_04/kag/tweets1.txt
+1722 tweets in file tweet_data/politics_04/kag/tweets2.txt
+1831 tweets in file tweet_data/politics_04/kag/tweets3.txt
+1874 tweets in file tweet_data/politics_04/kag/tweets4.txt
+251 tweets in file tweet_data/politics_04/kag/tweets5.txt
+CSV FILE COUNT: 165
+  0%|          | 0/165 [00:00<?, ?it/s]  7%|▋         | 11/165 [00:10<02:32,  1.01it/s]  7%|▋         | 12/165 [00:23<05:53,  2.31s/it]  8%|▊         | 13/165 [00:33<08:34,  3.38s/it]  8%|▊         | 14/165 [00:53<15:47,  6.27s/it]  9%|▉         | 15/165 [00:59<15:24,  6.16s/it] 10%|▉         | 16/165 [01:11<18:20,  7.38s/it] 10%|█         | 17/165 [01:42<31:43, 12.86s/it] 11%|█         | 18/165 [02:13<43:02, 17.57s/it] 12%|█▏        | 19/165 [02:36<46:26, 19.09s/it] 12%|█▏        | 20/165 [02:42<37:05, 15.35s/it] 13%|█▎        | 21/165 [02:45<28:31, 11.89s/it] 13%|█▎        | 22/165 [02:46<21:10,  8.88s/it] 14%|█▍        | 23/165 [02:47<15:08,  6.40s/it] 15%|█▍        | 24/165 [02:47<11:01,  4.69s/it] 15%|█▌        | 25/165 [02:48<08:03,  3.45s/it] 27%|██▋       | 44/165 [02:48<00:48,  2.51it/s] 28%|██▊       | 46/165 [05:02<16:24,  8.28s/it] 28%|██▊       | 47/165 [06:41<30:03, 15.28s/it] 29%|██▉       | 48/165 [09:13<56:32, 28.99s/it] 30%|██▉       | 49/165 [11:21<1:19:50, 41.30s/it] 30%|███       | 50/165 [11:33<1:10:47, 36.93s/it] 31%|███       | 51/165 [11:35<58:16, 30.67s/it]   32%|███▏      | 52/165 [11:36<46:20, 24.61s/it] 32%|███▏      | 53/165 [11:37<36:18, 19.45s/it] 33%|███▎      | 54/165 [11:39<28:01, 15.15s/it] 33%|███▎      | 55/165 [11:40<21:02, 11.48s/it] 34%|███▍      | 56/165 [11:42<16:19,  8.98s/it] 35%|███▍      | 57/165 [11:46<13:23,  7.44s/it] 35%|███▌      | 58/165 [11:53<13:19,  7.47s/it] 36%|███▌      | 59/165 [12:03<14:06,  7.99s/it] 36%|███▋      | 60/165 [12:03<10:04,  5.76s/it] 40%|████      | 66/165 [12:03<02:46,  1.68s/it] 43%|████▎     | 71/165 [13:23<12:58,  8.28s/it] 44%|████▎     | 72/165 [14:30<23:16, 15.02s/it] 44%|████▍     | 73/165 [15:29<32:45, 21.37s/it] 45%|████▍     | 74/165 [15:39<29:27, 19.42s/it] 45%|████▌     | 75/165 [15:40<23:39, 15.78s/it] 47%|████▋     | 78/165 [15:40<12:32,  8.65s/it] 49%|████▉     | 81/165 [15:41<07:27,  5.32s/it] 50%|████▉     | 82/165 [15:41<06:16,  4.53s/it] 50%|█████     | 83/165 [15:41<05:08,  3.77s/it] 51%|█████     | 84/165 [15:42<04:10,  3.09s/it] 52%|█████▏    | 86/165 [17:19<26:16, 19.95s/it] 53%|█████▎    | 87/165 [18:49<45:15, 34.81s/it] 53%|█████▎    | 88/165 [20:51<1:10:19, 54.80s/it] 54%|█████▍    | 89/165 [22:42<1:27:20, 68.96s/it] 55%|█████▍    | 90/165 [23:04<1:10:41, 56.56s/it] 55%|█████▌    | 91/165 [23:05<51:13, 41.53s/it]   56%|█████▌    | 92/165 [23:06<36:29, 30.00s/it] 57%|█████▋    | 94/165 [23:08<20:19, 17.18s/it] 58%|█████▊    | 95/165 [23:08<15:20, 13.16s/it] 58%|█████▊    | 96/165 [23:57<25:28, 22.15s/it] 59%|█████▉    | 97/165 [24:39<31:22, 27.68s/it] 59%|█████▉    | 98/165 [25:20<35:00, 31.34s/it] 60%|██████    | 99/165 [26:11<40:36, 36.91s/it] 61%|██████    | 100/165 [26:16<29:48, 27.51s/it] 61%|██████    | 101/165 [33:19<2:32:27, 142.93s/it] 62%|██████▏   | 102/165 [39:07<3:33:22, 203.21s/it] 62%|██████▏   | 103/165 [44:37<4:08:38, 240.62s/it] 63%|██████▎   | 104/165 [50:30<4:38:46, 274.21s/it] 64%|██████▎   | 105/165 [51:34<3:31:35, 211.59s/it] 67%|██████▋   | 111/165 [53:07<1:03:31, 70.59s/it]  68%|██████▊   | 112/165 [55:13<1:09:36, 78.80s/it] 68%|██████▊   | 113/165 [59:12<1:32:13, 106.42s/it] 69%|██████▉   | 114/165 [1:00:20<1:23:55, 98.73s/it] 70%|██████▉   | 115/165 [1:00:34<1:06:40, 80.02s/it] 70%|███████   | 116/165 [1:00:34<49:49, 61.01s/it]   71%|███████   | 117/165 [1:00:35<36:26, 45.56s/it] 72%|███████▏  | 118/165 [1:00:35<26:20, 33.63s/it] 72%|███████▏  | 119/165 [1:20:36<4:32:40, 355.67s/it] 73%|███████▎  | 120/165 [1:20:52<3:14:49, 259.76s/it] 76%|███████▋  | 126/165 [1:21:03<50:06, 77.10s/it]    77%|███████▋  | 127/165 [1:21:19<43:16, 68.32s/it] 78%|███████▊  | 128/165 [1:21:39<37:01, 60.04s/it] 78%|███████▊  | 129/165 [1:21:49<30:05, 50.16s/it] 79%|███████▉  | 130/165 [1:21:51<23:11, 39.75s/it] 79%|███████▉  | 131/165 [1:21:55<17:40, 31.18s/it] 80%|████████  | 132/165 [1:21:56<13:00, 23.66s/it] 81%|████████  | 133/165 [1:21:57<09:23, 17.62s/it] 81%|████████  | 134/165 [1:22:01<07:06, 13.75s/it] 82%|████████▏ | 135/165 [1:22:03<05:15, 10.52s/it] 82%|████████▏ | 136/165 [1:30:09<1:11:05, 147.07s/it] 83%|████████▎ | 137/165 [1:35:49<1:34:49, 203.20s/it] 84%|████████▎ | 138/165 [1:42:29<1:57:29, 261.09s/it] 84%|████████▍ | 139/165 [1:48:53<2:08:51, 297.38s/it] 85%|████████▍ | 140/165 [1:49:28<1:31:27, 219.48s/it] 92%|█████████▏| 151/165 [1:49:28<09:02, 38.77s/it]    92%|█████████▏| 152/165 [1:49:28<07:35, 35.04s/it] 95%|█████████▍| 156/165 [1:49:35<03:28, 23.18s/it] 95%|█████████▌| 157/165 [1:49:41<02:49, 21.17s/it] 96%|█████████▌| 158/165 [1:49:49<02:16, 19.43s/it] 96%|█████████▋| 159/165 [1:49:56<01:43, 17.31s/it] 97%|█████████▋| 160/165 [1:49:56<01:10, 14.12s/it] 98%|█████████▊| 161/165 [1:56:26<06:18, 94.74s/it] 98%|█████████▊| 162/165 [2:03:10<08:21, 167.05s/it] 99%|█████████▉| 163/165 [2:09:39<07:25, 222.73s/it] 99%|█████████▉| 164/165 [2:16:18<04:29, 269.32s/it]100%|██████████| 165/165 [2:17:07<00:00, 209.12s/it]100%|██████████| 165/165 [2:17:07<00:00, 49.86s/it] 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

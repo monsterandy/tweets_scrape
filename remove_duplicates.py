@@ -31,8 +31,8 @@ hashes = {}
 def duplicate_detector(imagePaths):
     # loop over our image paths
     for imagePath in imagePaths:
-        print("{}/{} is being processed, {}".format(imagePaths.index(imagePath) +
-              1, len(imagePaths), imagePath))
+        # print("{}/{} is being processed, {}".format(imagePaths.index(imagePath) +
+        #       1, len(imagePaths), imagePath))
         # load the input image and compute the hash
         image = cv2.imread(imagePath)
         try:

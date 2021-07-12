@@ -2,7 +2,7 @@
 data/
 tweet_data/
 config.py
-test.*
+test*
 .vscode
 commands.txt
 *.zip

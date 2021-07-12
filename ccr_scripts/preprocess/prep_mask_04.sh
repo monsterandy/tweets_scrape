@@ -1,17 +1,16 @@
 #!/bin/sh
 
 #SBATCH --partition=general-compute --qos=general-compute
-#SBATCH --time=12:00:00
+#SBATCH --time=18:00:00
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=2
-#SBATCH --constraint=IB
-#SBATCH --mem=2000
+#SBATCH --ntasks-per-node=12
+#SBATCH --mem=8000
 # Memory per node specification is in MB. It is optional. 
 # The default limit is 3000MB per core.
-#SBATCH --job-name="04_vaccine"
-#SBATCH --output=../ccr_outputs/job_vaccine_04.out
+#SBATCH --job-name="04_mask_prep"
+#SBATCH --output=ccr_outputs/prep_mask_04.out
 #SBATCH --mail-user=zheyuanm@buffalo.edu
-#SBATCH --mail-type=ALL
+#SBATCH --mail-type=END
 
 /usr/bin/hostname
 which python
@@ -27,13 +26,11 @@ module load python/my-conda
 source /projects/academic/hongxinh/anaconda/etc/profile.d/conda.sh
 conda activate tweets
 which python
-cd ..
+which tesseract
 pwd
 
 echo "Job start!"
-python autocommand.py -t vaccine -s 2020-04-01 -e 2020-04-30
-python scrape_tweets.py -n vaccine_04
-python image_extract.py -n vaccine_04
+python preprocess.py -n mask_04
 
 module unload python/my-conda
 which python

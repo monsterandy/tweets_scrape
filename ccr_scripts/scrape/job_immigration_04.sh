@@ -8,10 +8,10 @@
 #SBATCH --mem=2000
 # Memory per node specification is in MB. It is optional. 
 # The default limit is 3000MB per core.
-#SBATCH --job-name="08_politics"
-#SBATCH --output=../ccr_outputs/job_politics_08.out
+#SBATCH --job-name="04_immigration"
+#SBATCH --output=../ccr_outputs/job_immigration_04.out
 #SBATCH --mail-user=zheyuanm@buffalo.edu
-#SBATCH --mail-type=END
+#SBATCH --mail-type=ALL
 
 /usr/bin/hostname
 which python
@@ -28,12 +28,13 @@ source /projects/academic/hongxinh/anaconda/etc/profile.d/conda.sh
 conda activate tweets
 which python
 cd ..
+cd ..
 pwd
 
 echo "Job start!"
-python autocommand.py -t politics -s 2020-08-01 -e 2020-08-31
-python scrape_tweets.py -n politics_08
-python image_extract.py -n politics_08
+python autocommand.py -t immigration -s 2020-04-01 -e 2020-04-30
+python scrape_tweets.py -n immigration_04
+python image_extract.py -n immigration_04
 
 module unload python/my-conda
 which python

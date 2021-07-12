@@ -61,8 +61,8 @@ class ObjectDetector:
                     max_confidence = confidence
 
         if max_confidence > self.conf:
-            print('{} - {}'.format(self.LABELS[max_classID], path))
+            # print('{} - {}'.format(self.LABELS[max_classID], path))
             return 1
         else:
-            print('0 - {}'.format(path))
+            # print('0 - {}'.format(path))
             return 0

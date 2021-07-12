@@ -7,7 +7,7 @@ import pytesseract
 from PIL import Image
 
 custom_config = r"--oem 3 --psm 12 -c tessedit_char_whitelist='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz '"
-pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
+# pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 
 
 PERFORM_THRESHOLDING = True

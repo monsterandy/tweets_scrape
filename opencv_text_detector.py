@@ -110,10 +110,10 @@ class TextDetector:
         # print("[INFO] text detection took {:.6f} seconds".format(end - start))
 
         if len(boxes) == 0:
-            print('0 - {}'.format(path))
+            # print('0 - {}'.format(path))
             return 0
         else:
-            print('1 - {}'.format(path))
+            # print('1 - {}'.format(path))
             return 1
 
 
