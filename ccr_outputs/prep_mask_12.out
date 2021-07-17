@@ -1,0 +1,122 @@
+cpn-k10-26-02.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6162467
+SLURM_JOB_NODELIST=cpn-k10-26-02
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6162467
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+                  BurnYourMask:     1
+             IWillNotWearAMask:     1
+             MasksAreDangerous:     0
+              MasksAreForSheep:     0
+           MasksAreMurderingMe:     0
+               MasksOffAmerica:    15
+               MasksRUnhealthy:     0
+               MasksdontMatter:     0
+              MomsAgainstMasks:     0
+                   NeverMasker:     0
+                   NoMasksEver:     0
+                   NoMasksOnMe:     1
+                   NoMoreMasks:    47
+             RefuseToWearMasks:     1
+                SheepWearMasks:     1
+          StopForcingMasksOnMe:     0
+               StopWearingMask:     0
+       StopWearingTheDamnMasks:     0
+                TakeTheMaskOff:     5
+         burnyourmaskchallenge:     0
+                   facefreedom:     0
+                   maskburning:     0
+                      maskhoax:     1
+                      maskhole:    85
+   maskingchildrenischildabuse:     0
+                     masknazis:     7
+                       maskoff:   131
+                 masksdontwork:   231
+                     maskshoax:     0
+             masksmakemesweaty:     0
+                    nomaskonme:     1
+                  nomaskselfie:     0
+                    refusemask:     0
+                   stopmasking:     1
+             stopthestupidmask:     0
+                takeoffthemask:     2
+               takeoffyourmask:     5
+Topic: mask_12 - Total images:   536
+
+Filter out images without text
+masksdontwork        198
+maskoff               99
+maskhole              65
+NoMoreMasks           39
+MasksOffAmerica       14
+masknazis              6
+takeoffyourmask        5
+TakeTheMaskOff         4
+NoMasksOnMe            1
+takeoffthemask         1
+RefuseToWearMasks      1
+SheepWearMasks         1
+IWillNotWearAMask      1
+stopmasking            1
+BurnYourMask           1
+Name: hashtag, dtype: int64
+Topic: mask_12 - Images with text:   437
+
+Filter out duplicate images
+masksdontwork        179
+maskoff               94
+maskhole              62
+NoMoreMasks           33
+MasksOffAmerica       14
+masknazis              6
+TakeTheMaskOff         4
+takeoffyourmask        4
+NoMasksOnMe            1
+takeoffthemask         1
+RefuseToWearMasks      1
+SheepWearMasks         1
+IWillNotWearAMask      1
+stopmasking            1
+BurnYourMask           1
+Name: hashtag, dtype: int64
+Topic: mask_12 - Images without duplication:   403
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+masksdontwork        82
+maskoff              51
+maskhole             31
+NoMoreMasks          14
+MasksOffAmerica       8
+TakeTheMaskOff        4
+masknazis             3
+stopmasking           1
+takeoffyourmask       1
+RefuseToWearMasks     1
+BurnYourMask          1
+Name: hashtag, dtype: int64
+Topic: mask_12 - Images with objects:   197
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+masksdontwork      35
+maskoff             9
+MasksOffAmerica     5
+maskhole            5
+NoMoreMasks         4
+TakeTheMaskOff      2
+BurnYourMask        1
+masknazis           1
+takeoffyourmask     1
+Name: hashtag, dtype: int64
+Topic: mask_12 - Images after Tesseract:    63
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

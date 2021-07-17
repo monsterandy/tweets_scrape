@@ -1,0 +1,93 @@
+cpn-u25-10.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6180898
+SLURM_JOB_NODELIST=cpn-u25-10
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6180898
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+         BillGatesBioTerrorist:   182
+         BillGatesIsNotADoctor:    23
+                    CoronaHoax:  1023
+                     CovidHoax:   151
+                    FauciLeaks:     0
+         FauciLiedMillionsDied:     0
+           FauciLiedPeopleDied:     8
+                 FauciTheFraud:   123
+                     Fauciknew:     0
+                     Plandemic:  1262
+                     Scandemic:     2
+                       antivax:   547
+                      antivaxx:   457
+                 medicalkidnap:     4
+Topic: vaccine_04 - Total images:  3782
+
+Filter out images without text
+Plandemic                1101
+CoronaHoax                892
+antivax                   530
+antivaxx                  444
+BillGatesBioTerrorist     162
+CovidHoax                 137
+FauciTheFraud             102
+BillGatesIsNotADoctor      23
+FauciLiedPeopleDied         8
+medicalkidnap               4
+Scandemic                   2
+Name: hashtag, dtype: int64
+Topic: vaccine_04 - Images with text:  3405
+
+Filter out duplicate images
+Plandemic                857
+CoronaHoax               826
+antivax                  508
+BillGatesBioTerrorist    159
+CovidHoax                 92
+FauciTheFraud             80
+antivaxx                  44
+BillGatesIsNotADoctor     16
+FauciLiedPeopleDied        8
+medicalkidnap              3
+Scandemic                  1
+Name: hashtag, dtype: int64
+Topic: vaccine_04 - Images without duplication:  2594
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+Plandemic                461
+CoronaHoax               376
+antivax                  194
+BillGatesBioTerrorist    110
+FauciTheFraud             55
+CovidHoax                 41
+antivaxx                  20
+BillGatesIsNotADoctor     11
+FauciLiedPeopleDied        8
+medicalkidnap              3
+Scandemic                  1
+Name: hashtag, dtype: int64
+Topic: vaccine_04 - Images with objects:  1280
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+Plandemic                161
+CoronaHoax               141
+antivax                   72
+BillGatesBioTerrorist     41
+FauciTheFraud             26
+CovidHoax                 16
+antivaxx                   9
+BillGatesIsNotADoctor      5
+FauciLiedPeopleDied        2
+Scandemic                  1
+medicalkidnap              1
+Name: hashtag, dtype: int64
+Topic: vaccine_04 - Images after Tesseract:   475
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

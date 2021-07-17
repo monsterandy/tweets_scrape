@@ -1,0 +1,89 @@
+cpn-k07-07-01.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6162460
+SLURM_JOB_NODELIST=cpn-k07-07-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6162460
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+                  BoycottChina:   339
+   CCPCentennialGiftToTheWorld:     0
+             CCPLiedPeopleDied:    94
+                      CCPVirus:   485
+              CCP_is_terrorist:   625
+                       ChiNazi:  2538
+           ChinaLiedPeopleDied:   343
+               ChinaLiesMatter:     0
+                    ChinaVirus:   752
+                  ChineseVirus:   699
+                  MakeChinaPay:   147
+                      WuhanLab:     1
+                    Wuhanvirus:   373
+Topic: asianhate_12 - Total images:  6396
+
+Filter out images without text
+ChiNazi                1666
+ChinaVirus              610
+CCP_is_terrorist        571
+ChineseVirus            545
+CCPVirus                439
+Wuhanvirus              323
+BoycottChina            306
+ChinaLiedPeopleDied     272
+MakeChinaPay            125
+CCPLiedPeopleDied        83
+WuhanLab                  1
+Name: hashtag, dtype: int64
+Topic: asianhate_12 - Images with text:  4941
+
+Filter out duplicate images
+ChinaVirus             498
+ChineseVirus           365
+CCPVirus               332
+CCP_is_terrorist       317
+BoycottChina           258
+ChinaLiedPeopleDied    197
+ChiNazi                196
+Wuhanvirus             179
+CCPLiedPeopleDied       68
+MakeChinaPay            10
+Name: hashtag, dtype: int64
+Topic: asianhate_12 - Images without duplication:  2420
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+ChinaVirus             264
+ChineseVirus           222
+CCP_is_terrorist       196
+CCPVirus               186
+BoycottChina           142
+ChiNazi                118
+ChinaLiedPeopleDied    104
+Wuhanvirus              88
+CCPLiedPeopleDied       41
+MakeChinaPay             7
+Name: hashtag, dtype: int64
+Topic: asianhate_12 - Images with objects:  1368
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+ChinaVirus             81
+ChineseVirus           60
+CCPVirus               57
+CCP_is_terrorist       57
+BoycottChina           53
+ChinaLiedPeopleDied    31
+ChiNazi                25
+Wuhanvirus             21
+CCPLiedPeopleDied      13
+MakeChinaPay            1
+Name: hashtag, dtype: int64
+Topic: asianhate_12 - Images after Tesseract:   399
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

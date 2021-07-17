@@ -1,0 +1,75 @@
+cpn-k08-25-02.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6162463
+SLURM_JOB_NODELIST=cpn-k08-25-02
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6162463
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+                  BorderCrisis:    15
+                  BuildTheWall:  1263
+                 DeportThemAll:     9
+                        deport:    17
+                 illegalaliens:    60
+             illegalimmigrants:    83
+            illegalimmigration:    48
+               stoptheinvasion:    18
+Topic: immigration_08 - Total images:  1513
+
+Filter out images without text
+0 - ./tweet_data/immigration_08/BuildTheWall/tweets1/EeicwOZXYAcGJ0A.jpg
+BuildTheWall          840
+illegalimmigrants      64
+illegalaliens          51
+illegalimmigration     41
+stoptheinvasion        18
+deport                 14
+BorderCrisis            8
+DeportThemAll           8
+Name: hashtag, dtype: int64
+Topic: immigration_08 - Images with text:  1044
+
+Filter out duplicate images
+BuildTheWall          541
+illegalimmigrants      55
+illegalaliens          34
+illegalimmigration     25
+deport                 13
+stoptheinvasion        12
+BorderCrisis            8
+DeportThemAll           5
+Name: hashtag, dtype: int64
+Topic: immigration_08 - Images without duplication:   693
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+BuildTheWall          357
+illegalimmigrants      31
+illegalaliens          20
+illegalimmigration     15
+deport                 12
+stoptheinvasion        10
+BorderCrisis            7
+DeportThemAll           4
+Name: hashtag, dtype: int64
+Topic: immigration_08 - Images with objects:   456
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+BuildTheWall          118
+illegalimmigrants       8
+illegalimmigration      7
+illegalaliens           4
+deport                  3
+stoptheinvasion         3
+BorderCrisis            1
+Name: hashtag, dtype: int64
+Topic: immigration_08 - Images after Tesseract:   144
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!
