@@ -1,0 +1,60 @@
+cpn-k11-36-01.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6229371
+SLURM_JOB_NODELIST=cpn-k11-36-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6229371
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+                        Corbid:     0
+                   babyboomers:   611
+                   boomerdeath:     0
+                  boomerdoomer:     0
+                boomerentomber:     0
+                  boomermoober:     0
+                 boomerremover:     0
+                    covididiot:     0
+                     covidiots:     0
+                      okboomer:   537
+                         oldaf:    21
+                thankyouboomer:     0
+Topic: ageism_2020-02 - Total images:  1169
+
+Filter out images without text
+0 - ./tweet_data/ageism_2020-02/babyboomers/tweets4/ERyZ6R0WoAAuEaX.jpg
+babyboomers    413
+okboomer       405
+oldaf           12
+Name: hashtag, dtype: int64
+Topic: ageism_2020-02 - Images with text:   830
+
+Filter out duplicate images
+okboomer       382
+babyboomers    273
+oldaf           12
+Name: hashtag, dtype: int64
+Topic: ageism_2020-02 - Images without duplication:   667
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+okboomer       202
+babyboomers    143
+oldaf           10
+Name: hashtag, dtype: int64
+Topic: ageism_2020-02 - Images with objects:   355
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+okboomer       71
+babyboomers    41
+oldaf           5
+Name: hashtag, dtype: int64
+Topic: ageism_2020-02 - Images after Tesseract:   117
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

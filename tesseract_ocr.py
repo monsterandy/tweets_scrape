@@ -13,7 +13,7 @@ custom_config = r"--oem 3 --psm 12 -c tessedit_char_whitelist='0123456789ABCDEFG
 PERFORM_THRESHOLDING = True
 
 
-def TextRecognition(image_path):
+def threshold_ocr(image_path):
     img = cv2.imread(image_path, cv2.IMREAD_COLOR)
     if PERFORM_THRESHOLDING:
         _, img = cv2.threshold(cv2.cvtColor(

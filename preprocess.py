@@ -8,7 +8,7 @@ import spacy
 from opencv_text_detector import TextDetector
 from remove_duplicates import duplicate_detector
 from yolo_object_detector import ObjectDetector
-from tesseract_ocr import raw_ocr
+from tesseract_ocr import threshold_ocr
 
 pd.options.mode.chained_assignment = None  # default='warn'
 
@@ -136,7 +136,7 @@ print('Extract text from images using Tesseract')
 csv_path = csv_folder_name + '/' + folder_name + '_wt_nd_wo.csv'
 df_csv = pd.read_csv(csv_path, index_col=0)
 
-df_csv['text_with_OCR'] = df_csv['image_path'].apply(raw_ocr)
+df_csv['text_with_OCR'] = df_csv['image_path'].apply(threshold_ocr)
 
 result_path = csv_folder_name + '/' + folder_name + '_wt_nd_wo_locr.csv'
 df_csv.to_csv(result_path)

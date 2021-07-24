@@ -1,0 +1,179 @@
+cpn-k13-02-02.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6229752
+SLURM_JOB_NODELIST=cpn-k13-02-02
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6229752
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+                AmericaOrTrump:   268
+                CDCBowsToTrump:     0
+                     Chameleon:   135
+                     CreepyJoe:    73
+                    HidinBiden:     5
+                InterruptTrump:     0
+                    JoeAndBlow:     2
+                  JoeAndTheHoe:    11
+                       JoeBlow:     4
+                   LiarInChief:    52
+                PedoGateIsReal:     1
+                       PedoJoe:    43
+        PersonWomanManCameraTv:     3
+                     QAnonCult:   556
+                 RacistInChief:   993
+                   RedChinaJoe:     2
+                 STOPSOCIALISM:     3
+            Trump2020Landslide:     3
+                    TrumpChaos:     4
+                     TrumpCult:   515
+                 TrumpGenocide:    51
+                  TrumpGestapo:     1
+       TrumpIsACompleteFailure:   146
+         TrumpIsALaughingStock:    98
+          TrumpIsAMasdMurderer:     0
+      TrumpIsANationalDisgrace:   233
+                TrumpIsARapist:    11
+            TrumpLiesPeopleDie:    13
+           TrumpsVaccineIsALie:     0
+                     bunkerboy:    16
+                   dictatordan:   564
+                    goodvsevil:    40
+                           kag:   513
+Topic: politics_2021-02 - Total images:  4359
+
+Filter out images without text
+RacistInChief               902
+dictatordan                 476
+QAnonCult                   456
+kag                         419
+TrumpCult                   411
+AmericaOrTrump              215
+TrumpIsANationalDisgrace    194
+TrumpIsACompleteFailure     122
+Chameleon                    81
+TrumpIsALaughingStock        76
+CreepyJoe                    61
+TrumpGenocide                45
+LiarInChief                  42
+PedoJoe                      35
+goodvsevil                   34
+bunkerboy                    12
+TrumpLiesPeopleDie           12
+JoeAndTheHoe                 11
+TrumpIsARapist               10
+HidinBiden                    4
+JoeBlow                       4
+STOPSOCIALISM                 3
+Trump2020Landslide            3
+TrumpChaos                    3
+JoeAndBlow                    2
+RedChinaJoe                   2
+PedoGateIsReal                1
+PersonWomanManCameraTv        1
+TrumpGestapo                  1
+Name: hashtag, dtype: int64
+Topic: politics_2021-02 - Images with text:  3638
+
+Filter out duplicate images
+QAnonCult                   407
+dictatordan                 387
+TrumpCult                   370
+kag                         328
+AmericaOrTrump              195
+TrumpIsANationalDisgrace    156
+RacistInChief               154
+TrumpIsACompleteFailure     107
+Chameleon                    74
+TrumpIsALaughingStock        58
+CreepyJoe                    48
+TrumpGenocide                40
+LiarInChief                  40
+PedoJoe                      32
+goodvsevil                   28
+bunkerboy                    11
+TrumpIsARapist               10
+TrumpLiesPeopleDie            9
+JoeAndTheHoe                  9
+HidinBiden                    4
+JoeBlow                       4
+Trump2020Landslide            3
+STOPSOCIALISM                 3
+JoeAndBlow                    2
+RedChinaJoe                   2
+TrumpChaos                    2
+PersonWomanManCameraTv        1
+TrumpGestapo                  1
+PedoGateIsReal                1
+Name: hashtag, dtype: int64
+Topic: politics_2021-02 - Images without duplication:  2486
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+TrumpCult                   260
+QAnonCult                   253
+dictatordan                 249
+kag                         209
+TrumpIsANationalDisgrace    117
+AmericaOrTrump              111
+RacistInChief               107
+TrumpIsACompleteFailure      71
+TrumpIsALaughingStock        42
+CreepyJoe                    41
+Chameleon                    37
+LiarInChief                  35
+PedoJoe                      27
+TrumpGenocide                20
+goodvsevil                   15
+TrumpLiesPeopleDie            8
+bunkerboy                     7
+TrumpIsARapist                6
+JoeAndTheHoe                  6
+JoeBlow                       4
+HidinBiden                    2
+JoeAndBlow                    2
+RedChinaJoe                   2
+Trump2020Landslide            1
+PersonWomanManCameraTv        1
+TrumpGestapo                  1
+STOPSOCIALISM                 1
+TrumpChaos                    1
+Name: hashtag, dtype: int64
+Topic: politics_2021-02 - Images with objects:  1636
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+QAnonCult                   92
+kag                         85
+TrumpCult                   84
+dictatordan                 68
+TrumpIsANationalDisgrace    44
+RacistInChief               44
+AmericaOrTrump              35
+TrumpIsACompleteFailure     29
+TrumpIsALaughingStock       17
+CreepyJoe                   15
+PedoJoe                     14
+LiarInChief                 12
+TrumpGenocide               10
+JoeAndTheHoe                 5
+Chameleon                    5
+goodvsevil                   5
+TrumpIsARapist               3
+JoeAndBlow                   2
+bunkerboy                    1
+TrumpLiesPeopleDie           1
+RedChinaJoe                  1
+Trump2020Landslide           1
+TrumpChaos                   1
+JoeBlow                      1
+HidinBiden                   1
+Name: hashtag, dtype: int64
+Topic: politics_2021-02 - Images after Tesseract:   576
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

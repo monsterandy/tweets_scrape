@@ -1,0 +1,64 @@
+cpn-k13-04-01.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6229761
+SLURM_JOB_NODELIST=cpn-k13-04-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6229761
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+         BillGatesBioTerrorist:     0
+         BillGatesIsNotADoctor:     0
+                    CoronaHoax:     2
+                     CovidHoax:     0
+                    FauciLeaks:     0
+         FauciLiedMillionsDied:     0
+           FauciLiedPeopleDied:     0
+                 FauciTheFraud:     0
+                     Fauciknew:     0
+                     Plandemic:     0
+                     Scandemic:     0
+                       antivax:   528
+                      antivaxx:   482
+                 medicalkidnap:     6
+Topic: vaccine_2020-02 - Total images:  1018
+
+Filter out images without text
+antivax          500
+antivaxx         464
+medicalkidnap      5
+CoronaHoax         2
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-02 - Images with text:   971
+
+Filter out duplicate images
+antivax          476
+antivaxx          45
+medicalkidnap      4
+CoronaHoax         2
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-02 - Images without duplication:   527
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+antivax          183
+antivaxx          28
+CoronaHoax         1
+medicalkidnap      1
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-02 - Images with objects:   213
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+antivax       76
+antivaxx      17
+CoronaHoax     1
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-02 - Images after Tesseract:    94
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!
