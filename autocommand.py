@@ -12,7 +12,10 @@ args = parser.parse_args()
 topic_name = args.topic_name
 start_date = datetime.strptime(args.start_date, '%Y-%m-%d').date()
 end_date = datetime.strptime(args.end_date, '%Y-%m-%d').date()
-month = '{:02d}'.format(start_date.month)
+if start_date.year == 2021:
+    month = '2021-{:02d}'.format(start_date.month)
+else:
+    month = '2020-{:02d}'.format(start_date.month)
 
 hashtag_path = 'hashtag_list/' + topic_name
 with open(hashtag_path) as file:

@@ -1,0 +1,171 @@
+cpn-k07-06-01.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6225751
+SLURM_JOB_NODELIST=cpn-k07-06-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6225751
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+snscrape twitter-search "#WuhanLab since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/WuhanLab/tweets1.txt
+
+snscrape twitter-search "#WuhanLab since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/WuhanLab/tweets2.txt
+
+snscrape twitter-search "#WuhanLab since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/WuhanLab/tweets3.txt
+
+snscrape twitter-search "#WuhanLab since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/WuhanLab/tweets4.txt
+
+snscrape twitter-search "#CCPLiedPeopleDied since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/CCPLiedPeopleDied/tweets1.txt
+
+snscrape twitter-search "#CCPLiedPeopleDied since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/CCPLiedPeopleDied/tweets2.txt
+
+snscrape twitter-search "#CCPLiedPeopleDied since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/CCPLiedPeopleDied/tweets3.txt
+
+snscrape twitter-search "#CCPLiedPeopleDied since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/CCPLiedPeopleDied/tweets4.txt
+
+snscrape twitter-search "#CCPVirus since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/CCPVirus/tweets1.txt
+
+snscrape twitter-search "#CCPVirus since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/CCPVirus/tweets2.txt
+
+snscrape twitter-search "#CCPVirus since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/CCPVirus/tweets3.txt
+
+snscrape twitter-search "#CCPVirus since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/CCPVirus/tweets4.txt
+
+snscrape twitter-search "#ChinaVirus since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/ChinaVirus/tweets1.txt
+
+snscrape twitter-search "#ChinaVirus since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/ChinaVirus/tweets2.txt
+
+snscrape twitter-search "#ChinaVirus since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/ChinaVirus/tweets3.txt
+
+snscrape twitter-search "#ChinaVirus since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/ChinaVirus/tweets4.txt
+
+snscrape twitter-search "#Wuhanvirus since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/Wuhanvirus/tweets1.txt
+
+snscrape twitter-search "#Wuhanvirus since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/Wuhanvirus/tweets2.txt
+
+snscrape twitter-search "#Wuhanvirus since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/Wuhanvirus/tweets3.txt
+
+snscrape twitter-search "#Wuhanvirus since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/Wuhanvirus/tweets4.txt
+
+snscrape twitter-search "#MakeChinaPay since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/MakeChinaPay/tweets1.txt
+
+snscrape twitter-search "#MakeChinaPay since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/MakeChinaPay/tweets2.txt
+
+snscrape twitter-search "#MakeChinaPay since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/MakeChinaPay/tweets3.txt
+
+snscrape twitter-search "#MakeChinaPay since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/MakeChinaPay/tweets4.txt
+
+snscrape twitter-search "#ChinaLiesMatter since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/ChinaLiesMatter/tweets1.txt
+
+snscrape twitter-search "#ChinaLiesMatter since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/ChinaLiesMatter/tweets2.txt
+
+snscrape twitter-search "#ChinaLiesMatter since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/ChinaLiesMatter/tweets3.txt
+
+snscrape twitter-search "#ChinaLiesMatter since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/ChinaLiesMatter/tweets4.txt
+
+snscrape twitter-search "#ChiNazi since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/ChiNazi/tweets1.txt
+
+snscrape twitter-search "#ChiNazi since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/ChiNazi/tweets2.txt
+
+snscrape twitter-search "#ChiNazi since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/ChiNazi/tweets3.txt
+
+snscrape twitter-search "#ChiNazi since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/ChiNazi/tweets4.txt
+
+snscrape twitter-search "#CCP_is_terrorist since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/CCP_is_terrorist/tweets1.txt
+
+snscrape twitter-search "#CCP_is_terrorist since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/CCP_is_terrorist/tweets2.txt
+
+snscrape twitter-search "#CCP_is_terrorist since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/CCP_is_terrorist/tweets3.txt
+
+snscrape twitter-search "#CCP_is_terrorist since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/CCP_is_terrorist/tweets4.txt
+
+snscrape twitter-search "#CCPCentennialGiftToTheWorld since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/CCPCentennialGiftToTheWorld/tweets1.txt
+
+snscrape twitter-search "#CCPCentennialGiftToTheWorld since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/CCPCentennialGiftToTheWorld/tweets2.txt
+
+snscrape twitter-search "#CCPCentennialGiftToTheWorld since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/CCPCentennialGiftToTheWorld/tweets3.txt
+
+snscrape twitter-search "#CCPCentennialGiftToTheWorld since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/CCPCentennialGiftToTheWorld/tweets4.txt
+
+snscrape twitter-search "#ChinaLiedPeopleDied since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/ChinaLiedPeopleDied/tweets1.txt
+
+snscrape twitter-search "#ChinaLiedPeopleDied since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/ChinaLiedPeopleDied/tweets2.txt
+
+snscrape twitter-search "#ChinaLiedPeopleDied since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/ChinaLiedPeopleDied/tweets3.txt
+
+snscrape twitter-search "#ChinaLiedPeopleDied since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/ChinaLiedPeopleDied/tweets4.txt
+
+snscrape twitter-search "#BoycottChina since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/BoycottChina/tweets1.txt
+
+snscrape twitter-search "#BoycottChina since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/BoycottChina/tweets2.txt
+
+snscrape twitter-search "#BoycottChina since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/BoycottChina/tweets3.txt
+
+snscrape twitter-search "#BoycottChina since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/BoycottChina/tweets4.txt
+
+snscrape twitter-search "#ChineseVirus since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/asianhate_2021-02/ChineseVirus/tweets1.txt
+
+snscrape twitter-search "#ChineseVirus since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/asianhate_2021-02/ChineseVirus/tweets2.txt
+
+snscrape twitter-search "#ChineseVirus since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/asianhate_2021-02/ChineseVirus/tweets3.txt
+
+snscrape twitter-search "#ChineseVirus since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/asianhate_2021-02/ChineseVirus/tweets4.txt
+
+138 tweets in file tweet_data/asianhate_2021-02/BoycottChina/tweets1.txt
+169 tweets in file tweet_data/asianhate_2021-02/BoycottChina/tweets2.txt
+207 tweets in file tweet_data/asianhate_2021-02/BoycottChina/tweets3.txt
+133 tweets in file tweet_data/asianhate_2021-02/BoycottChina/tweets4.txt
+0 tweets in file tweet_data/asianhate_2021-02/CCPCentennialGiftToTheWorld/tweets1.txt
+0 tweets in file tweet_data/asianhate_2021-02/CCPCentennialGiftToTheWorld/tweets2.txt
+0 tweets in file tweet_data/asianhate_2021-02/CCPCentennialGiftToTheWorld/tweets3.txt
+0 tweets in file tweet_data/asianhate_2021-02/CCPCentennialGiftToTheWorld/tweets4.txt
+73 tweets in file tweet_data/asianhate_2021-02/CCPLiedPeopleDied/tweets1.txt
+66 tweets in file tweet_data/asianhate_2021-02/CCPLiedPeopleDied/tweets2.txt
+66 tweets in file tweet_data/asianhate_2021-02/CCPLiedPeopleDied/tweets3.txt
+103 tweets in file tweet_data/asianhate_2021-02/CCPLiedPeopleDied/tweets4.txt
+432 tweets in file tweet_data/asianhate_2021-02/CCPVirus/tweets1.txt
+295 tweets in file tweet_data/asianhate_2021-02/CCPVirus/tweets2.txt
+205 tweets in file tweet_data/asianhate_2021-02/CCPVirus/tweets3.txt
+551 tweets in file tweet_data/asianhate_2021-02/CCPVirus/tweets4.txt
+153 tweets in file tweet_data/asianhate_2021-02/CCP_is_terrorist/tweets1.txt
+160 tweets in file tweet_data/asianhate_2021-02/CCP_is_terrorist/tweets2.txt
+138 tweets in file tweet_data/asianhate_2021-02/CCP_is_terrorist/tweets3.txt
+140 tweets in file tweet_data/asianhate_2021-02/CCP_is_terrorist/tweets4.txt
+810 tweets in file tweet_data/asianhate_2021-02/ChiNazi/tweets1.txt
+694 tweets in file tweet_data/asianhate_2021-02/ChiNazi/tweets2.txt
+545 tweets in file tweet_data/asianhate_2021-02/ChiNazi/tweets3.txt
+664 tweets in file tweet_data/asianhate_2021-02/ChiNazi/tweets4.txt
+32 tweets in file tweet_data/asianhate_2021-02/ChinaLiedPeopleDied/tweets1.txt
+71 tweets in file tweet_data/asianhate_2021-02/ChinaLiedPeopleDied/tweets2.txt
+84 tweets in file tweet_data/asianhate_2021-02/ChinaLiedPeopleDied/tweets3.txt
+46 tweets in file tweet_data/asianhate_2021-02/ChinaLiedPeopleDied/tweets4.txt
+0 tweets in file tweet_data/asianhate_2021-02/ChinaLiesMatter/tweets1.txt
+0 tweets in file tweet_data/asianhate_2021-02/ChinaLiesMatter/tweets2.txt
+0 tweets in file tweet_data/asianhate_2021-02/ChinaLiesMatter/tweets3.txt
+0 tweets in file tweet_data/asianhate_2021-02/ChinaLiesMatter/tweets4.txt
+296 tweets in file tweet_data/asianhate_2021-02/ChinaVirus/tweets1.txt
+249 tweets in file tweet_data/asianhate_2021-02/ChinaVirus/tweets2.txt
+116 tweets in file tweet_data/asianhate_2021-02/ChinaVirus/tweets3.txt
+97 tweets in file tweet_data/asianhate_2021-02/ChinaVirus/tweets4.txt
+101 tweets in file tweet_data/asianhate_2021-02/ChineseVirus/tweets1.txt
+121 tweets in file tweet_data/asianhate_2021-02/ChineseVirus/tweets2.txt
+103 tweets in file tweet_data/asianhate_2021-02/ChineseVirus/tweets3.txt
+55 tweets in file tweet_data/asianhate_2021-02/ChineseVirus/tweets4.txt
+14 tweets in file tweet_data/asianhate_2021-02/MakeChinaPay/tweets1.txt
+13 tweets in file tweet_data/asianhate_2021-02/MakeChinaPay/tweets2.txt
+17 tweets in file tweet_data/asianhate_2021-02/MakeChinaPay/tweets3.txt
+2 tweets in file tweet_data/asianhate_2021-02/MakeChinaPay/tweets4.txt
+7 tweets in file tweet_data/asianhate_2021-02/WuhanLab/tweets1.txt
+21 tweets in file tweet_data/asianhate_2021-02/WuhanLab/tweets2.txt
+11 tweets in file tweet_data/asianhate_2021-02/WuhanLab/tweets3.txt
+11 tweets in file tweet_data/asianhate_2021-02/WuhanLab/tweets4.txt
+144 tweets in file tweet_data/asianhate_2021-02/Wuhanvirus/tweets1.txt
+195 tweets in file tweet_data/asianhate_2021-02/Wuhanvirus/tweets2.txt
+96 tweets in file tweet_data/asianhate_2021-02/Wuhanvirus/tweets3.txt
+142 tweets in file tweet_data/asianhate_2021-02/Wuhanvirus/tweets4.txt
+CSV FILE COUNT: 52
+  0%|          | 0/52 [00:00<?, ?it/s]  2%|▏         | 1/52 [00:24<21:12, 24.95s/it]  4%|▍         | 2/52 [00:55<23:37, 28.36s/it]  6%|▌         | 3/52 [01:36<27:52, 34.13s/it]  8%|▊         | 4/52 [01:56<22:54, 28.64s/it] 17%|█▋        | 9/52 [02:04<06:13,  8.68s/it] 19%|█▉        | 10/52 [02:17<06:35,  9.42s/it] 21%|██        | 11/52 [02:29<06:42,  9.81s/it] 23%|██▎       | 12/52 [02:41<06:57, 10.43s/it] 25%|██▌       | 13/52 [03:46<15:12, 23.39s/it] 27%|██▋       | 14/52 [04:25<17:25, 27.51s/it] 29%|██▉       | 15/52 [04:50<16:31, 26.79s/it] 31%|███       | 16/52 [06:24<27:16, 45.46s/it] 33%|███▎      | 17/52 [06:44<22:14, 38.12s/it] 35%|███▍      | 18/52 [07:12<20:02, 35.36s/it] 37%|███▋      | 19/52 [07:39<18:05, 32.88s/it] 38%|███▊      | 20/52 [08:04<16:17, 30.54s/it] 40%|████      | 21/52 [09:59<28:42, 55.57s/it] 42%|████▏     | 22/52 [11:58<37:09, 74.32s/it] 44%|████▍     | 23/52 [13:19<36:49, 76.20s/it] 46%|████▌     | 24/52 [14:49<37:31, 80.40s/it] 48%|████▊     | 25/52 [14:55<26:09, 58.14s/it] 50%|█████     | 26/52 [15:07<19:13, 44.36s/it] 52%|█████▏    | 27/52 [15:23<14:59, 35.97s/it] 54%|█████▍    | 28/52 [15:29<10:44, 26.87s/it] 63%|██████▎   | 33/52 [16:14<04:38, 14.68s/it] 65%|██████▌   | 34/52 [16:56<05:43, 19.09s/it] 67%|██████▋   | 35/52 [17:20<05:42, 20.17s/it] 69%|██████▉   | 36/52 [17:49<05:50, 21.90s/it] 71%|███████   | 37/52 [18:10<05:25, 21.73s/it] 73%|███████▎  | 38/52 [18:28<04:52, 20.89s/it] 75%|███████▌  | 39/52 [18:47<04:24, 20.34s/it] 77%|███████▋  | 40/52 [18:57<03:30, 17.55s/it] 79%|███████▉  | 41/52 [18:58<02:22, 12.91s/it] 81%|████████  | 42/52 [18:59<01:35,  9.54s/it] 83%|████████▎ | 43/52 [19:01<01:06,  7.35s/it] 85%|████████▍ | 44/52 [19:01<00:42,  5.26s/it] 87%|████████▋ | 45/52 [19:03<00:29,  4.22s/it] 88%|████████▊ | 46/52 [19:08<00:25,  4.30s/it] 90%|█████████ | 47/52 [19:10<00:19,  3.80s/it] 92%|█████████▏| 48/52 [19:12<00:12,  3.08s/it] 94%|█████████▍| 49/52 [19:29<00:21,  7.24s/it] 96%|█████████▌| 50/52 [19:52<00:23, 11.92s/it] 98%|█████████▊| 51/52 [20:00<00:10, 10.85s/it]100%|██████████| 52/52 [20:09<00:00, 10.24s/it]100%|██████████| 52/52 [20:09<00:00, 23.25s/it]
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!
