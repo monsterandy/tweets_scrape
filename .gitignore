@@ -7,6 +7,8 @@ test*
 commands.txt
 *.zip
 data_*/
+annot_*/
+annot_*
 yolo-coco/yolov4.weights
 
 
