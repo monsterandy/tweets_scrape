@@ -66,3 +66,39 @@ class ObjectDetector:
         else:
             # print('0 - {}'.format(path))
             return 0
+
+    def detect_objects_in_image(self, path):
+        # Load the input image and grab its spatial dimensions
+        img = cv2.imread(path)
+
+        # Construct a blob from the input image, perform a forward pass of the YOLO object detector and that will give us
+        # bounding boxes alongside its associated probabilities
+        blob = cv2.dnn.blobFromImage(img, 1 / 255.0, (416, 416), swapRB=True, crop=False)
+        self.net.setInput(blob)
+        layerOutputs = self.net.forward(self.ln)
+        classIDs = []
+        max_confidence = 0
+        max_classID = -1
+        # Loop over each one of the layer outputs
+        for output in layerOutputs:
+            # loop over each one of the detections
+            for detection in output:
+                # extract the class ID and confidence (i.e, probability) of the current object detection
+                scores = detection[5:]
+                classID = np.argmax(scores)
+                confidence = scores[classID]
+
+                if confidence > 0.25:
+                    # max_classID = classID
+                    # max_confidence = confidence
+                    classIDs.append(self.LABELS[classID])
+        
+        objectString = ','.join(classIDs)
+        
+        return objectString
+        # if max_confidence > self.conf:
+        #     # print('{} - {}'.format(self.LABELS[max_classID], path))
+        #     return 1
+        # else:
+        #     # print('0 - {}'.format(path))
+        #     return 0

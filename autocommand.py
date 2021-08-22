@@ -1,3 +1,5 @@
+# for general hashtags
+
 import os
 from pathlib import Path
 from argparse import ArgumentParser
@@ -17,14 +19,14 @@ if start_date.year == 2021:
 else:
     month = '2020-{:02d}'.format(start_date.month)
 
-hashtag_path = 'hashtag_list/' + topic_name
+hashtag_path = 'hashtag_list/general/' + topic_name
 with open(hashtag_path) as file:
     hashtags = [line.rstrip('\n') for line in file]
 
-if not Path('tweet_data/').exists():
-    os.system('mkdir tweet_data')
+if not Path('tweet_data_general/').exists():
+    os.system('mkdir tweet_data_general')
 
-data_path = 'tweet_data/' + topic_name + '_' + month + '/'
+data_path = 'tweet_data_general/' + topic_name + '_' + month + '/'
 if not Path(data_path).exists():
     os.system('mkdir ' + data_path)
 
@@ -55,12 +57,12 @@ for i in range(len(hashtags)):
         start_date_cycle += delta + timedelta(days=1)
         cycle += 1
 
-with open('commands.txt', 'w') as f:
-    for item in command_list:
-        f.write("%s\n" % item)
+# with open('commands.txt', 'w') as f:
+#     for item in command_list:
+#         f.write("%s\n" % item)
 
-file1 = open('commands.txt', 'r')
-command_list = file1.readlines()
+# file1 = open('commands.txt', 'r')
+# command_list = file1.readlines()
 # print(command_list)
 for i in command_list:
     print(i)

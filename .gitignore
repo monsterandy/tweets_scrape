@@ -1,6 +1,7 @@
 # Customize
 data/
 tweet_data/
+tweet_data_general/
 config.py
 test*
 .vscode
