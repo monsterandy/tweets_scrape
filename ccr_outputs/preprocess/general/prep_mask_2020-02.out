@@ -1,0 +1,80 @@
+cpn-k10-23-02.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6429474
+SLURM_JOB_NODELIST=cpn-k10-23-02
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6429474
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+libpng warning: Duplicate iCCP chunk
+libpng warning: Duplicate iCCP chunk
+                     Masks4All:     0
+                       NoMasks:     2
+                     WearAMask:     8
+                  WearYourMask:     0
+                      facemask:   546
+                     facemasks:   289
+                     masknazis:     0
+                        maskon:    26
+                         masks:   669
+                  masksarecool:     0
+           masksdonotsavelives:     0
+                   masksforall:     0
+                      masksoff:     6
+                maskssavelives:     0
+                        maskup:    30
+Topic: mask_2020-02 - Total images:  1576
+
+Filter out images without text
+masks        463
+facemask     387
+facemasks    192
+maskup        20
+maskon        16
+masksoff       5
+NoMasks        2
+WearAMask      2
+Name: hashtag, dtype: int64
+Topic: mask_2020-02 - Images with text:  1087
+
+Filter out duplicate images
+masks        371
+facemask     367
+facemasks    166
+maskon        16
+maskup        14
+masksoff       5
+NoMasks        2
+WearAMask      2
+Name: hashtag, dtype: int64
+Topic: mask_2020-02 - Images without duplication:   943
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+facemask     215
+masks        199
+facemasks    101
+maskon         7
+masksoff       4
+maskup         2
+Name: hashtag, dtype: int64
+Topic: mask_2020-02 - Images with objects:   528
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+facemask     59
+masks        36
+facemasks    25
+maskup        2
+maskon        2
+masksoff      1
+Name: hashtag, dtype: int64
+Topic: mask_2020-02 - Images after Tesseract:   125
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

@@ -1,0 +1,98 @@
+cpn-k16-30-02.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6432168
+SLURM_JOB_NODELIST=cpn-k16-30-02
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6432168
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+                  Election2020:  2915
+                     Plandemic:  1243
+                     Trump2020:  8535
+                      bluewave:   666
+                          maga: 19029
+                    pencedemic:   174
+                 pencepandemic:    64
+                  stopthesteal:    17
+     trumpliesaboutcoronavirus:  1051
+                    trumpvirus: 12320
+                    voterfraud:   397
+Topic: politics_2020-04 - Total images: 46411
+
+Filter out images without text
+0 - ./tweet_data_general/politics_2020-04/maga/tweets1/EU7e8ZNXsAEjT3j.jpg
+0 - ./tweet_data_general/politics_2020-04/maga/tweets2/EVVR5eWXgAAOgaI.jpg
+0 - ./tweet_data_general/politics_2020-04/maga/tweets4/EWZoTkXUwAElx6m.jpg
+0 - ./tweet_data_general/politics_2020-04/maga/tweets5/EWvPuOSWkAAf2Oh.jpg
+0 - ./tweet_data_general/politics_2020-04/trumpvirus/tweets2/EVcnhdXVAAATT0d.jpg
+0 - ./tweet_data_general/politics_2020-04/trumpvirus/tweets2/EVLr_dmUYAASejv.jpg
+0 - ./tweet_data_general/politics_2020-04/trumpvirus/tweets3/EV14_FLWAAA1Mez.jpg
+0 - ./tweet_data_general/politics_2020-04/trumpvirus/tweets4/EWK6LdsU8AARVII.jpg
+maga                         15704
+trumpvirus                   10326
+Trump2020                     6988
+Election2020                  2434
+Plandemic                     1077
+trumpliesaboutcoronavirus      918
+bluewave                       480
+voterfraud                     364
+pencedemic                     126
+pencepandemic                   61
+stopthesteal                    17
+Name: hashtag, dtype: int64
+Topic: politics_2020-04 - Images with text: 38495
+
+Filter out duplicate images
+maga                         10824
+trumpvirus                    6956
+Trump2020                     5885
+Election2020                  2263
+Plandemic                      925
+trumpliesaboutcoronavirus      697
+bluewave                       410
+voterfraud                     233
+pencedemic                     100
+pencepandemic                   22
+stopthesteal                    14
+Name: hashtag, dtype: int64
+Topic: politics_2020-04 - Images without duplication: 28329
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+maga                         6399
+trumpvirus                   4118
+Trump2020                    3876
+Election2020                 1149
+Plandemic                     504
+trumpliesaboutcoronavirus     435
+bluewave                      241
+voterfraud                    126
+pencedemic                     77
+pencepandemic                  16
+stopthesteal                    6
+Name: hashtag, dtype: int64
+Topic: politics_2020-04 - Images with objects: 16947
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+maga                         2465
+Trump2020                    1741
+trumpvirus                   1654
+Election2020                  468
+trumpliesaboutcoronavirus     189
+Plandemic                     185
+bluewave                       96
+voterfraud                     56
+pencedemic                     31
+pencepandemic                   4
+stopthesteal                    4
+Name: hashtag, dtype: int64
+Topic: politics_2020-04 - Images after Tesseract:  6893
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

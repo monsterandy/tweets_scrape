@@ -1,0 +1,88 @@
+cpn-k10-06-02.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6428050
+SLURM_JOB_NODELIST=cpn-k10-06-02
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6428050
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+libpng warning: Out of place iCCP chunk
+libpng warning: Out of place iCCP chunk
+libpng warning: Out of place iCCP chunk
+                      60sfolks:     4
+                   boomerdeath:     0
+                      caresact:  6737
+                        corbid:     0
+                    covididiot:   901
+                       deletus:     0
+                 elderlydeaths:     1
+                   gaslighters:     5
+                gopdeathpanels:   828
+                 itsafairconvo:     0
+                         karen:  1100
+                   okboomerpic:     0
+                        parnts:     0
+                thankyouboomer:     1
+                       therona:   401
+                trumpplaguepic:     0
+                        umirem:     0
+                          yoof:     3
+Topic: ageism_2020-04 - Total images:  9981
+
+Filter out images without text
+0 - ./tweet_data_general/ageism_2020-04/caresact/tweets1/EUiQwVdXgAINvfV.jpg
+0 - ./tweet_data_general/ageism_2020-04/caresact/tweets3/EV0UpuSWkAARHlK.jpg
+caresact          5821
+karen              824
+covididiot         752
+gopdeathpanels     699
+therona            280
+yoof                 2
+gaslighters          2
+thankyouboomer       1
+elderlydeaths        1
+Name: hashtag, dtype: int64
+Topic: ageism_2020-04 - Images with text:  8382
+
+Filter out duplicate images
+caresact          4159
+karen              740
+covididiot         668
+gopdeathpanels     597
+therona            258
+yoof                 2
+gaslighters          2
+thankyouboomer       1
+elderlydeaths        1
+Name: hashtag, dtype: int64
+Topic: ageism_2020-04 - Images without duplication:  6428
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+caresact          1436
+karen              488
+covididiot         406
+gopdeathpanels     364
+therona            163
+yoof                 2
+elderlydeaths        1
+Name: hashtag, dtype: int64
+Topic: ageism_2020-04 - Images with objects:  2860
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+caresact          580
+karen             170
+covididiot        136
+gopdeathpanels    135
+therona            56
+Name: hashtag, dtype: int64
+Topic: ageism_2020-04 - Images after Tesseract:  1077
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

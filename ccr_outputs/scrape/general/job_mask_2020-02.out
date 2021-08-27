@@ -1,0 +1,165 @@
+cpn-k07-02-01.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6425750
+SLURM_JOB_NODELIST=cpn-k07-02-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6425750
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+snscrape twitter-search "#WearAMask since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/WearAMask/tweets1.txt
+snscrape twitter-search "#WearAMask since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/WearAMask/tweets2.txt
+snscrape twitter-search "#WearAMask since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/WearAMask/tweets3.txt
+snscrape twitter-search "#WearAMask since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/WearAMask/tweets4.txt
+snscrape twitter-search "#WearAMask since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/WearAMask/tweets5.txt
+snscrape twitter-search "#maskup since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/maskup/tweets1.txt
+snscrape twitter-search "#maskup since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/maskup/tweets2.txt
+snscrape twitter-search "#maskup since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/maskup/tweets3.txt
+snscrape twitter-search "#maskup since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/maskup/tweets4.txt
+snscrape twitter-search "#maskup since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/maskup/tweets5.txt
+snscrape twitter-search "#facemask since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/facemask/tweets1.txt
+snscrape twitter-search "#facemask since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/facemask/tweets2.txt
+snscrape twitter-search "#facemask since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/facemask/tweets3.txt
+snscrape twitter-search "#facemask since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/facemask/tweets4.txt
+snscrape twitter-search "#facemask since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/facemask/tweets5.txt
+snscrape twitter-search "#masks since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/masks/tweets1.txt
+snscrape twitter-search "#masks since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/masks/tweets2.txt
+snscrape twitter-search "#masks since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/masks/tweets3.txt
+snscrape twitter-search "#masks since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/masks/tweets4.txt
+snscrape twitter-search "#masks since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/masks/tweets5.txt
+snscrape twitter-search "#facemasks since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/facemasks/tweets1.txt
+snscrape twitter-search "#facemasks since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/facemasks/tweets2.txt
+snscrape twitter-search "#facemasks since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/facemasks/tweets3.txt
+snscrape twitter-search "#facemasks since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/facemasks/tweets4.txt
+snscrape twitter-search "#facemasks since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/facemasks/tweets5.txt
+snscrape twitter-search "#NoMasks since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/NoMasks/tweets1.txt
+snscrape twitter-search "#NoMasks since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/NoMasks/tweets2.txt
+snscrape twitter-search "#NoMasks since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/NoMasks/tweets3.txt
+snscrape twitter-search "#NoMasks since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/NoMasks/tweets4.txt
+snscrape twitter-search "#NoMasks since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/NoMasks/tweets5.txt
+snscrape twitter-search "#WearYourMask since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/WearYourMask/tweets1.txt
+snscrape twitter-search "#WearYourMask since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/WearYourMask/tweets2.txt
+snscrape twitter-search "#WearYourMask since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/WearYourMask/tweets3.txt
+snscrape twitter-search "#WearYourMask since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/WearYourMask/tweets4.txt
+snscrape twitter-search "#WearYourMask since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/WearYourMask/tweets5.txt
+snscrape twitter-search "#maskon since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/maskon/tweets1.txt
+snscrape twitter-search "#maskon since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/maskon/tweets2.txt
+snscrape twitter-search "#maskon since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/maskon/tweets3.txt
+snscrape twitter-search "#maskon since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/maskon/tweets4.txt
+snscrape twitter-search "#maskon since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/maskon/tweets5.txt
+snscrape twitter-search "#Masks4All since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/Masks4All/tweets1.txt
+snscrape twitter-search "#Masks4All since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/Masks4All/tweets2.txt
+snscrape twitter-search "#Masks4All since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/Masks4All/tweets3.txt
+snscrape twitter-search "#Masks4All since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/Masks4All/tweets4.txt
+snscrape twitter-search "#Masks4All since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/Masks4All/tweets5.txt
+snscrape twitter-search "#maskssavelives since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/maskssavelives/tweets1.txt
+snscrape twitter-search "#maskssavelives since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/maskssavelives/tweets2.txt
+snscrape twitter-search "#maskssavelives since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/maskssavelives/tweets3.txt
+snscrape twitter-search "#maskssavelives since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/maskssavelives/tweets4.txt
+snscrape twitter-search "#maskssavelives since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/maskssavelives/tweets5.txt
+snscrape twitter-search "#masksoff since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/masksoff/tweets1.txt
+snscrape twitter-search "#masksoff since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/masksoff/tweets2.txt
+snscrape twitter-search "#masksoff since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/masksoff/tweets3.txt
+snscrape twitter-search "#masksoff since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/masksoff/tweets4.txt
+snscrape twitter-search "#masksoff since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/masksoff/tweets5.txt
+snscrape twitter-search "#masksforall since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/masksforall/tweets1.txt
+snscrape twitter-search "#masksforall since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/masksforall/tweets2.txt
+snscrape twitter-search "#masksforall since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/masksforall/tweets3.txt
+snscrape twitter-search "#masksforall since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/masksforall/tweets4.txt
+snscrape twitter-search "#masksforall since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/masksforall/tweets5.txt
+snscrape twitter-search "#masknazis since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/masknazis/tweets1.txt
+snscrape twitter-search "#masknazis since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/masknazis/tweets2.txt
+snscrape twitter-search "#masknazis since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/masknazis/tweets3.txt
+snscrape twitter-search "#masknazis since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/masknazis/tweets4.txt
+snscrape twitter-search "#masknazis since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/masknazis/tweets5.txt
+snscrape twitter-search "#masksarecool since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/masksarecool/tweets1.txt
+snscrape twitter-search "#masksarecool since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/masksarecool/tweets2.txt
+snscrape twitter-search "#masksarecool since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/masksarecool/tweets3.txt
+snscrape twitter-search "#masksarecool since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/masksarecool/tweets4.txt
+snscrape twitter-search "#masksarecool since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/masksarecool/tweets5.txt
+snscrape twitter-search "#masksdonotsavelives since:2020-02-01 until:2020-02-07 filter:images" > tweet_data_general/mask_2020-02/masksdonotsavelives/tweets1.txt
+snscrape twitter-search "#masksdonotsavelives since:2020-02-08 until:2020-02-14 filter:images" > tweet_data_general/mask_2020-02/masksdonotsavelives/tweets2.txt
+snscrape twitter-search "#masksdonotsavelives since:2020-02-15 until:2020-02-21 filter:images" > tweet_data_general/mask_2020-02/masksdonotsavelives/tweets3.txt
+snscrape twitter-search "#masksdonotsavelives since:2020-02-22 until:2020-02-28 filter:images" > tweet_data_general/mask_2020-02/masksdonotsavelives/tweets4.txt
+snscrape twitter-search "#masksdonotsavelives since:2020-02-29 until:2020-02-29 filter:images" > tweet_data_general/mask_2020-02/masksdonotsavelives/tweets5.txt
+0 tweets in file tweet_data_general/mask_2020-02/Masks4All/tweets1.txt
+0 tweets in file tweet_data_general/mask_2020-02/Masks4All/tweets2.txt
+0 tweets in file tweet_data_general/mask_2020-02/Masks4All/tweets3.txt
+0 tweets in file tweet_data_general/mask_2020-02/Masks4All/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/Masks4All/tweets5.txt
+1 tweets in file tweet_data_general/mask_2020-02/NoMasks/tweets1.txt
+2 tweets in file tweet_data_general/mask_2020-02/NoMasks/tweets2.txt
+0 tweets in file tweet_data_general/mask_2020-02/NoMasks/tweets3.txt
+0 tweets in file tweet_data_general/mask_2020-02/NoMasks/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/NoMasks/tweets5.txt
+3 tweets in file tweet_data_general/mask_2020-02/WearAMask/tweets1.txt
+2 tweets in file tweet_data_general/mask_2020-02/WearAMask/tweets2.txt
+2 tweets in file tweet_data_general/mask_2020-02/WearAMask/tweets3.txt
+3 tweets in file tweet_data_general/mask_2020-02/WearAMask/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/WearAMask/tweets5.txt
+1 tweets in file tweet_data_general/mask_2020-02/WearYourMask/tweets1.txt
+0 tweets in file tweet_data_general/mask_2020-02/WearYourMask/tweets2.txt
+0 tweets in file tweet_data_general/mask_2020-02/WearYourMask/tweets3.txt
+0 tweets in file tweet_data_general/mask_2020-02/WearYourMask/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/WearYourMask/tweets5.txt
+199 tweets in file tweet_data_general/mask_2020-02/facemask/tweets1.txt
+167 tweets in file tweet_data_general/mask_2020-02/facemask/tweets2.txt
+149 tweets in file tweet_data_general/mask_2020-02/facemask/tweets3.txt
+179 tweets in file tweet_data_general/mask_2020-02/facemask/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/facemask/tweets5.txt
+96 tweets in file tweet_data_general/mask_2020-02/facemasks/tweets1.txt
+70 tweets in file tweet_data_general/mask_2020-02/facemasks/tweets2.txt
+51 tweets in file tweet_data_general/mask_2020-02/facemasks/tweets3.txt
+110 tweets in file tweet_data_general/mask_2020-02/facemasks/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/facemasks/tweets5.txt
+0 tweets in file tweet_data_general/mask_2020-02/masknazis/tweets1.txt
+0 tweets in file tweet_data_general/mask_2020-02/masknazis/tweets2.txt
+0 tweets in file tweet_data_general/mask_2020-02/masknazis/tweets3.txt
+0 tweets in file tweet_data_general/mask_2020-02/masknazis/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/masknazis/tweets5.txt
+14 tweets in file tweet_data_general/mask_2020-02/maskon/tweets1.txt
+7 tweets in file tweet_data_general/mask_2020-02/maskon/tweets2.txt
+3 tweets in file tweet_data_general/mask_2020-02/maskon/tweets3.txt
+10 tweets in file tweet_data_general/mask_2020-02/maskon/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/maskon/tweets5.txt
+195 tweets in file tweet_data_general/mask_2020-02/masks/tweets1.txt
+178 tweets in file tweet_data_general/mask_2020-02/masks/tweets2.txt
+161 tweets in file tweet_data_general/mask_2020-02/masks/tweets3.txt
+232 tweets in file tweet_data_general/mask_2020-02/masks/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/masks/tweets5.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksarecool/tweets1.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksarecool/tweets2.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksarecool/tweets3.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksarecool/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksarecool/tweets5.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksdonotsavelives/tweets1.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksdonotsavelives/tweets2.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksdonotsavelives/tweets3.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksdonotsavelives/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksdonotsavelives/tweets5.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksforall/tweets1.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksforall/tweets2.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksforall/tweets3.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksforall/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksforall/tweets5.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksoff/tweets1.txt
+3 tweets in file tweet_data_general/mask_2020-02/masksoff/tweets2.txt
+3 tweets in file tweet_data_general/mask_2020-02/masksoff/tweets3.txt
+2 tweets in file tweet_data_general/mask_2020-02/masksoff/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/masksoff/tweets5.txt
+0 tweets in file tweet_data_general/mask_2020-02/maskssavelives/tweets1.txt
+0 tweets in file tweet_data_general/mask_2020-02/maskssavelives/tweets2.txt
+0 tweets in file tweet_data_general/mask_2020-02/maskssavelives/tweets3.txt
+0 tweets in file tweet_data_general/mask_2020-02/maskssavelives/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/maskssavelives/tweets5.txt
+10 tweets in file tweet_data_general/mask_2020-02/maskup/tweets1.txt
+9 tweets in file tweet_data_general/mask_2020-02/maskup/tweets2.txt
+14 tweets in file tweet_data_general/mask_2020-02/maskup/tweets3.txt
+16 tweets in file tweet_data_general/mask_2020-02/maskup/tweets4.txt
+0 tweets in file tweet_data_general/mask_2020-02/maskup/tweets5.txt
+CSV FILE COUNT: 75
+  0%|          | 0/75 [00:00<?, ?it/s]  9%|▉         | 7/75 [00:00<00:06, 10.07it/s] 15%|█▍        | 11/75 [00:01<00:12,  5.25it/s] 16%|█▌        | 12/75 [00:02<00:16,  3.73it/s] 17%|█▋        | 13/75 [00:03<00:18,  3.43it/s] 19%|█▊        | 14/75 [00:03<00:19,  3.08it/s] 28%|██▊       | 21/75 [00:54<04:26,  4.93s/it] 29%|██▉       | 22/75 [01:42<08:46,  9.93s/it] 31%|███       | 23/75 [02:20<12:12, 14.08s/it] 32%|███▏      | 24/75 [03:13<17:38, 20.75s/it] 35%|███▍      | 26/75 [03:38<14:36, 17.89s/it] 36%|███▌      | 27/75 [03:58<14:45, 18.45s/it] 37%|███▋      | 28/75 [04:14<13:56, 17.80s/it] 39%|███▊      | 29/75 [04:44<15:51, 20.68s/it] 48%|████▊     | 36/75 [04:48<04:17,  6.61s/it] 49%|████▉     | 37/75 [04:49<03:44,  5.90s/it] 51%|█████     | 38/75 [04:50<03:08,  5.10s/it] 52%|█████▏    | 39/75 [04:53<02:51,  4.76s/it] 55%|█████▍    | 41/75 [05:46<06:52, 12.14s/it] 56%|█████▌    | 42/75 [06:39<11:01, 20.05s/it] 57%|█████▋    | 43/75 [07:29<14:10, 26.59s/it] 59%|█████▊    | 44/75 [08:32<18:12, 35.23s/it] 79%|███████▊  | 59/75 [08:32<01:32,  5.81s/it] 83%|████████▎ | 62/75 [08:33<01:01,  4.74s/it] 84%|████████▍ | 63/75 [08:34<00:52,  4.38s/it] 87%|████████▋ | 65/75 [08:34<00:35,  3.55s/it] 95%|█████████▍| 71/75 [08:36<00:08,  2.09s/it] 96%|█████████▌| 72/75 [08:38<00:06,  2.07s/it] 97%|█████████▋| 73/75 [08:41<00:04,  2.22s/it] 99%|█████████▊| 74/75 [08:44<00:02,  2.39s/it]100%|██████████| 75/75 [08:44<00:00,  7.00s/it]
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

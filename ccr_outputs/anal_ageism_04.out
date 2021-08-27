@@ -1,0 +1,23 @@
+cpn-k08-34-01.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6432876
+SLURM_JOB_NODELIST=cpn-k08-34-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6432876
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+NLP Sentimental Analysis
+Traceback (most recent call last):
+  File "/projects/academic/hongxinh/zheyuanm/tweets_scrape/analysis.py", line 106, in <module>
+    df_csv['image_text_NLP'] = df_csv['image_text'].apply(str(analyzer.polarity_scores))
+  File "/projects/academic/hongxinh/anaconda/envs/tweets/lib/python3.9/site-packages/pandas/core/series.py", line 4117, in apply
+    return self._try_aggregate_string_function(func, *args, **kwds)
+  File "/projects/academic/hongxinh/anaconda/envs/tweets/lib/python3.9/site-packages/pandas/core/base.py", line 329, in _try_aggregate_string_function
+    raise AttributeError(
+AttributeError: '<bound method SentimentIntensityAnalyzer.polarity_scores of <vaderSentiment.vaderSentiment.SentimentIntensityAnalyzer object at 0x2b2e18d5cd30>>' is not a valid function for 'Series' object
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

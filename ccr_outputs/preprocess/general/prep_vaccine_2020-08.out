@@ -1,0 +1,121 @@
+cpn-k16-08-01.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6431561
+SLURM_JOB_NODELIST=cpn-k16-08-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6431561
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+         BillGatesBioTerrorist:   157
+                COVID19Vaccine:   641
+                      Convid19:    39
+            CoronavirusVaccine:  1725
+                     CovidHoax:   779
+                 CovidVaxFacts:     0
+           FauciLiedPeopleDied:    80
+                 FauciTheFraud:   296
+                     FireFauci:   198
+                 GetVaccinated:    79
+                VaccineFreedom:     0
+                  VaccinesWork:   806
+                  WakeUpWiseUp:     0
+                   antivaxxers:    51
+               billgatesofhell:     8
+                  covidvaccine:  1029
+       covidvaccinesideeffects:     0
+                  depopulation:    64
+                 scamdemic2020:   194
+             vaccinesSaveLives:   128
+Topic: vaccine_2020-08 - Total images:  6274
+
+Filter out images without text
+0 - ./tweet_data_general/vaccine_2020-08/CoronavirusVaccine/tweets4/EgbXFHiU0AEDcJY.jpg
+0 - ./tweet_data_general/vaccine_2020-08/FireFauci/tweets1/Eed73U4U0AUXjwr.jpg
+0 - ./tweet_data_general/vaccine_2020-08/covidvaccine/tweets3/Eff6FDRXoAA0viN.jpg
+CoronavirusVaccine       1366
+covidvaccine              842
+VaccinesWork              673
+CovidHoax                 673
+COVID19Vaccine            511
+FauciTheFraud             263
+FireFauci                 182
+scamdemic2020             168
+BillGatesBioTerrorist     140
+vaccinesSaveLives         107
+FauciLiedPeopleDied        76
+GetVaccinated              72
+depopulation               57
+antivaxxers                46
+Convid19                   34
+billgatesofhell             6
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-08 - Images with text:  5216
+
+Filter out duplicate images
+CoronavirusVaccine       1146
+covidvaccine              620
+CovidHoax                 598
+VaccinesWork              561
+COVID19Vaccine            459
+FauciTheFraud             190
+scamdemic2020             151
+BillGatesBioTerrorist     133
+FireFauci                 123
+GetVaccinated              56
+antivaxxers                43
+vaccinesSaveLives          43
+depopulation               39
+FauciLiedPeopleDied        38
+Convid19                   34
+billgatesofhell             6
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-08 - Images without duplication:  4240
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+CoronavirusVaccine       838
+covidvaccine             395
+VaccinesWork             327
+COVID19Vaccine           281
+CovidHoax                253
+FauciTheFraud            117
+BillGatesBioTerrorist     94
+FireFauci                 77
+scamdemic2020             55
+vaccinesSaveLives         29
+antivaxxers               24
+depopulation              24
+FauciLiedPeopleDied       23
+GetVaccinated             23
+Convid19                  18
+billgatesofhell            4
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-08 - Images with objects:  2582
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+CoronavirusVaccine       338
+covidvaccine             153
+VaccinesWork             134
+COVID19Vaccine            94
+CovidHoax                 88
+FauciTheFraud             38
+BillGatesBioTerrorist     38
+FireFauci                 30
+scamdemic2020             20
+GetVaccinated             14
+FauciLiedPeopleDied       12
+depopulation              10
+antivaxxers                9
+Convid19                   9
+vaccinesSaveLives          7
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-08 - Images after Tesseract:   994
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

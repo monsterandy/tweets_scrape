@@ -1,0 +1,106 @@
+cpn-u25-32.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6429478
+SLURM_JOB_NODELIST=cpn-u25-32
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6429478
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+                     Masks4All:   153
+                       NoMasks:   162
+                     WearAMask: 10390
+                  WearYourMask:   597
+                      facemask:  4557
+                     facemasks:  3462
+                     masknazis:     6
+                        maskon:   226
+                         masks:  3644
+                  masksarecool:     6
+           masksdonotsavelives:     0
+                   masksforall:    20
+                      masksoff:    56
+                maskssavelives:   373
+                        maskup:  8369
+Topic: mask_2021-02 - Total images: 32021
+
+Filter out images without text
+0 - ./tweet_data_general/mask_2021-02/maskup/tweets1/EtUMzIzXcAAGxaL.jpg
+WearAMask         7814
+maskup            5485
+facemask          2919
+facemasks         2438
+masks             2312
+WearYourMask       437
+maskssavelives     296
+maskon             148
+NoMasks            129
+Masks4All           65
+masksoff            37
+masksforall         14
+masknazis            5
+masksarecool         3
+Name: hashtag, dtype: int64
+Topic: mask_2021-02 - Images with text: 22102
+
+Filter out duplicate images
+WearAMask         6681
+maskup            4151
+facemask          1698
+masks             1471
+facemasks          907
+WearYourMask       369
+maskssavelives     173
+NoMasks            126
+maskon             122
+Masks4All           57
+masksoff            26
+masksforall          6
+masknazis            5
+masksarecool         2
+Name: hashtag, dtype: int64
+Topic: mask_2021-02 - Images without duplication: 15794
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+WearAMask         3348
+maskup            2548
+facemask           903
+masks              752
+facemasks          505
+WearYourMask       215
+maskssavelives      86
+maskon              68
+NoMasks             63
+Masks4All           27
+masksoff            14
+masksforall          3
+masknazis            3
+masksarecool         1
+Name: hashtag, dtype: int64
+Topic: mask_2021-02 - Images with objects:  8536
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+WearAMask         1036
+maskup             653
+facemask           279
+masks              242
+facemasks          149
+WearYourMask        72
+NoMasks             23
+maskssavelives      18
+maskon              16
+Masks4All           11
+masksoff             5
+masknazis            2
+masksforall          1
+Name: hashtag, dtype: int64
+Topic: mask_2021-02 - Images after Tesseract:  2507
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

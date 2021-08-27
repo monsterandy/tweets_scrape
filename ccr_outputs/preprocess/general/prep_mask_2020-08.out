@@ -1,0 +1,128 @@
+cpn-u25-25.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6429476
+SLURM_JOB_NODELIST=cpn-u25-25
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6429476
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+                     Masks4All:   707
+                       NoMasks:   944
+                     WearAMask: 23219
+                  WearYourMask:  1355
+                      facemask: 10424
+                     facemasks:  8849
+                     masknazis:    18
+                        maskon:  1118
+                         masks:  8554
+                  masksarecool:    22
+           masksdonotsavelives:     0
+                   masksforall:   208
+                      masksoff:   300
+                maskssavelives:   762
+                        maskup: 11904
+Topic: mask_2020-08 - Total images: 68384
+
+Filter out images without text
+0 - ./tweet_data_general/mask_2020-08/WearAMask/tweets2/EfI5md-WkAQV_JH.jpg
+0 - ./tweet_data_general/mask_2020-08/WearAMask/tweets3/EfbBjL0XkAIjBud.jpg
+0 - ./tweet_data_general/mask_2020-08/WearAMask/tweets4/EgX8g_TVoAMsxd4.jpg
+0 - ./tweet_data_general/mask_2020-08/WearAMask/tweets4/EgOI0XnU8AAQxFh.jpg
+0 - ./tweet_data_general/mask_2020-08/WearAMask/tweets4/EgDs0SgXkAI72WZ.jpg
+0 - ./tweet_data_general/mask_2020-08/facemask/tweets1/EegHwI0WsAAHjhE.jpg
+0 - ./tweet_data_general/mask_2020-08/facemask/tweets1/Eedv6uSU4AQ0n_C.jpg
+0 - ./tweet_data_general/mask_2020-08/facemask/tweets2/Ee5eyu1U4AAk9I-.jpg
+0 - ./tweet_data_general/mask_2020-08/facemask/tweets3/EfU_CbYVoAAK5cM.jpg
+0 - ./tweet_data_general/mask_2020-08/facemask/tweets3/Efnr0qjXoAEcnZX.jpg
+0 - ./tweet_data_general/mask_2020-08/facemasks/tweets1/EeudEZmXgAI2SER.jpg
+0 - ./tweet_data_general/mask_2020-08/facemasks/tweets4/EgSYv7vXYAA5RpM.jpg
+0 - ./tweet_data_general/mask_2020-08/facemasks/tweets4/EgN2fpeXYAA0I9n.jpg
+0 - ./tweet_data_general/mask_2020-08/masks/tweets1/EegeqbHXYAEiIEL.jpg
+0 - ./tweet_data_general/mask_2020-08/masks/tweets3/Ef5QKMuXgAAiPLw.jpg
+0 - ./tweet_data_general/mask_2020-08/maskup/tweets1/EesI7wTWAAMR7R1.jpg
+0 - ./tweet_data_general/mask_2020-08/maskup/tweets1/Eemi_tGVAAIOk08.jpg
+0 - ./tweet_data_general/mask_2020-08/maskup/tweets2/EfU1UOOWAAAubl4.jpg
+0 - ./tweet_data_general/mask_2020-08/maskup/tweets2/EfPXpbCXkAAOr2x.jpg
+0 - ./tweet_data_general/mask_2020-08/maskup/tweets3/Ef5QKMuXgAAiPLw.jpg
+0 - ./tweet_data_general/mask_2020-08/maskup/tweets3/EfihsVXXgAEl7qr.jpg
+0 - ./tweet_data_general/mask_2020-08/maskup/tweets4/EgSP-59WAAAbL-k.jpg
+0 - ./tweet_data_general/mask_2020-08/maskup/tweets4/Ef_Vv85WsAEWh-5.jpg
+WearAMask         16015
+maskup             8266
+facemask           6878
+facemasks          6294
+masks              5862
+WearYourMask        941
+NoMasks             787
+maskon              785
+maskssavelives      522
+Masks4All           521
+masksoff            267
+masksforall         146
+masknazis            14
+masksarecool         10
+Name: hashtag, dtype: int64
+Topic: mask_2020-08 - Images with text: 47308
+
+Filter out duplicate images
+WearAMask         13728
+maskup             6194
+facemask           4489
+masks              3849
+facemasks          3311
+WearYourMask        857
+NoMasks             667
+maskon              637
+Masks4All           422
+maskssavelives      288
+masksoff            207
+masksforall          62
+masknazis            11
+masksarecool          9
+Name: hashtag, dtype: int64
+Topic: mask_2020-08 - Images without duplication: 34731
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+WearAMask         7927
+maskup            3895
+facemask          2473
+masks             2099
+facemasks         1769
+WearYourMask       540
+maskon             411
+NoMasks            337
+Masks4All          241
+maskssavelives     158
+masksoff           118
+masksforall         41
+masksarecool         8
+masknazis            8
+Name: hashtag, dtype: int64
+Topic: mask_2020-08 - Images with objects: 20025
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+WearAMask         2047
+maskup             991
+facemask           699
+masks              611
+facemasks          478
+WearYourMask       174
+NoMasks            104
+maskon             102
+Masks4All           72
+masksoff            55
+maskssavelives      43
+masksforall         12
+masknazis            4
+Name: hashtag, dtype: int64
+Topic: mask_2020-08 - Images after Tesseract:  5392
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

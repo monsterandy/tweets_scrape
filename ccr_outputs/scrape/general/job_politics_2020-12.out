@@ -1,0 +1,125 @@
+cpn-k07-06-01.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6427740
+SLURM_JOB_NODELIST=cpn-k07-06-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6427740
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+snscrape twitter-search "#Trump2020 since:2020-12-01 until:2020-12-07 filter:images" > tweet_data_general/politics_2020-12/Trump2020/tweets1.txt
+snscrape twitter-search "#Trump2020 since:2020-12-08 until:2020-12-14 filter:images" > tweet_data_general/politics_2020-12/Trump2020/tweets2.txt
+snscrape twitter-search "#Trump2020 since:2020-12-15 until:2020-12-21 filter:images" > tweet_data_general/politics_2020-12/Trump2020/tweets3.txt
+snscrape twitter-search "#Trump2020 since:2020-12-22 until:2020-12-28 filter:images" > tweet_data_general/politics_2020-12/Trump2020/tweets4.txt
+snscrape twitter-search "#Trump2020 since:2020-12-29 until:2020-12-31 filter:images" > tweet_data_general/politics_2020-12/Trump2020/tweets5.txt
+snscrape twitter-search "#maga since:2020-12-01 until:2020-12-07 filter:images" > tweet_data_general/politics_2020-12/maga/tweets1.txt
+snscrape twitter-search "#maga since:2020-12-08 until:2020-12-14 filter:images" > tweet_data_general/politics_2020-12/maga/tweets2.txt
+snscrape twitter-search "#maga since:2020-12-15 until:2020-12-21 filter:images" > tweet_data_general/politics_2020-12/maga/tweets3.txt
+snscrape twitter-search "#maga since:2020-12-22 until:2020-12-28 filter:images" > tweet_data_general/politics_2020-12/maga/tweets4.txt
+snscrape twitter-search "#maga since:2020-12-29 until:2020-12-31 filter:images" > tweet_data_general/politics_2020-12/maga/tweets5.txt
+snscrape twitter-search "#trumpvirus since:2020-12-01 until:2020-12-07 filter:images" > tweet_data_general/politics_2020-12/trumpvirus/tweets1.txt
+snscrape twitter-search "#trumpvirus since:2020-12-08 until:2020-12-14 filter:images" > tweet_data_general/politics_2020-12/trumpvirus/tweets2.txt
+snscrape twitter-search "#trumpvirus since:2020-12-15 until:2020-12-21 filter:images" > tweet_data_general/politics_2020-12/trumpvirus/tweets3.txt
+snscrape twitter-search "#trumpvirus since:2020-12-22 until:2020-12-28 filter:images" > tweet_data_general/politics_2020-12/trumpvirus/tweets4.txt
+snscrape twitter-search "#trumpvirus since:2020-12-29 until:2020-12-31 filter:images" > tweet_data_general/politics_2020-12/trumpvirus/tweets5.txt
+snscrape twitter-search "#Election2020 since:2020-12-01 until:2020-12-07 filter:images" > tweet_data_general/politics_2020-12/Election2020/tweets1.txt
+snscrape twitter-search "#Election2020 since:2020-12-08 until:2020-12-14 filter:images" > tweet_data_general/politics_2020-12/Election2020/tweets2.txt
+snscrape twitter-search "#Election2020 since:2020-12-15 until:2020-12-21 filter:images" > tweet_data_general/politics_2020-12/Election2020/tweets3.txt
+snscrape twitter-search "#Election2020 since:2020-12-22 until:2020-12-28 filter:images" > tweet_data_general/politics_2020-12/Election2020/tweets4.txt
+snscrape twitter-search "#Election2020 since:2020-12-29 until:2020-12-31 filter:images" > tweet_data_general/politics_2020-12/Election2020/tweets5.txt
+snscrape twitter-search "#Plandemic since:2020-12-01 until:2020-12-07 filter:images" > tweet_data_general/politics_2020-12/Plandemic/tweets1.txt
+snscrape twitter-search "#Plandemic since:2020-12-08 until:2020-12-14 filter:images" > tweet_data_general/politics_2020-12/Plandemic/tweets2.txt
+snscrape twitter-search "#Plandemic since:2020-12-15 until:2020-12-21 filter:images" > tweet_data_general/politics_2020-12/Plandemic/tweets3.txt
+snscrape twitter-search "#Plandemic since:2020-12-22 until:2020-12-28 filter:images" > tweet_data_general/politics_2020-12/Plandemic/tweets4.txt
+snscrape twitter-search "#Plandemic since:2020-12-29 until:2020-12-31 filter:images" > tweet_data_general/politics_2020-12/Plandemic/tweets5.txt
+snscrape twitter-search "#bluewave since:2020-12-01 until:2020-12-07 filter:images" > tweet_data_general/politics_2020-12/bluewave/tweets1.txt
+snscrape twitter-search "#bluewave since:2020-12-08 until:2020-12-14 filter:images" > tweet_data_general/politics_2020-12/bluewave/tweets2.txt
+snscrape twitter-search "#bluewave since:2020-12-15 until:2020-12-21 filter:images" > tweet_data_general/politics_2020-12/bluewave/tweets3.txt
+snscrape twitter-search "#bluewave since:2020-12-22 until:2020-12-28 filter:images" > tweet_data_general/politics_2020-12/bluewave/tweets4.txt
+snscrape twitter-search "#bluewave since:2020-12-29 until:2020-12-31 filter:images" > tweet_data_general/politics_2020-12/bluewave/tweets5.txt
+snscrape twitter-search "#voterfraud since:2020-12-01 until:2020-12-07 filter:images" > tweet_data_general/politics_2020-12/voterfraud/tweets1.txt
+snscrape twitter-search "#voterfraud since:2020-12-08 until:2020-12-14 filter:images" > tweet_data_general/politics_2020-12/voterfraud/tweets2.txt
+snscrape twitter-search "#voterfraud since:2020-12-15 until:2020-12-21 filter:images" > tweet_data_general/politics_2020-12/voterfraud/tweets3.txt
+snscrape twitter-search "#voterfraud since:2020-12-22 until:2020-12-28 filter:images" > tweet_data_general/politics_2020-12/voterfraud/tweets4.txt
+snscrape twitter-search "#voterfraud since:2020-12-29 until:2020-12-31 filter:images" > tweet_data_general/politics_2020-12/voterfraud/tweets5.txt
+snscrape twitter-search "#pencedemic since:2020-12-01 until:2020-12-07 filter:images" > tweet_data_general/politics_2020-12/pencedemic/tweets1.txt
+snscrape twitter-search "#pencedemic since:2020-12-08 until:2020-12-14 filter:images" > tweet_data_general/politics_2020-12/pencedemic/tweets2.txt
+snscrape twitter-search "#pencedemic since:2020-12-15 until:2020-12-21 filter:images" > tweet_data_general/politics_2020-12/pencedemic/tweets3.txt
+snscrape twitter-search "#pencedemic since:2020-12-22 until:2020-12-28 filter:images" > tweet_data_general/politics_2020-12/pencedemic/tweets4.txt
+snscrape twitter-search "#pencedemic since:2020-12-29 until:2020-12-31 filter:images" > tweet_data_general/politics_2020-12/pencedemic/tweets5.txt
+snscrape twitter-search "#trumpliesaboutcoronavirus since:2020-12-01 until:2020-12-07 filter:images" > tweet_data_general/politics_2020-12/trumpliesaboutcoronavirus/tweets1.txt
+snscrape twitter-search "#trumpliesaboutcoronavirus since:2020-12-08 until:2020-12-14 filter:images" > tweet_data_general/politics_2020-12/trumpliesaboutcoronavirus/tweets2.txt
+snscrape twitter-search "#trumpliesaboutcoronavirus since:2020-12-15 until:2020-12-21 filter:images" > tweet_data_general/politics_2020-12/trumpliesaboutcoronavirus/tweets3.txt
+snscrape twitter-search "#trumpliesaboutcoronavirus since:2020-12-22 until:2020-12-28 filter:images" > tweet_data_general/politics_2020-12/trumpliesaboutcoronavirus/tweets4.txt
+snscrape twitter-search "#trumpliesaboutcoronavirus since:2020-12-29 until:2020-12-31 filter:images" > tweet_data_general/politics_2020-12/trumpliesaboutcoronavirus/tweets5.txt
+snscrape twitter-search "#stopthesteal since:2020-12-01 until:2020-12-07 filter:images" > tweet_data_general/politics_2020-12/stopthesteal/tweets1.txt
+snscrape twitter-search "#stopthesteal since:2020-12-08 until:2020-12-14 filter:images" > tweet_data_general/politics_2020-12/stopthesteal/tweets2.txt
+snscrape twitter-search "#stopthesteal since:2020-12-15 until:2020-12-21 filter:images" > tweet_data_general/politics_2020-12/stopthesteal/tweets3.txt
+snscrape twitter-search "#stopthesteal since:2020-12-22 until:2020-12-28 filter:images" > tweet_data_general/politics_2020-12/stopthesteal/tweets4.txt
+snscrape twitter-search "#stopthesteal since:2020-12-29 until:2020-12-31 filter:images" > tweet_data_general/politics_2020-12/stopthesteal/tweets5.txt
+snscrape twitter-search "#pencepandemic since:2020-12-01 until:2020-12-07 filter:images" > tweet_data_general/politics_2020-12/pencepandemic/tweets1.txt
+snscrape twitter-search "#pencepandemic since:2020-12-08 until:2020-12-14 filter:images" > tweet_data_general/politics_2020-12/pencepandemic/tweets2.txt
+snscrape twitter-search "#pencepandemic since:2020-12-15 until:2020-12-21 filter:images" > tweet_data_general/politics_2020-12/pencepandemic/tweets3.txt
+snscrape twitter-search "#pencepandemic since:2020-12-22 until:2020-12-28 filter:images" > tweet_data_general/politics_2020-12/pencepandemic/tweets4.txt
+snscrape twitter-search "#pencepandemic since:2020-12-29 until:2020-12-31 filter:images" > tweet_data_general/politics_2020-12/pencepandemic/tweets5.txt
+2971 tweets in file tweet_data_general/politics_2020-12/Election2020/tweets1.txt
+3400 tweets in file tweet_data_general/politics_2020-12/Election2020/tweets2.txt
+1949 tweets in file tweet_data_general/politics_2020-12/Election2020/tweets3.txt
+999 tweets in file tweet_data_general/politics_2020-12/Election2020/tweets4.txt
+449 tweets in file tweet_data_general/politics_2020-12/Election2020/tweets5.txt
+265 tweets in file tweet_data_general/politics_2020-12/Plandemic/tweets1.txt
+276 tweets in file tweet_data_general/politics_2020-12/Plandemic/tweets2.txt
+292 tweets in file tweet_data_general/politics_2020-12/Plandemic/tweets3.txt
+236 tweets in file tweet_data_general/politics_2020-12/Plandemic/tweets4.txt
+136 tweets in file tweet_data_general/politics_2020-12/Plandemic/tweets5.txt
+2562 tweets in file tweet_data_general/politics_2020-12/Trump2020/tweets1.txt
+3050 tweets in file tweet_data_general/politics_2020-12/Trump2020/tweets2.txt
+2136 tweets in file tweet_data_general/politics_2020-12/Trump2020/tweets3.txt
+1714 tweets in file tweet_data_general/politics_2020-12/Trump2020/tweets4.txt
+706 tweets in file tweet_data_general/politics_2020-12/Trump2020/tweets5.txt
+215 tweets in file tweet_data_general/politics_2020-12/bluewave/tweets1.txt
+94 tweets in file tweet_data_general/politics_2020-12/bluewave/tweets2.txt
+169 tweets in file tweet_data_general/politics_2020-12/bluewave/tweets3.txt
+60 tweets in file tweet_data_general/politics_2020-12/bluewave/tweets4.txt
+25 tweets in file tweet_data_general/politics_2020-12/bluewave/tweets5.txt
+5199 tweets in file tweet_data_general/politics_2020-12/maga/tweets1.txt
+5915 tweets in file tweet_data_general/politics_2020-12/maga/tweets2.txt
+5318 tweets in file tweet_data_general/politics_2020-12/maga/tweets3.txt
+3868 tweets in file tweet_data_general/politics_2020-12/maga/tweets4.txt
+1618 tweets in file tweet_data_general/politics_2020-12/maga/tweets5.txt
+1 tweets in file tweet_data_general/politics_2020-12/pencedemic/tweets1.txt
+22 tweets in file tweet_data_general/politics_2020-12/pencedemic/tweets2.txt
+4 tweets in file tweet_data_general/politics_2020-12/pencedemic/tweets3.txt
+4 tweets in file tweet_data_general/politics_2020-12/pencedemic/tweets4.txt
+0 tweets in file tweet_data_general/politics_2020-12/pencedemic/tweets5.txt
+0 tweets in file tweet_data_general/politics_2020-12/pencepandemic/tweets1.txt
+0 tweets in file tweet_data_general/politics_2020-12/pencepandemic/tweets2.txt
+0 tweets in file tweet_data_general/politics_2020-12/pencepandemic/tweets3.txt
+1 tweets in file tweet_data_general/politics_2020-12/pencepandemic/tweets4.txt
+0 tweets in file tweet_data_general/politics_2020-12/pencepandemic/tweets5.txt
+2057 tweets in file tweet_data_general/politics_2020-12/stopthesteal/tweets1.txt
+2010 tweets in file tweet_data_general/politics_2020-12/stopthesteal/tweets2.txt
+1617 tweets in file tweet_data_general/politics_2020-12/stopthesteal/tweets3.txt
+1085 tweets in file tweet_data_general/politics_2020-12/stopthesteal/tweets4.txt
+437 tweets in file tweet_data_general/politics_2020-12/stopthesteal/tweets5.txt
+6 tweets in file tweet_data_general/politics_2020-12/trumpliesaboutcoronavirus/tweets1.txt
+17 tweets in file tweet_data_general/politics_2020-12/trumpliesaboutcoronavirus/tweets2.txt
+5 tweets in file tweet_data_general/politics_2020-12/trumpliesaboutcoronavirus/tweets3.txt
+2 tweets in file tweet_data_general/politics_2020-12/trumpliesaboutcoronavirus/tweets4.txt
+3 tweets in file tweet_data_general/politics_2020-12/trumpliesaboutcoronavirus/tweets5.txt
+2607 tweets in file tweet_data_general/politics_2020-12/trumpvirus/tweets1.txt
+3123 tweets in file tweet_data_general/politics_2020-12/trumpvirus/tweets2.txt
+1973 tweets in file tweet_data_general/politics_2020-12/trumpvirus/tweets3.txt
+1993 tweets in file tweet_data_general/politics_2020-12/trumpvirus/tweets4.txt
+1106 tweets in file tweet_data_general/politics_2020-12/trumpvirus/tweets5.txt
+904 tweets in file tweet_data_general/politics_2020-12/voterfraud/tweets1.txt
+510 tweets in file tweet_data_general/politics_2020-12/voterfraud/tweets2.txt
+440 tweets in file tweet_data_general/politics_2020-12/voterfraud/tweets3.txt
+269 tweets in file tweet_data_general/politics_2020-12/voterfraud/tweets4.txt
+112 tweets in file tweet_data_general/politics_2020-12/voterfraud/tweets5.txt
+CSV FILE COUNT: 55
+  0%|          | 0/55 [00:00<?, ?it/s]  2%|▏         | 1/55 [11:21<10:13:05, 681.22s/it]  4%|▎         | 2/55 [24:25<10:55:14, 741.78s/it]  5%|▌         | 3/55 [31:10<8:29:34, 587.97s/it]   7%|▋         | 4/55 [34:06<6:01:43, 425.57s/it]  9%|▉         | 5/55 [35:29<4:11:34, 301.90s/it] 11%|█         | 6/55 [36:23<2:57:45, 217.66s/it] 13%|█▎        | 7/55 [37:11<2:09:42, 162.13s/it] 15%|█▍        | 8/55 [38:05<1:40:02, 127.72s/it] 16%|█▋        | 9/55 [38:50<1:18:06, 101.88s/it] 18%|█▊        | 10/55 [39:15<58:36, 78.14s/it]   20%|██        | 11/55 [45:53<2:09:07, 176.09s/it] 22%|██▏       | 12/55 [54:15<3:17:14, 275.23s/it] 24%|██▎       | 13/55 [1:01:30<3:46:29, 323.56s/it] 25%|██▌       | 14/55 [1:06:07<3:31:27, 309.44s/it] 27%|██▋       | 15/55 [1:08:16<2:50:05, 255.13s/it] 29%|██▉       | 16/55 [1:08:41<2:00:42, 185.72s/it] 31%|███       | 17/55 [1:09:05<1:26:53, 137.20s/it] 33%|███▎      | 18/55 [1:09:35<1:04:48, 105.11s/it] 35%|███▍      | 19/55 [1:09:49<46:36, 77.69s/it]    36%|███▋      | 20/55 [1:09:55<32:47, 56.21s/it] 38%|███▊      | 21/55 [1:25:08<2:57:33, 313.35s/it] 40%|████      | 22/55 [1:42:41<4:54:19, 535.13s/it] 42%|████▏     | 23/55 [1:58:35<5:52:34, 661.07s/it] 44%|████▎     | 24/55 [2:10:03<5:45:36, 668.92s/it] 45%|████▌     | 25/55 [2:15:08<4:39:53, 559.78s/it] 49%|████▉     | 27/55 [2:15:14<2:21:16, 302.73s/it] 51%|█████     | 28/55 [2:15:14<1:42:31, 227.83s/it] 53%|█████▎    | 29/55 [2:15:15<1:12:59, 168.44s/it] 65%|██████▌   | 36/55 [2:21:04<26:11, 82.70s/it]    67%|██████▋   | 37/55 [2:26:48<34:52, 116.26s/it] 69%|██████▉   | 38/55 [2:31:30<40:15, 142.07s/it] 71%|███████   | 39/55 [2:34:51<40:43, 152.71s/it] 73%|███████▎  | 40/55 [2:36:05<34:05, 136.40s/it] 75%|███████▍  | 41/55 [2:36:05<24:36, 105.47s/it] 76%|███████▋  | 42/55 [2:36:05<17:16, 79.74s/it]  78%|███████▊  | 43/55 [2:36:06<11:51, 59.26s/it] 84%|████████▎ | 46/55 [2:42:56<14:59, 99.92s/it] 85%|████████▌ | 47/55 [2:51:25<24:14, 181.86s/it] 87%|████████▋ | 48/55 [2:57:13<25:32, 218.96s/it] 89%|████████▉ | 49/55 [3:02:37<24:26, 244.34s/it] 91%|█████████ | 50/55 [3:05:36<18:57, 227.46s/it] 93%|█████████▎| 51/55 [3:08:44<14:28, 217.09s/it] 95%|█████████▍| 52/55 [3:10:08<08:59, 179.99s/it] 96%|█████████▋| 53/55 [3:11:25<05:02, 151.07s/it] 98%|█████████▊| 54/55 [3:12:07<01:59, 119.45s/it]100%|██████████| 55/55 [3:12:25<00:00, 89.86s/it] 100%|██████████| 55/55 [3:12:25<00:00, 209.92s/it]
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

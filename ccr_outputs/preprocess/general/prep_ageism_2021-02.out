@@ -1,0 +1,77 @@
+cpn-k10-29-01.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6428053
+SLURM_JOB_NODELIST=cpn-k10-29-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6428053
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+                      60sfolks:     0
+                   boomerdeath:     0
+                      caresact:   283
+                        corbid:     0
+                    covididiot:    33
+                       deletus:     0
+                 elderlydeaths:     0
+                   gaslighters:     6
+                gopdeathpanels:     1
+                 itsafairconvo:     0
+                         karen:   642
+                   okboomerpic:     0
+                        parnts:     0
+                thankyouboomer:     0
+                       therona:    10
+                trumpplaguepic:     0
+                        umirem:     0
+                          yoof:     3
+Topic: ageism_2021-02 - Total images:   978
+
+Filter out images without text
+karen          478
+caresact       256
+covididiot      27
+therona          6
+gaslighters      5
+yoof             3
+Name: hashtag, dtype: int64
+Topic: ageism_2021-02 - Images with text:   775
+
+Filter out duplicate images
+karen          422
+caresact       208
+covididiot      22
+therona          6
+gaslighters      5
+yoof             3
+Name: hashtag, dtype: int64
+Topic: ageism_2021-02 - Images without duplication:   666
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+karen          282
+caresact       104
+covididiot      15
+gaslighters      5
+therona          3
+yoof             3
+Name: hashtag, dtype: int64
+Topic: ageism_2021-02 - Images with objects:   412
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+karen          90
+caresact       46
+gaslighters     3
+therona         2
+covididiot      2
+yoof            1
+Name: hashtag, dtype: int64
+Topic: ageism_2021-02 - Images after Tesseract:   144
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

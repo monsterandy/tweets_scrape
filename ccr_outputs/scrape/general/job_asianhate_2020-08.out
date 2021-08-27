@@ -1,0 +1,135 @@
+cpn-k07-05-02.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6425734
+SLURM_JOB_NODELIST=cpn-k07-05-02
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6425734
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+snscrape twitter-search "#ChinaVirus since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/ChinaVirus/tweets1.txt
+snscrape twitter-search "#ChinaVirus since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/ChinaVirus/tweets2.txt
+snscrape twitter-search "#ChinaVirus since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/ChinaVirus/tweets3.txt
+snscrape twitter-search "#ChinaVirus since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/ChinaVirus/tweets4.txt
+snscrape twitter-search "#ChinaVirus since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/ChinaVirus/tweets5.txt
+snscrape twitter-search "#CCPVirus since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/CCPVirus/tweets1.txt
+snscrape twitter-search "#CCPVirus since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/CCPVirus/tweets2.txt
+snscrape twitter-search "#CCPVirus since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/CCPVirus/tweets3.txt
+snscrape twitter-search "#CCPVirus since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/CCPVirus/tweets4.txt
+snscrape twitter-search "#CCPVirus since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/CCPVirus/tweets5.txt
+snscrape twitter-search "#wuhanvirus since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/wuhanvirus/tweets1.txt
+snscrape twitter-search "#wuhanvirus since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/wuhanvirus/tweets2.txt
+snscrape twitter-search "#wuhanvirus since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/wuhanvirus/tweets3.txt
+snscrape twitter-search "#wuhanvirus since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/wuhanvirus/tweets4.txt
+snscrape twitter-search "#wuhanvirus since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/wuhanvirus/tweets5.txt
+snscrape twitter-search "#chinesevirus since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/chinesevirus/tweets1.txt
+snscrape twitter-search "#chinesevirus since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/chinesevirus/tweets2.txt
+snscrape twitter-search "#chinesevirus since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/chinesevirus/tweets3.txt
+snscrape twitter-search "#chinesevirus since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/chinesevirus/tweets4.txt
+snscrape twitter-search "#chinesevirus since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/chinesevirus/tweets5.txt
+snscrape twitter-search "#ChinaLiedPeopleDied since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/ChinaLiedPeopleDied/tweets1.txt
+snscrape twitter-search "#ChinaLiedPeopleDied since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/ChinaLiedPeopleDied/tweets2.txt
+snscrape twitter-search "#ChinaLiedPeopleDied since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/ChinaLiedPeopleDied/tweets3.txt
+snscrape twitter-search "#ChinaLiedPeopleDied since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/ChinaLiedPeopleDied/tweets4.txt
+snscrape twitter-search "#ChinaLiedPeopleDied since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/ChinaLiedPeopleDied/tweets5.txt
+snscrape twitter-search "#makechinapay since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/makechinapay/tweets1.txt
+snscrape twitter-search "#makechinapay since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/makechinapay/tweets2.txt
+snscrape twitter-search "#makechinapay since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/makechinapay/tweets3.txt
+snscrape twitter-search "#makechinapay since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/makechinapay/tweets4.txt
+snscrape twitter-search "#makechinapay since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/makechinapay/tweets5.txt
+snscrape twitter-search "#kungflu since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/kungflu/tweets1.txt
+snscrape twitter-search "#kungflu since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/kungflu/tweets2.txt
+snscrape twitter-search "#kungflu since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/kungflu/tweets3.txt
+snscrape twitter-search "#kungflu since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/kungflu/tweets4.txt
+snscrape twitter-search "#kungflu since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/kungflu/tweets5.txt
+snscrape twitter-search "#FuckChina since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/FuckChina/tweets1.txt
+snscrape twitter-search "#FuckChina since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/FuckChina/tweets2.txt
+snscrape twitter-search "#FuckChina since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/FuckChina/tweets3.txt
+snscrape twitter-search "#FuckChina since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/FuckChina/tweets4.txt
+snscrape twitter-search "#FuckChina since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/FuckChina/tweets5.txt
+snscrape twitter-search "#wuhanflu since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/wuhanflu/tweets1.txt
+snscrape twitter-search "#wuhanflu since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/wuhanflu/tweets2.txt
+snscrape twitter-search "#wuhanflu since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/wuhanflu/tweets3.txt
+snscrape twitter-search "#wuhanflu since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/wuhanflu/tweets4.txt
+snscrape twitter-search "#wuhanflu since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/wuhanflu/tweets5.txt
+snscrape twitter-search "#ChineseBioterrorism since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/ChineseBioterrorism/tweets1.txt
+snscrape twitter-search "#ChineseBioterrorism since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/ChineseBioterrorism/tweets2.txt
+snscrape twitter-search "#ChineseBioterrorism since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/ChineseBioterrorism/tweets3.txt
+snscrape twitter-search "#ChineseBioterrorism since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/ChineseBioterrorism/tweets4.txt
+snscrape twitter-search "#ChineseBioterrorism since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/ChineseBioterrorism/tweets5.txt
+snscrape twitter-search "#communistvirus since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/communistvirus/tweets1.txt
+snscrape twitter-search "#communistvirus since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/communistvirus/tweets2.txt
+snscrape twitter-search "#communistvirus since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/communistvirus/tweets3.txt
+snscrape twitter-search "#communistvirus since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/communistvirus/tweets4.txt
+snscrape twitter-search "#communistvirus since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/communistvirus/tweets5.txt
+snscrape twitter-search "#ChinaDidThis since:2020-08-01 until:2020-08-07 filter:images" > tweet_data_general/asianhate_2020-08/ChinaDidThis/tweets1.txt
+snscrape twitter-search "#ChinaDidThis since:2020-08-08 until:2020-08-14 filter:images" > tweet_data_general/asianhate_2020-08/ChinaDidThis/tweets2.txt
+snscrape twitter-search "#ChinaDidThis since:2020-08-15 until:2020-08-21 filter:images" > tweet_data_general/asianhate_2020-08/ChinaDidThis/tweets3.txt
+snscrape twitter-search "#ChinaDidThis since:2020-08-22 until:2020-08-28 filter:images" > tweet_data_general/asianhate_2020-08/ChinaDidThis/tweets4.txt
+snscrape twitter-search "#ChinaDidThis since:2020-08-29 until:2020-08-31 filter:images" > tweet_data_general/asianhate_2020-08/ChinaDidThis/tweets5.txt
+387 tweets in file tweet_data_general/asianhate_2020-08/CCPVirus/tweets1.txt
+439 tweets in file tweet_data_general/asianhate_2020-08/CCPVirus/tweets2.txt
+456 tweets in file tweet_data_general/asianhate_2020-08/CCPVirus/tweets3.txt
+365 tweets in file tweet_data_general/asianhate_2020-08/CCPVirus/tweets4.txt
+144 tweets in file tweet_data_general/asianhate_2020-08/CCPVirus/tweets5.txt
+0 tweets in file tweet_data_general/asianhate_2020-08/ChinaDidThis/tweets1.txt
+0 tweets in file tweet_data_general/asianhate_2020-08/ChinaDidThis/tweets2.txt
+0 tweets in file tweet_data_general/asianhate_2020-08/ChinaDidThis/tweets3.txt
+0 tweets in file tweet_data_general/asianhate_2020-08/ChinaDidThis/tweets4.txt
+0 tweets in file tweet_data_general/asianhate_2020-08/ChinaDidThis/tweets5.txt
+159 tweets in file tweet_data_general/asianhate_2020-08/ChinaLiedPeopleDied/tweets1.txt
+155 tweets in file tweet_data_general/asianhate_2020-08/ChinaLiedPeopleDied/tweets2.txt
+153 tweets in file tweet_data_general/asianhate_2020-08/ChinaLiedPeopleDied/tweets3.txt
+149 tweets in file tweet_data_general/asianhate_2020-08/ChinaLiedPeopleDied/tweets4.txt
+36 tweets in file tweet_data_general/asianhate_2020-08/ChinaLiedPeopleDied/tweets5.txt
+385 tweets in file tweet_data_general/asianhate_2020-08/ChinaVirus/tweets1.txt
+487 tweets in file tweet_data_general/asianhate_2020-08/ChinaVirus/tweets2.txt
+429 tweets in file tweet_data_general/asianhate_2020-08/ChinaVirus/tweets3.txt
+475 tweets in file tweet_data_general/asianhate_2020-08/ChinaVirus/tweets4.txt
+122 tweets in file tweet_data_general/asianhate_2020-08/ChinaVirus/tweets5.txt
+0 tweets in file tweet_data_general/asianhate_2020-08/ChineseBioterrorism/tweets1.txt
+1 tweets in file tweet_data_general/asianhate_2020-08/ChineseBioterrorism/tweets2.txt
+1 tweets in file tweet_data_general/asianhate_2020-08/ChineseBioterrorism/tweets3.txt
+6 tweets in file tweet_data_general/asianhate_2020-08/ChineseBioterrorism/tweets4.txt
+0 tweets in file tweet_data_general/asianhate_2020-08/ChineseBioterrorism/tweets5.txt
+23 tweets in file tweet_data_general/asianhate_2020-08/FuckChina/tweets1.txt
+31 tweets in file tweet_data_general/asianhate_2020-08/FuckChina/tweets2.txt
+27 tweets in file tweet_data_general/asianhate_2020-08/FuckChina/tweets3.txt
+15 tweets in file tweet_data_general/asianhate_2020-08/FuckChina/tweets4.txt
+5 tweets in file tweet_data_general/asianhate_2020-08/FuckChina/tweets5.txt
+249 tweets in file tweet_data_general/asianhate_2020-08/chinesevirus/tweets1.txt
+194 tweets in file tweet_data_general/asianhate_2020-08/chinesevirus/tweets2.txt
+177 tweets in file tweet_data_general/asianhate_2020-08/chinesevirus/tweets3.txt
+169 tweets in file tweet_data_general/asianhate_2020-08/chinesevirus/tweets4.txt
+51 tweets in file tweet_data_general/asianhate_2020-08/chinesevirus/tweets5.txt
+3 tweets in file tweet_data_general/asianhate_2020-08/communistvirus/tweets1.txt
+0 tweets in file tweet_data_general/asianhate_2020-08/communistvirus/tweets2.txt
+3 tweets in file tweet_data_general/asianhate_2020-08/communistvirus/tweets3.txt
+0 tweets in file tweet_data_general/asianhate_2020-08/communistvirus/tweets4.txt
+0 tweets in file tweet_data_general/asianhate_2020-08/communistvirus/tweets5.txt
+22 tweets in file tweet_data_general/asianhate_2020-08/kungflu/tweets1.txt
+22 tweets in file tweet_data_general/asianhate_2020-08/kungflu/tweets2.txt
+8 tweets in file tweet_data_general/asianhate_2020-08/kungflu/tweets3.txt
+23 tweets in file tweet_data_general/asianhate_2020-08/kungflu/tweets4.txt
+6 tweets in file tweet_data_general/asianhate_2020-08/kungflu/tweets5.txt
+32 tweets in file tweet_data_general/asianhate_2020-08/makechinapay/tweets1.txt
+50 tweets in file tweet_data_general/asianhate_2020-08/makechinapay/tweets2.txt
+22 tweets in file tweet_data_general/asianhate_2020-08/makechinapay/tweets3.txt
+33 tweets in file tweet_data_general/asianhate_2020-08/makechinapay/tweets4.txt
+9 tweets in file tweet_data_general/asianhate_2020-08/makechinapay/tweets5.txt
+26 tweets in file tweet_data_general/asianhate_2020-08/wuhanflu/tweets1.txt
+14 tweets in file tweet_data_general/asianhate_2020-08/wuhanflu/tweets2.txt
+5 tweets in file tweet_data_general/asianhate_2020-08/wuhanflu/tweets3.txt
+3 tweets in file tweet_data_general/asianhate_2020-08/wuhanflu/tweets4.txt
+3 tweets in file tweet_data_general/asianhate_2020-08/wuhanflu/tweets5.txt
+327 tweets in file tweet_data_general/asianhate_2020-08/wuhanvirus/tweets1.txt
+361 tweets in file tweet_data_general/asianhate_2020-08/wuhanvirus/tweets2.txt
+402 tweets in file tweet_data_general/asianhate_2020-08/wuhanvirus/tweets3.txt
+293 tweets in file tweet_data_general/asianhate_2020-08/wuhanvirus/tweets4.txt
+87 tweets in file tweet_data_general/asianhate_2020-08/wuhanvirus/tweets5.txt
+CSV FILE COUNT: 60
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [01:39<1:37:34, 99.22s/it]  3%|▎         | 2/60 [03:39<1:47:37, 111.34s/it]  5%|▌         | 3/60 [05:38<1:49:29, 115.26s/it]  7%|▋         | 4/60 [07:04<1:36:42, 103.62s/it]  8%|▊         | 5/60 [07:40<1:12:26, 79.03s/it]  18%|█▊        | 11/60 [08:07<18:37, 22.80s/it]  20%|██        | 12/60 [08:31<18:18, 22.89s/it] 22%|██▏       | 13/60 [08:57<18:28, 23.58s/it] 23%|██▎       | 14/60 [09:26<18:54, 24.67s/it] 25%|██▌       | 15/60 [09:34<15:37, 20.83s/it] 27%|██▋       | 16/60 [10:49<24:54, 33.96s/it] 28%|██▊       | 17/60 [12:06<32:15, 45.00s/it] 30%|███       | 18/60 [13:24<37:48, 54.00s/it] 32%|███▏      | 19/60 [14:58<44:27, 65.06s/it] 33%|███▎      | 20/60 [15:20<35:20, 53.02s/it] 40%|████      | 24/60 [15:21<12:09, 20.26s/it] 43%|████▎     | 26/60 [15:26<08:22, 14.79s/it] 45%|████▌     | 27/60 [15:32<07:16, 13.22s/it] 47%|████▋     | 28/60 [15:38<06:15, 11.75s/it] 48%|████▊     | 29/60 [15:41<05:04,  9.84s/it] 50%|█████     | 30/60 [15:42<03:50,  7.68s/it] 52%|█████▏    | 31/60 [16:29<08:35, 17.76s/it] 53%|█████▎    | 32/60 [17:01<10:06, 21.67s/it] 55%|█████▌    | 33/60 [17:34<11:11, 24.86s/it] 57%|█████▋    | 34/60 [18:02<11:07, 25.67s/it] 58%|█████▊    | 35/60 [18:13<08:54, 21.40s/it] 63%|██████▎   | 38/60 [18:13<03:31,  9.62s/it] 68%|██████▊   | 41/60 [18:17<01:53,  5.97s/it] 70%|███████   | 42/60 [18:21<01:40,  5.56s/it] 72%|███████▏  | 43/60 [18:22<01:19,  4.66s/it] 73%|███████▎  | 44/60 [18:26<01:13,  4.59s/it] 75%|███████▌  | 45/60 [18:27<00:55,  3.73s/it] 77%|███████▋  | 46/60 [18:33<01:01,  4.38s/it] 78%|███████▊  | 47/60 [18:43<01:17,  5.93s/it] 80%|████████  | 48/60 [18:48<01:05,  5.48s/it] 82%|████████▏ | 49/60 [18:54<01:03,  5.74s/it] 83%|████████▎ | 50/60 [18:56<00:44,  4.48s/it] 85%|████████▌ | 51/60 [18:59<00:36,  4.07s/it] 87%|████████▋ | 52/60 [19:01<00:28,  3.51s/it] 88%|████████▊ | 53/60 [19:02<00:19,  2.76s/it] 90%|█████████ | 54/60 [19:02<00:12,  2.13s/it] 92%|█████████▏| 55/60 [19:03<00:08,  1.74s/it] 93%|█████████▎| 56/60 [19:59<01:11, 17.90s/it] 95%|█████████▌| 57/60 [21:04<01:36, 32.02s/it] 97%|█████████▋| 58/60 [22:01<01:18, 39.39s/it] 98%|█████████▊| 59/60 [22:44<00:40, 40.43s/it]100%|██████████| 60/60 [22:58<00:00, 32.53s/it]100%|██████████| 60/60 [22:58<00:00, 22.97s/it]
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

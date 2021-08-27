@@ -1,0 +1,135 @@
+cpn-k16-17-02.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6431562
+SLURM_JOB_NODELIST=cpn-k16-17-02
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6431562
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+         BillGatesBioTerrorist:   130
+                COVID19Vaccine:  6153
+                      Convid19:    28
+            CoronavirusVaccine:  1483
+                     CovidHoax:   210
+                 CovidVaxFacts:     1
+           FauciLiedPeopleDied:    18
+                 FauciTheFraud:    55
+                     FireFauci:    60
+                 GetVaccinated:   836
+                VaccineFreedom:     2
+                  VaccinesWork:  2293
+                  WakeUpWiseUp:     0
+                   antivaxxers:   664
+               billgatesofhell:     1
+                  covidvaccine: 17539
+       covidvaccinesideeffects:    53
+                  depopulation:   132
+                 scamdemic2020:   436
+             vaccinesSaveLives:  1013
+Topic: vaccine_2020-12 - Total images: 31107
+
+Filter out images without text
+0 - ./tweet_data_general/vaccine_2020-12/COVID19Vaccine/tweets2/EouQef-U8AUEiFX.jpg
+0 - ./tweet_data_general/vaccine_2020-12/VaccinesWork/tweets1/EokQCcTXEAQlUJA.jpg
+0 - ./tweet_data_general/vaccine_2020-12/VaccinesWork/tweets3/EpmvS5RW4AIhmSX.jpg
+0 - ./tweet_data_general/vaccine_2020-12/antivaxxers/tweets1/EoRqOmsXEAQ1BJm.jpg
+0 - ./tweet_data_general/vaccine_2020-12/covidvaccine/tweets3/EpmvS5RW4AIhmSX.jpg
+0 - ./tweet_data_general/vaccine_2020-12/covidvaccine/tweets4/EqPyXbwUUAIiNYj.jpg
+0 - ./tweet_data_general/vaccine_2020-12/covidvaccine/tweets4/EqPw41fUUAEgjSC.jpg
+0 - ./tweet_data_general/vaccine_2020-12/covidvaccine/tweets4/Ep5jUJ4XMAANmXQ.jpg
+0 - ./tweet_data_general/vaccine_2020-12/covidvaccine/tweets4/Ep3KUDDXIAEgxVE.jpg
+0 - ./tweet_data_general/vaccine_2020-12/covidvaccine/tweets5/Eqb_5_AXAAAFXmE.jpg
+covidvaccine               13095
+COVID19Vaccine              4699
+VaccinesWork                1718
+CoronavirusVaccine          1131
+vaccinesSaveLives            695
+GetVaccinated                630
+antivaxxers                  550
+scamdemic2020                397
+CovidHoax                    183
+depopulation                 110
+BillGatesBioTerrorist        106
+FauciTheFraud                 54
+FireFauci                     50
+covidvaccinesideeffects       40
+Convid19                      26
+FauciLiedPeopleDied           15
+VaccineFreedom                 2
+billgatesofhell                1
+CovidVaxFacts                  1
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-12 - Images with text: 23503
+
+Filter out duplicate images
+covidvaccine               10844
+COVID19Vaccine              4299
+VaccinesWork                1453
+CoronavirusVaccine           933
+GetVaccinated                523
+antivaxxers                  456
+vaccinesSaveLives            334
+scamdemic2020                317
+CovidHoax                    167
+BillGatesBioTerrorist        106
+depopulation                  78
+FireFauci                     43
+FauciTheFraud                 34
+Convid19                      23
+FauciLiedPeopleDied           14
+covidvaccinesideeffects       13
+VaccineFreedom                 1
+billgatesofhell                1
+CovidVaxFacts                  1
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-12 - Images without duplication: 19640
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+covidvaccine               6612
+COVID19Vaccine             2565
+VaccinesWork                859
+CoronavirusVaccine          528
+GetVaccinated               331
+vaccinesSaveLives           243
+antivaxxers                 220
+scamdemic2020               152
+CovidHoax                    82
+BillGatesBioTerrorist        76
+depopulation                 42
+FauciTheFraud                24
+FireFauci                    21
+Convid19                     12
+FauciLiedPeopleDied          11
+covidvaccinesideeffects       7
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-12 - Images with objects: 11785
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+covidvaccine               1885
+COVID19Vaccine              791
+VaccinesWork                267
+CoronavirusVaccine          180
+antivaxxers                  97
+GetVaccinated                96
+vaccinesSaveLives            67
+scamdemic2020                66
+BillGatesBioTerrorist        34
+CovidHoax                    26
+depopulation                 14
+FauciTheFraud                10
+FireFauci                     6
+Convid19                      6
+covidvaccinesideeffects       5
+FauciLiedPeopleDied           3
+Name: hashtag, dtype: int64
+Topic: vaccine_2020-12 - Images after Tesseract:  3553
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

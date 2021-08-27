@@ -1,0 +1,105 @@
+cpn-u23-19.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6429361
+SLURM_JOB_NODELIST=cpn-u23-19
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6429361
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+               Antiimmigration:     0
+                     MuslimBan:  5152
+                   NoBanNoWall:     1
+                  americafirst:  1762
+                      banislam:     1
+                     bansharia:     1
+                  buildthewall:    88
+                       cdnpoli: 11041
+                        deport:     9
+                 deportthemall:     3
+                 illegalaliens:    45
+                   immigration:  2651
+                      liberals:   470
+              multiculturalism:    73
+                      refugees:  1748
+            refuggesnotwelcome:     0
+               stoptheinvasion:    10
+Topic: immigration_2021-02 - Total images: 23055
+
+Filter out images without text
+0 - ./tweet_data_general/immigration_2021-02/refugees/tweets4/EvK5JcbVcAAdSOj.jpg
+cdnpoli             8773
+MuslimBan           4902
+immigration         2248
+americafirst        1399
+refugees            1223
+liberals             393
+buildthewall          78
+multiculturalism      67
+illegalaliens         32
+stoptheinvasion        9
+deport                 8
+deportthemall          3
+bansharia              1
+NoBanNoWall            1
+Name: hashtag, dtype: int64
+Topic: immigration_2021-02 - Images with text: 19137
+
+Filter out duplicate images
+cdnpoli             7261
+immigration         1943
+MuslimBan           1276
+americafirst        1271
+refugees             950
+liberals             356
+buildthewall          52
+multiculturalism      48
+illegalaliens         27
+deport                 8
+deportthemall          2
+stoptheinvasion        1
+NoBanNoWall            1
+Name: hashtag, dtype: int64
+Topic: immigration_2021-02 - Images without duplication: 13196
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+cdnpoli             3541
+immigration         1053
+americafirst         765
+refugees             604
+MuslimBan            433
+liberals             213
+buildthewall          28
+multiculturalism      21
+illegalaliens         14
+deport                 5
+deportthemall          2
+stoptheinvasion        1
+NoBanNoWall            1
+Name: hashtag, dtype: int64
+Topic: immigration_2021-02 - Images with objects:  6681
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+cdnpoli             1187
+immigration          488
+americafirst         309
+MuslimBan            213
+refugees             162
+liberals             110
+buildthewall           8
+multiculturalism       6
+illegalaliens          6
+deport                 1
+stoptheinvasion        1
+deportthemall          1
+Name: hashtag, dtype: int64
+Topic: immigration_2021-02 - Images after Tesseract:  2492
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

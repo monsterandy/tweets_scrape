@@ -1,0 +1,73 @@
+cpn-f16-10.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6429333
+SLURM_JOB_NODELIST=cpn-f16-10
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6429333
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+                      CCPVirus:     5
+                  ChinaDidThis:     0
+           ChinaLiedPeopleDied:     0
+                    ChinaVirus:  1434
+           ChineseBioterrorism:     0
+                     FuckChina:     7
+                  chinesevirus:    14
+                communistvirus:     1
+                       kungflu:    52
+                  makechinapay:     0
+                      wuhanflu:   241
+                    wuhanvirus:  2637
+Topic: asianhate_2020-02 - Total images:  4391
+
+Filter out images without text
+0 - ./tweet_data_general/asianhate_2020-02/ChinaVirus/tweets2/EQSBJGWWoAUlIu3.jpg
+0 - ./tweet_data_general/asianhate_2020-02/wuhanvirus/tweets1/EP1ZGhsUUAAV1kq.jpg
+wuhanvirus      2161
+ChinaVirus      1135
+wuhanflu         211
+kungflu           43
+chinesevirus      11
+CCPVirus           4
+FuckChina          3
+Name: hashtag, dtype: int64
+Topic: asianhate_2020-02 - Images with text:  3568
+
+Filter out duplicate images
+wuhanvirus      1674
+ChinaVirus       996
+wuhanflu         189
+kungflu           42
+chinesevirus      10
+CCPVirus           3
+FuckChina          3
+Name: hashtag, dtype: int64
+Topic: asianhate_2020-02 - Images without duplication:  2917
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+wuhanvirus      765
+ChinaVirus      513
+wuhanflu         58
+kungflu          22
+chinesevirus      6
+FuckChina         1
+Name: hashtag, dtype: int64
+Topic: asianhate_2020-02 - Images with objects:  1365
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+wuhanvirus    188
+ChinaVirus    147
+wuhanflu       20
+kungflu        13
+Name: hashtag, dtype: int64
+Topic: asianhate_2020-02 - Images after Tesseract:   368
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

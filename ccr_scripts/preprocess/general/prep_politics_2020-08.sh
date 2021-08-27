@@ -1,9 +1,9 @@
 #!/bin/sh
 
 #SBATCH --partition=general-compute --qos=general-compute
-#SBATCH --time=18:00:00
+#SBATCH --time=72:00:00
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=12
+#SBATCH --ntasks-per-node=16
 #SBATCH --mem=8000
 # Memory per node specification is in MB. It is optional. 
 # The default limit is 3000MB per core.

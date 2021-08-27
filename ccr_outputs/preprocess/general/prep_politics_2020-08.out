@@ -1,0 +1,146 @@
+cpn-f16-03.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6438320
+SLURM_JOB_NODELIST=cpn-f16-03
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6438320
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/tesseract
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+libpng warning: Incorrect sBIT chunk length
+libpng warning: Incorrect sBIT chunk length
+libpng warning: Incorrect sBIT chunk length
+                  Election2020: 11488
+                     Plandemic:  1536
+                     Trump2020: 22631
+                      bluewave:  1258
+                          maga: 22184
+                    pencedemic:    88
+                 pencepandemic:     0
+                  stopthesteal:    21
+     trumpliesaboutcoronavirus:    31
+                    trumpvirus: 17753
+                    voterfraud:   677
+Topic: politics_2020-08 - Total images: 77667
+
+Filter out images without text
+0 - ./tweet_data_general/politics_2020-08/Election2020/tweets1/EekR9k-XkAEulh0.jpg
+0 - ./tweet_data_general/politics_2020-08/Election2020/tweets2/EfEeTSqUMAI-aIe.jpg
+0 - ./tweet_data_general/politics_2020-08/Trump2020/tweets1/EelxnllXoAAkO1y.jpg
+0 - ./tweet_data_general/politics_2020-08/Trump2020/tweets2/EfMAtM8UwAAV-9Y.jpg
+0 - ./tweet_data_general/politics_2020-08/Trump2020/tweets2/Ee_e9WHX0AEuqhy.jpg
+0 - ./tweet_data_general/politics_2020-08/Trump2020/tweets2/Ee4p1fiWkAAxC3b.jpg
+0 - ./tweet_data_general/politics_2020-08/Trump2020/tweets3/EfwnX35XkAUn7q4.png
+0 - ./tweet_data_general/politics_2020-08/Trump2020/tweets3/Efdyp3MX0AEvW0J.jpg
+0 - ./tweet_data_general/politics_2020-08/Trump2020/tweets4/EgZVaWzVAAYbGU_.jpg
+0 - ./tweet_data_general/politics_2020-08/Trump2020/tweets4/EgYZ6XyWAAIgFKs.jpg
+0 - ./tweet_data_general/politics_2020-08/Trump2020/tweets4/EgO607yXkAAIygG.jpg
+0 - ./tweet_data_general/politics_2020-08/Trump2020/tweets4/EgOzVMvWsAIhqEy.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets1/EevgbCFU0AQrg5y.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets1/EesBOa4XsAM6QNs.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets1/Eery4tyUEAAkL11.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets1/Eerfk0MXsAAtJqX.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets1/EerWGdOWkAAlGvL.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets1/EerXd5UXkAAwzQA.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets1/EeqoPpvXoAI501H.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets1/EequUcSWoAAbGlN.png
+0 - ./tweet_data_general/politics_2020-08/maga/tweets1/EehbVxRU0AIBzVe.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets1/Eeb7DvlU0AAWMF-.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets2/Ee4ZcwCUYAAZefL.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets3/Ef5pB4YWAAE_hOn.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets3/Ef5iFsRWoAMsOsy.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets3/Ef5mXPuWsAAmG0N.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets3/Ef4TmWKXsAEKPYa.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets4/EgORk-9WAAI5J5r.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets4/EgM_xszXkAADLpQ.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets4/EgM5XN5WAAE-iFW.jpg
+0 - ./tweet_data_general/politics_2020-08/maga/tweets4/EgB60coXkAEgZe5.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets1/Eeu6bH7XkAIEVC6.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets1/EeihYm2VoAAryn3.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets1/EecQQjoXYAAZtCZ.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets1/Eeb7DvlU0AAWMF-.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets1/EeY9RhMXgAACaHo.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets1/EeXz2bdXgAIsKCy.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets1/EeXduHTWoAI4duc.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets1/EeXUozuWoAALO5a.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets1/EeTmAvaWsAA_W8V.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets2/EfQbJSpXgAIInRU.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets2/EfFWLHkU0AAGvpd.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets2/EfE7NzHXoAAftJO.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets2/Ee7swY7X0AEGV_4.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets3/Ef4_NPfUEAA0W1a.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets3/EfsvjSgXoAIkJTH.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets3/Efp80S4X0AE4zbk.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets3/EfpKDfeWsAAtw2J.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets3/EfpDUtqX0AIa3K2.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets3/Efgdr2CWsAY14RA.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets3/EfezgENWsAYqanl.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets4/EgO1Lh-XsAMq7mf.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets4/EgD2B3lXsAACs9E.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets4/EgCmVmZXoAIJFeN.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets4/EgBiC3VWsAM-3Ct.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets5/EgqarbgXsAEkSc4.jpg
+0 - ./tweet_data_general/politics_2020-08/trumpvirus/tweets5/Egoc-JGWkAsTnqs.jpg
+Trump2020                    18254
+maga                         17607
+trumpvirus                   15012
+Election2020                  9575
+Plandemic                     1376
+bluewave                       971
+voterfraud                     620
+pencedemic                      67
+trumpliesaboutcoronavirus       30
+stopthesteal                    19
+Name: hashtag, dtype: int64
+Topic: politics_2020-08 - Images with text: 63531
+
+Filter out duplicate images
+Trump2020                    14926
+maga                         11297
+trumpvirus                   10003
+Election2020                  8349
+Plandemic                     1168
+bluewave                       770
+voterfraud                     449
+pencedemic                      54
+trumpliesaboutcoronavirus       26
+stopthesteal                    10
+Name: hashtag, dtype: int64
+Topic: politics_2020-08 - Images without duplication: 47052
+
+Filter out images with no objects
+[INFO]  Loading YOLO from disk...
+Trump2020                    9869
+maga                         7185
+trumpvirus                   5730
+Election2020                 4648
+Plandemic                     542
+bluewave                      463
+voterfraud                    219
+pencedemic                     33
+trumpliesaboutcoronavirus      13
+stopthesteal                    7
+Name: hashtag, dtype: int64
+Topic: politics_2020-08 - Images with objects: 28709
+
+Extract text from images using Tesseract
+
+Clean the OCR results
+Trump2020                    4008
+maga                         2794
+trumpvirus                   2416
+Election2020                 1627
+Plandemic                     207
+bluewave                      177
+voterfraud                     89
+pencedemic                     19
+trumpliesaboutcoronavirus       8
+stopthesteal                    4
+Name: hashtag, dtype: int64
+Topic: politics_2020-08 - Images after Tesseract: 11349
+
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

@@ -1,0 +1,151 @@
+cpn-k07-07-02.compute.cbls.ccr.buffalo.edu
+/projects/academic/hongxinh/anaconda/bin/python
+SLURM_JOBID=6425743
+SLURM_JOB_NODELIST=cpn-k07-07-02
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6425743
+working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
+ Anaconda Python 3.8 version 2021.05 has been loaded. 
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+/projects/academic/hongxinh/zheyuanm/tweets_scrape
+Job start!
+snscrape twitter-search "#cdnpoli since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/cdnpoli/tweets1.txt
+snscrape twitter-search "#cdnpoli since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/cdnpoli/tweets2.txt
+snscrape twitter-search "#cdnpoli since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/cdnpoli/tweets3.txt
+snscrape twitter-search "#cdnpoli since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/cdnpoli/tweets4.txt
+snscrape twitter-search "#immigration since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/immigration/tweets1.txt
+snscrape twitter-search "#immigration since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/immigration/tweets2.txt
+snscrape twitter-search "#immigration since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/immigration/tweets3.txt
+snscrape twitter-search "#immigration since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/immigration/tweets4.txt
+snscrape twitter-search "#americafirst since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/americafirst/tweets1.txt
+snscrape twitter-search "#americafirst since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/americafirst/tweets2.txt
+snscrape twitter-search "#americafirst since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/americafirst/tweets3.txt
+snscrape twitter-search "#americafirst since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/americafirst/tweets4.txt
+snscrape twitter-search "#refugees since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/refugees/tweets1.txt
+snscrape twitter-search "#refugees since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/refugees/tweets2.txt
+snscrape twitter-search "#refugees since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/refugees/tweets3.txt
+snscrape twitter-search "#refugees since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/refugees/tweets4.txt
+snscrape twitter-search "#liberals since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/liberals/tweets1.txt
+snscrape twitter-search "#liberals since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/liberals/tweets2.txt
+snscrape twitter-search "#liberals since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/liberals/tweets3.txt
+snscrape twitter-search "#liberals since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/liberals/tweets4.txt
+snscrape twitter-search "#buildthewall since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/buildthewall/tweets1.txt
+snscrape twitter-search "#buildthewall since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/buildthewall/tweets2.txt
+snscrape twitter-search "#buildthewall since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/buildthewall/tweets3.txt
+snscrape twitter-search "#buildthewall since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/buildthewall/tweets4.txt
+snscrape twitter-search "#MuslimBan since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/MuslimBan/tweets1.txt
+snscrape twitter-search "#MuslimBan since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/MuslimBan/tweets2.txt
+snscrape twitter-search "#MuslimBan since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/MuslimBan/tweets3.txt
+snscrape twitter-search "#MuslimBan since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/MuslimBan/tweets4.txt
+snscrape twitter-search "#multiculturalism since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/multiculturalism/tweets1.txt
+snscrape twitter-search "#multiculturalism since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/multiculturalism/tweets2.txt
+snscrape twitter-search "#multiculturalism since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/multiculturalism/tweets3.txt
+snscrape twitter-search "#multiculturalism since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/multiculturalism/tweets4.txt
+snscrape twitter-search "#illegalaliens since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/illegalaliens/tweets1.txt
+snscrape twitter-search "#illegalaliens since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/illegalaliens/tweets2.txt
+snscrape twitter-search "#illegalaliens since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/illegalaliens/tweets3.txt
+snscrape twitter-search "#illegalaliens since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/illegalaliens/tweets4.txt
+snscrape twitter-search "#deport since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/deport/tweets1.txt
+snscrape twitter-search "#deport since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/deport/tweets2.txt
+snscrape twitter-search "#deport since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/deport/tweets3.txt
+snscrape twitter-search "#deport since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/deport/tweets4.txt
+snscrape twitter-search "#stoptheinvasion since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/stoptheinvasion/tweets1.txt
+snscrape twitter-search "#stoptheinvasion since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/stoptheinvasion/tweets2.txt
+snscrape twitter-search "#stoptheinvasion since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/stoptheinvasion/tweets3.txt
+snscrape twitter-search "#stoptheinvasion since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/stoptheinvasion/tweets4.txt
+snscrape twitter-search "#Antiimmigration since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/Antiimmigration/tweets1.txt
+snscrape twitter-search "#Antiimmigration since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/Antiimmigration/tweets2.txt
+snscrape twitter-search "#Antiimmigration since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/Antiimmigration/tweets3.txt
+snscrape twitter-search "#Antiimmigration since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/Antiimmigration/tweets4.txt
+snscrape twitter-search "#banislam since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/banislam/tweets1.txt
+snscrape twitter-search "#banislam since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/banislam/tweets2.txt
+snscrape twitter-search "#banislam since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/banislam/tweets3.txt
+snscrape twitter-search "#banislam since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/banislam/tweets4.txt
+snscrape twitter-search "#deportthemall since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/deportthemall/tweets1.txt
+snscrape twitter-search "#deportthemall since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/deportthemall/tweets2.txt
+snscrape twitter-search "#deportthemall since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/deportthemall/tweets3.txt
+snscrape twitter-search "#deportthemall since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/deportthemall/tweets4.txt
+snscrape twitter-search "#NoBanNoWall since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/NoBanNoWall/tweets1.txt
+snscrape twitter-search "#NoBanNoWall since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/NoBanNoWall/tweets2.txt
+snscrape twitter-search "#NoBanNoWall since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/NoBanNoWall/tweets3.txt
+snscrape twitter-search "#NoBanNoWall since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/NoBanNoWall/tweets4.txt
+snscrape twitter-search "#bansharia since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/bansharia/tweets1.txt
+snscrape twitter-search "#bansharia since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/bansharia/tweets2.txt
+snscrape twitter-search "#bansharia since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/bansharia/tweets3.txt
+snscrape twitter-search "#bansharia since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/bansharia/tweets4.txt
+snscrape twitter-search "#refuggesnotwelcome since:2021-02-01 until:2021-02-07 filter:images" > tweet_data_general/immigration_2021-02/refuggesnotwelcome/tweets1.txt
+snscrape twitter-search "#refuggesnotwelcome since:2021-02-08 until:2021-02-14 filter:images" > tweet_data_general/immigration_2021-02/refuggesnotwelcome/tweets2.txt
+snscrape twitter-search "#refuggesnotwelcome since:2021-02-15 until:2021-02-21 filter:images" > tweet_data_general/immigration_2021-02/refuggesnotwelcome/tweets3.txt
+snscrape twitter-search "#refuggesnotwelcome since:2021-02-22 until:2021-02-28 filter:images" > tweet_data_general/immigration_2021-02/refuggesnotwelcome/tweets4.txt
+0 tweets in file tweet_data_general/immigration_2021-02/Antiimmigration/tweets1.txt
+0 tweets in file tweet_data_general/immigration_2021-02/Antiimmigration/tweets2.txt
+0 tweets in file tweet_data_general/immigration_2021-02/Antiimmigration/tweets3.txt
+0 tweets in file tweet_data_general/immigration_2021-02/Antiimmigration/tweets4.txt
+1312 tweets in file tweet_data_general/immigration_2021-02/MuslimBan/tweets1.txt
+1241 tweets in file tweet_data_general/immigration_2021-02/MuslimBan/tweets2.txt
+2078 tweets in file tweet_data_general/immigration_2021-02/MuslimBan/tweets3.txt
+2232 tweets in file tweet_data_general/immigration_2021-02/MuslimBan/tweets4.txt
+1 tweets in file tweet_data_general/immigration_2021-02/NoBanNoWall/tweets1.txt
+0 tweets in file tweet_data_general/immigration_2021-02/NoBanNoWall/tweets2.txt
+0 tweets in file tweet_data_general/immigration_2021-02/NoBanNoWall/tweets3.txt
+0 tweets in file tweet_data_general/immigration_2021-02/NoBanNoWall/tweets4.txt
+702 tweets in file tweet_data_general/immigration_2021-02/americafirst/tweets1.txt
+799 tweets in file tweet_data_general/immigration_2021-02/americafirst/tweets2.txt
+643 tweets in file tweet_data_general/immigration_2021-02/americafirst/tweets3.txt
+541 tweets in file tweet_data_general/immigration_2021-02/americafirst/tweets4.txt
+1 tweets in file tweet_data_general/immigration_2021-02/banislam/tweets1.txt
+1 tweets in file tweet_data_general/immigration_2021-02/banislam/tweets2.txt
+0 tweets in file tweet_data_general/immigration_2021-02/banislam/tweets3.txt
+0 tweets in file tweet_data_general/immigration_2021-02/banislam/tweets4.txt
+0 tweets in file tweet_data_general/immigration_2021-02/bansharia/tweets1.txt
+0 tweets in file tweet_data_general/immigration_2021-02/bansharia/tweets2.txt
+1 tweets in file tweet_data_general/immigration_2021-02/bansharia/tweets3.txt
+0 tweets in file tweet_data_general/immigration_2021-02/bansharia/tweets4.txt
+24 tweets in file tweet_data_general/immigration_2021-02/buildthewall/tweets1.txt
+18 tweets in file tweet_data_general/immigration_2021-02/buildthewall/tweets2.txt
+44 tweets in file tweet_data_general/immigration_2021-02/buildthewall/tweets3.txt
+22 tweets in file tweet_data_general/immigration_2021-02/buildthewall/tweets4.txt
+3101 tweets in file tweet_data_general/immigration_2021-02/cdnpoli/tweets1.txt
+2768 tweets in file tweet_data_general/immigration_2021-02/cdnpoli/tweets2.txt
+2902 tweets in file tweet_data_general/immigration_2021-02/cdnpoli/tweets3.txt
+3444 tweets in file tweet_data_general/immigration_2021-02/cdnpoli/tweets4.txt
+3 tweets in file tweet_data_general/immigration_2021-02/deport/tweets1.txt
+1 tweets in file tweet_data_general/immigration_2021-02/deport/tweets2.txt
+6 tweets in file tweet_data_general/immigration_2021-02/deport/tweets3.txt
+5 tweets in file tweet_data_general/immigration_2021-02/deport/tweets4.txt
+1 tweets in file tweet_data_general/immigration_2021-02/deportthemall/tweets1.txt
+0 tweets in file tweet_data_general/immigration_2021-02/deportthemall/tweets2.txt
+0 tweets in file tweet_data_general/immigration_2021-02/deportthemall/tweets3.txt
+2 tweets in file tweet_data_general/immigration_2021-02/deportthemall/tweets4.txt
+18 tweets in file tweet_data_general/immigration_2021-02/illegalaliens/tweets1.txt
+11 tweets in file tweet_data_general/immigration_2021-02/illegalaliens/tweets2.txt
+11 tweets in file tweet_data_general/immigration_2021-02/illegalaliens/tweets3.txt
+11 tweets in file tweet_data_general/immigration_2021-02/illegalaliens/tweets4.txt
+840 tweets in file tweet_data_general/immigration_2021-02/immigration/tweets1.txt
+745 tweets in file tweet_data_general/immigration_2021-02/immigration/tweets2.txt
+787 tweets in file tweet_data_general/immigration_2021-02/immigration/tweets3.txt
+832 tweets in file tweet_data_general/immigration_2021-02/immigration/tweets4.txt
+146 tweets in file tweet_data_general/immigration_2021-02/liberals/tweets1.txt
+150 tweets in file tweet_data_general/immigration_2021-02/liberals/tweets2.txt
+162 tweets in file tweet_data_general/immigration_2021-02/liberals/tweets3.txt
+171 tweets in file tweet_data_general/immigration_2021-02/liberals/tweets4.txt
+11 tweets in file tweet_data_general/immigration_2021-02/multiculturalism/tweets1.txt
+13 tweets in file tweet_data_general/immigration_2021-02/multiculturalism/tweets2.txt
+27 tweets in file tweet_data_general/immigration_2021-02/multiculturalism/tweets3.txt
+28 tweets in file tweet_data_general/immigration_2021-02/multiculturalism/tweets4.txt
+515 tweets in file tweet_data_general/immigration_2021-02/refugees/tweets1.txt
+519 tweets in file tweet_data_general/immigration_2021-02/refugees/tweets2.txt
+436 tweets in file tweet_data_general/immigration_2021-02/refugees/tweets3.txt
+455 tweets in file tweet_data_general/immigration_2021-02/refugees/tweets4.txt
+0 tweets in file tweet_data_general/immigration_2021-02/refuggesnotwelcome/tweets1.txt
+0 tweets in file tweet_data_general/immigration_2021-02/refuggesnotwelcome/tweets2.txt
+0 tweets in file tweet_data_general/immigration_2021-02/refuggesnotwelcome/tweets3.txt
+0 tweets in file tweet_data_general/immigration_2021-02/refuggesnotwelcome/tweets4.txt
+4 tweets in file tweet_data_general/immigration_2021-02/stoptheinvasion/tweets1.txt
+1 tweets in file tweet_data_general/immigration_2021-02/stoptheinvasion/tweets2.txt
+2 tweets in file tweet_data_general/immigration_2021-02/stoptheinvasion/tweets3.txt
+5 tweets in file tweet_data_general/immigration_2021-02/stoptheinvasion/tweets4.txt
+CSV FILE COUNT: 68
+  0%|          | 0/68 [00:00<?, ?it/s]  7%|▋         | 5/68 [04:30<56:50, 54.14s/it]  9%|▉         | 6/68 [08:25<1:37:19, 94.18s/it] 10%|█         | 7/68 [16:49<3:16:22, 193.15s/it] 12%|█▏        | 8/68 [23:48<4:10:57, 250.96s/it] 13%|█▎        | 9/68 [23:49<3:00:45, 183.82s/it] 19%|█▉        | 13/68 [25:58<1:24:30, 92.19s/it] 21%|██        | 14/68 [28:00<1:27:48, 97.56s/it] 22%|██▏       | 15/68 [29:57<1:29:33, 101.38s/it] 24%|██▎       | 16/68 [31:45<1:29:06, 102.82s/it] 26%|██▋       | 18/68 [31:45<52:15, 62.72s/it]    34%|███▍      | 23/68 [31:45<19:39, 26.21s/it] 37%|███▋      | 25/68 [31:48<14:23, 20.09s/it] 38%|███▊      | 26/68 [31:52<12:15, 17.52s/it] 40%|███▉      | 27/68 [32:01<10:59, 16.10s/it] 41%|████      | 28/68 [32:06<09:12, 13.82s/it] 43%|████▎     | 29/68 [46:20<2:11:29, 202.30s/it] 44%|████▍     | 30/68 [59:03<3:34:22, 338.50s/it] 46%|████▌     | 31/68 [1:12:26<4:42:31, 458.15s/it] 47%|████▋     | 32/68 [1:28:11<5:53:21, 588.94s/it] 49%|████▊     | 33/68 [1:28:11<4:08:18, 425.67s/it] 51%|█████▏    | 35/68 [1:28:13<2:10:44, 237.72s/it] 53%|█████▎    | 36/68 [1:28:14<1:36:27, 180.86s/it] 54%|█████▍    | 37/68 [1:28:14<1:09:35, 134.70s/it] 59%|█████▉    | 40/68 [1:28:14<30:01, 64.36s/it]    60%|██████    | 41/68 [1:28:19<23:36, 52.46s/it] 62%|██████▏   | 42/68 [1:28:21<17:58, 41.47s/it] 63%|██████▎   | 43/68 [1:28:24<13:22, 32.08s/it] 65%|██████▍   | 44/68 [1:28:27<09:52, 24.70s/it] 66%|██████▌   | 45/68 [1:32:13<30:06, 78.56s/it] 68%|██████▊   | 46/68 [1:35:26<40:23, 110.18s/it] 69%|██████▉   | 47/68 [1:38:55<48:22, 138.21s/it] 71%|███████   | 48/68 [1:42:51<55:26, 166.33s/it] 72%|███████▏  | 49/68 [1:43:38<41:40, 131.59s/it] 74%|███████▎  | 50/68 [1:44:11<30:47, 102.65s/it] 75%|███████▌  | 51/68 [1:44:40<22:52, 80.72s/it]  76%|███████▋  | 52/68 [1:45:16<17:59, 67.44s/it] 78%|███████▊  | 53/68 [1:45:18<12:01, 48.08s/it] 79%|███████▉  | 54/68 [1:45:22<08:08, 34.91s/it] 81%|████████  | 55/68 [1:45:31<05:52, 27.12s/it] 82%|████████▏ | 56/68 [1:45:41<04:22, 21.86s/it] 84%|████████▍ | 57/68 [1:48:17<11:24, 62.19s/it] 85%|████████▌ | 58/68 [1:50:49<14:50, 89.03s/it] 87%|████████▋ | 59/68 [1:53:02<15:18, 102.09s/it] 88%|████████▊ | 60/68 [1:55:26<15:18, 114.82s/it] 96%|█████████▌| 65/68 [1:55:27<01:50, 36.69s/it]  99%|█████████▊| 67/68 [1:55:28<00:26, 26.45s/it]100%|██████████| 68/68 [1:55:29<00:00, 22.32s/it]100%|██████████| 68/68 [1:55:29<00:00, 101.91s/it]
+/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
+Job end!

@@ -30,7 +30,7 @@ which tesseract
 pwd
 
 echo "Job start!"
-python analysis_YOLO.py -n ageism_04
+python analysis.py -n ageism_04
 
 module unload python/my-conda
 which python
