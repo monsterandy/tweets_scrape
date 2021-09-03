@@ -1,9 +1,9 @@
-cpn-k08-12-02.compute.cbls.ccr.buffalo.edu
+cpn-k07-02-01.compute.cbls.ccr.buffalo.edu
 /projects/academic/hongxinh/anaconda/bin/python
-SLURM_JOBID=6440081
-SLURM_JOB_NODELIST=cpn-k08-12-02
+SLURM_JOBID=6467479
+SLURM_JOB_NODELIST=cpn-k07-02-01
 SLURM_NNODES=1
-SLURMTMPDIR=/scratch/6440081
+SLURMTMPDIR=/scratch/6467479
 working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
  Anaconda Python 3.8 version 2021.05 has been loaded. 
 /projects/academic/hongxinh/anaconda/envs/tweets/bin/python
