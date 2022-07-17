@@ -19,7 +19,7 @@ if start_date.year == 2022:
 else:
     month = '2021-{:02d}'.format(start_date.month)
 
-hashtag_path = 'hashtag_list/hate/' + topic_name
+hashtag_path = 'hashtag_list/hateful/' + topic_name
 with open(hashtag_path) as file:
     hashtags = [line.rstrip('\n') for line in file]
 
