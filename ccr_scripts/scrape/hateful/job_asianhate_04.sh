@@ -32,9 +32,9 @@ cd ..
 pwd
 
 echo "Job start!"
-python autocommand.py -t asianhate -s 2020-04-01 -e 2020-04-30
-python scrape_tweets.py -n asianhate_04
-python image_extract.py -n asianhate_04
+python autocommand.py -t asianhate -s 2021-04-01 -e 2021-04-30
+python scrape_tweets.py -n asianhate_2021-04
+python image_extract.py -n asianhate_2021-04
 
 module unload python/my-conda
 which python
