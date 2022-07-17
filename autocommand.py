@@ -1,4 +1,4 @@
-# for general hashtags
+# for hate hashtags
 
 import os
 from pathlib import Path
@@ -14,19 +14,19 @@ args = parser.parse_args()
 topic_name = args.topic_name
 start_date = datetime.strptime(args.start_date, '%Y-%m-%d').date()
 end_date = datetime.strptime(args.end_date, '%Y-%m-%d').date()
-if start_date.year == 2021:
-    month = '2021-{:02d}'.format(start_date.month)
+if start_date.year == 2022:
+    month = '2022-{:02d}'.format(start_date.month)
 else:
-    month = '2020-{:02d}'.format(start_date.month)
+    month = '2021-{:02d}'.format(start_date.month)
 
-hashtag_path = 'hashtag_list/general/' + topic_name
+hashtag_path = 'hashtag_list/hate/' + topic_name
 with open(hashtag_path) as file:
     hashtags = [line.rstrip('\n') for line in file]
 
-if not Path('tweet_data_general/').exists():
-    os.system('mkdir tweet_data_general')
+if not Path('tweet_data_hate/').exists():
+    os.system('mkdir tweet_data_hate')
 
-data_path = 'tweet_data_general/' + topic_name + '_' + month + '/'
+data_path = 'tweet_data_hate/' + topic_name + '_' + month + '/'
 if not Path(data_path).exists():
     os.system('mkdir ' + data_path)
 

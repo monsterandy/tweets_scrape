@@ -21,4 +21,4 @@ client = GoogleVision()
 df_csv['labels'], df_csv['safe_search'] = zip(*df_csv['image_path'].apply(client.detect_label_safesearch))
 
 df_csv.to_csv(csv_path, index=False)
-# df_csv_test.to_csv('csv_data_general/general_cleaned_test.csv', index=False)
+# df_csv_test.to_csv('csv_data_hate/hate_cleaned_test.csv', index=False)

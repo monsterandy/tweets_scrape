@@ -14,7 +14,7 @@ parser.add_argument('-n', '--name', dest='folder_name', help='folder name', meta
 args = parser.parse_args()
 
 folder_name = args.folder_name
-folder_path = 'tweet_data_general/' + folder_name + '/'
+folder_path = 'tweet_data_hate/' + folder_name + '/'
 
 entries = os.listdir(folder_path)
 text = []

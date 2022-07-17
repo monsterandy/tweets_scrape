@@ -14,12 +14,12 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 parser = ArgumentParser()
 parser.add_argument('-n', '--name', dest='folder_name', help='data folder name', metavar='FOLDER')
-parser.add_argument('-c', '--csv', dest='csv_folder_name', help='csv folder name', metavar='CSV_FOLDER', default='csv_data_general')
+parser.add_argument('-c', '--csv', dest='csv_folder_name', help='csv folder name', metavar='CSV_FOLDER', default='csv_data_hate')
 args = parser.parse_args()
 
 folder_name = args.folder_name
 csv_folder_name = args.csv_folder_name
-entry_folder = 'tweet_data_general/' + folder_name + '/'
+entry_folder = 'tweet_data_hate/' + folder_name + '/'
 
 def get_image_path(image_url, csv_path):
     image_name = image_url.split('/')[-1]
