@@ -31,16 +31,16 @@ pwd
 
 echo "Job start!"
 python autocommand.py -t immigration -s 2021-07-01 -e 2021-07-31
-python scrape_tweets.py -n immigration_07
-python image_extract.py -n immigration_07
+python scrape_tweets.py -n immigration_2021_07
+python image_extract.py -n immigration_2021_07
 
 python autocommand.py -t immigration -s 2021-08-01 -e 2021-08-31
-python scrape_tweets.py -n immigration_08
-python image_extract.py -n immigration_08
+python scrape_tweets.py -n immigration_2021_08
+python image_extract.py -n immigration_2021_08
 
 python autocommand.py -t immigration -s 2021-09-01 -e 2021-09-30
-python scrape_tweets.py -n immigration_09
-python image_extract.py -n immigration_09
+python scrape_tweets.py -n immigration_2021_09
+python image_extract.py -n immigration_2021_09
 
 
 module unload python/my-conda
