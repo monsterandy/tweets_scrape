@@ -1,159 +1,0 @@
-cpn-k07-04-01.compute.cbls.ccr.buffalo.edu
-/projects/academic/hongxinh/anaconda/bin/python
-SLURM_JOBID=6225748
-SLURM_JOB_NODELIST=cpn-k07-04-01
-SLURM_NNODES=1
-SLURMTMPDIR=/scratch/6225748
-working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
- Anaconda Python 3.8 version 2021.05 has been loaded. 
-/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
-/projects/academic/hongxinh/zheyuanm/tweets_scrape
-Job start!
-snscrape twitter-search "#Corbid since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/Corbid/tweets1.txt
-
-snscrape twitter-search "#Corbid since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/Corbid/tweets2.txt
-
-snscrape twitter-search "#Corbid since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/Corbid/tweets3.txt
-
-snscrape twitter-search "#Corbid since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/Corbid/tweets4.txt
-
-snscrape twitter-search "#okboomer since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/okboomer/tweets1.txt
-
-snscrape twitter-search "#okboomer since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/okboomer/tweets2.txt
-
-snscrape twitter-search "#okboomer since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/okboomer/tweets3.txt
-
-snscrape twitter-search "#okboomer since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/okboomer/tweets4.txt
-
-snscrape twitter-search "#boomerdeath since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/boomerdeath/tweets1.txt
-
-snscrape twitter-search "#boomerdeath since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/boomerdeath/tweets2.txt
-
-snscrape twitter-search "#boomerdeath since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/boomerdeath/tweets3.txt
-
-snscrape twitter-search "#boomerdeath since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/boomerdeath/tweets4.txt
-
-snscrape twitter-search "#covididiot since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/covididiot/tweets1.txt
-
-snscrape twitter-search "#covididiot since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/covididiot/tweets2.txt
-
-snscrape twitter-search "#covididiot since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/covididiot/tweets3.txt
-
-snscrape twitter-search "#covididiot since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/covididiot/tweets4.txt
-
-snscrape twitter-search "#covidiots since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/covidiots/tweets1.txt
-
-snscrape twitter-search "#covidiots since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/covidiots/tweets2.txt
-
-snscrape twitter-search "#covidiots since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/covidiots/tweets3.txt
-
-snscrape twitter-search "#covidiots since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/covidiots/tweets4.txt
-
-snscrape twitter-search "#thankyouboomer since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/thankyouboomer/tweets1.txt
-
-snscrape twitter-search "#thankyouboomer since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/thankyouboomer/tweets2.txt
-
-snscrape twitter-search "#thankyouboomer since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/thankyouboomer/tweets3.txt
-
-snscrape twitter-search "#thankyouboomer since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/thankyouboomer/tweets4.txt
-
-snscrape twitter-search "#boomermoober since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/boomermoober/tweets1.txt
-
-snscrape twitter-search "#boomermoober since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/boomermoober/tweets2.txt
-
-snscrape twitter-search "#boomermoober since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/boomermoober/tweets3.txt
-
-snscrape twitter-search "#boomermoober since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/boomermoober/tweets4.txt
-
-snscrape twitter-search "#boomerremover since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/boomerremover/tweets1.txt
-
-snscrape twitter-search "#boomerremover since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/boomerremover/tweets2.txt
-
-snscrape twitter-search "#boomerremover since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/boomerremover/tweets3.txt
-
-snscrape twitter-search "#boomerremover since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/boomerremover/tweets4.txt
-
-snscrape twitter-search "#boomerentomber since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/boomerentomber/tweets1.txt
-
-snscrape twitter-search "#boomerentomber since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/boomerentomber/tweets2.txt
-
-snscrape twitter-search "#boomerentomber since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/boomerentomber/tweets3.txt
-
-snscrape twitter-search "#boomerentomber since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/boomerentomber/tweets4.txt
-
-snscrape twitter-search "#babyboomers since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/babyboomers/tweets1.txt
-
-snscrape twitter-search "#babyboomers since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/babyboomers/tweets2.txt
-
-snscrape twitter-search "#babyboomers since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/babyboomers/tweets3.txt
-
-snscrape twitter-search "#babyboomers since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/babyboomers/tweets4.txt
-
-snscrape twitter-search "#boomerdoomer since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/boomerdoomer/tweets1.txt
-
-snscrape twitter-search "#boomerdoomer since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/boomerdoomer/tweets2.txt
-
-snscrape twitter-search "#boomerdoomer since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/boomerdoomer/tweets3.txt
-
-snscrape twitter-search "#boomerdoomer since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/boomerdoomer/tweets4.txt
-
-snscrape twitter-search "#oldaf since:2021-02-01 until:2021-02-07 filter:images" > tweet_data/ageism_2021-02/oldaf/tweets1.txt
-
-snscrape twitter-search "#oldaf since:2021-02-08 until:2021-02-14 filter:images" > tweet_data/ageism_2021-02/oldaf/tweets2.txt
-
-snscrape twitter-search "#oldaf since:2021-02-15 until:2021-02-21 filter:images" > tweet_data/ageism_2021-02/oldaf/tweets3.txt
-
-snscrape twitter-search "#oldaf since:2021-02-22 until:2021-02-28 filter:images" > tweet_data/ageism_2021-02/oldaf/tweets4.txt
-
-0 tweets in file tweet_data/ageism_2021-02/Corbid/tweets1.txt
-0 tweets in file tweet_data/ageism_2021-02/Corbid/tweets2.txt
-0 tweets in file tweet_data/ageism_2021-02/Corbid/tweets3.txt
-0 tweets in file tweet_data/ageism_2021-02/Corbid/tweets4.txt
-51 tweets in file tweet_data/ageism_2021-02/babyboomers/tweets1.txt
-85 tweets in file tweet_data/ageism_2021-02/babyboomers/tweets2.txt
-87 tweets in file tweet_data/ageism_2021-02/babyboomers/tweets3.txt
-92 tweets in file tweet_data/ageism_2021-02/babyboomers/tweets4.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerdeath/tweets1.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerdeath/tweets2.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerdeath/tweets3.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerdeath/tweets4.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerdoomer/tweets1.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerdoomer/tweets2.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerdoomer/tweets3.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerdoomer/tweets4.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerentomber/tweets1.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerentomber/tweets2.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerentomber/tweets3.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerentomber/tweets4.txt
-0 tweets in file tweet_data/ageism_2021-02/boomermoober/tweets1.txt
-0 tweets in file tweet_data/ageism_2021-02/boomermoober/tweets2.txt
-0 tweets in file tweet_data/ageism_2021-02/boomermoober/tweets3.txt
-0 tweets in file tweet_data/ageism_2021-02/boomermoober/tweets4.txt
-2 tweets in file tweet_data/ageism_2021-02/boomerremover/tweets1.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerremover/tweets2.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerremover/tweets3.txt
-0 tweets in file tweet_data/ageism_2021-02/boomerremover/tweets4.txt
-13 tweets in file tweet_data/ageism_2021-02/covididiot/tweets1.txt
-10 tweets in file tweet_data/ageism_2021-02/covididiot/tweets2.txt
-11 tweets in file tweet_data/ageism_2021-02/covididiot/tweets3.txt
-8 tweets in file tweet_data/ageism_2021-02/covididiot/tweets4.txt
-633 tweets in file tweet_data/ageism_2021-02/covidiots/tweets1.txt
-547 tweets in file tweet_data/ageism_2021-02/covidiots/tweets2.txt
-515 tweets in file tweet_data/ageism_2021-02/covidiots/tweets3.txt
-632 tweets in file tweet_data/ageism_2021-02/covidiots/tweets4.txt
-30 tweets in file tweet_data/ageism_2021-02/okboomer/tweets1.txt
-54 tweets in file tweet_data/ageism_2021-02/okboomer/tweets2.txt
-52 tweets in file tweet_data/ageism_2021-02/okboomer/tweets3.txt
-38 tweets in file tweet_data/ageism_2021-02/okboomer/tweets4.txt
-3 tweets in file tweet_data/ageism_2021-02/oldaf/tweets1.txt
-3 tweets in file tweet_data/ageism_2021-02/oldaf/tweets2.txt
-4 tweets in file tweet_data/ageism_2021-02/oldaf/tweets3.txt
-7 tweets in file tweet_data/ageism_2021-02/oldaf/tweets4.txt
-0 tweets in file tweet_data/ageism_2021-02/thankyouboomer/tweets1.txt
-0 tweets in file tweet_data/ageism_2021-02/thankyouboomer/tweets2.txt
-0 tweets in file tweet_data/ageism_2021-02/thankyouboomer/tweets3.txt
-0 tweets in file tweet_data/ageism_2021-02/thankyouboomer/tweets4.txt
-CSV FILE COUNT: 48
-  0%|          | 0/48 [00:00<?, ?it/s] 10%|█         | 5/48 [00:12<01:47,  2.49s/it] 12%|█▎        | 6/48 [00:31<04:20,  6.19s/it] 15%|█▍        | 7/48 [00:48<06:01,  8.81s/it] 17%|█▋        | 8/48 [01:11<08:11, 12.28s/it] 38%|███▊      | 18/48 [01:11<01:19,  2.64s/it] 52%|█████▏    | 25/48 [01:11<00:34,  1.50s/it] 60%|██████    | 29/48 [01:15<00:25,  1.37s/it] 62%|██████▎   | 30/48 [01:17<00:25,  1.43s/it] 65%|██████▍   | 31/48 [01:19<00:25,  1.48s/it] 67%|██████▋   | 32/48 [01:21<00:24,  1.52s/it] 69%|██████▉   | 33/48 [03:49<06:19, 25.29s/it] 71%|███████   | 34/48 [05:38<09:34, 41.02s/it] 73%|███████▎  | 35/48 [07:37<12:28, 57.58s/it] 75%|███████▌  | 36/48 [09:47<14:53, 74.48s/it] 77%|███████▋  | 37/48 [09:50<10:22, 56.63s/it] 79%|███████▉  | 38/48 [09:56<07:13, 43.36s/it] 81%|████████▏ | 39/48 [10:02<04:57, 33.03s/it] 83%|████████▎ | 40/48 [10:07<03:22, 25.32s/it] 85%|████████▌ | 41/48 [10:08<02:07, 18.28s/it] 88%|████████▊ | 42/48 [10:09<01:19, 13.21s/it] 90%|████████▉ | 43/48 [10:10<00:48,  9.63s/it] 92%|█████████▏| 44/48 [10:11<00:28,  7.23s/it] 98%|█████████▊| 47/48 [10:11<00:03,  3.22s/it]100%|██████████| 48/48 [10:11<00:00, 12.75s/it]
-/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
-Job end!

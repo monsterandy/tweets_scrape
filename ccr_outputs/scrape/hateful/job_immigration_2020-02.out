@@ -1,135 +1,0 @@
-cpn-k07-02-01.compute.cbls.ccr.buffalo.edu
-/projects/academic/hongxinh/anaconda/bin/python
-SLURM_JOBID=6225753
-SLURM_JOB_NODELIST=cpn-k07-02-01
-SLURM_NNODES=1
-SLURMTMPDIR=/scratch/6225753
-working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
- Anaconda Python 3.8 version 2021.05 has been loaded. 
-/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
-/projects/academic/hongxinh/zheyuanm/tweets_scrape
-Job start!
-snscrape twitter-search "#illegalaliens since:2020-02-01 until:2020-02-07 filter:images" > tweet_data/immigration_2020-02/illegalaliens/tweets1.txt
-
-snscrape twitter-search "#illegalaliens since:2020-02-08 until:2020-02-14 filter:images" > tweet_data/immigration_2020-02/illegalaliens/tweets2.txt
-
-snscrape twitter-search "#illegalaliens since:2020-02-15 until:2020-02-21 filter:images" > tweet_data/immigration_2020-02/illegalaliens/tweets3.txt
-
-snscrape twitter-search "#illegalaliens since:2020-02-22 until:2020-02-28 filter:images" > tweet_data/immigration_2020-02/illegalaliens/tweets4.txt
-
-snscrape twitter-search "#illegalaliens since:2020-02-29 until:2020-02-29 filter:images" > tweet_data/immigration_2020-02/illegalaliens/tweets5.txt
-
-snscrape twitter-search "#illegalimmigration since:2020-02-01 until:2020-02-07 filter:images" > tweet_data/immigration_2020-02/illegalimmigration/tweets1.txt
-
-snscrape twitter-search "#illegalimmigration since:2020-02-08 until:2020-02-14 filter:images" > tweet_data/immigration_2020-02/illegalimmigration/tweets2.txt
-
-snscrape twitter-search "#illegalimmigration since:2020-02-15 until:2020-02-21 filter:images" > tweet_data/immigration_2020-02/illegalimmigration/tweets3.txt
-
-snscrape twitter-search "#illegalimmigration since:2020-02-22 until:2020-02-28 filter:images" > tweet_data/immigration_2020-02/illegalimmigration/tweets4.txt
-
-snscrape twitter-search "#illegalimmigration since:2020-02-29 until:2020-02-29 filter:images" > tweet_data/immigration_2020-02/illegalimmigration/tweets5.txt
-
-snscrape twitter-search "#illegalimmigrants since:2020-02-01 until:2020-02-07 filter:images" > tweet_data/immigration_2020-02/illegalimmigrants/tweets1.txt
-
-snscrape twitter-search "#illegalimmigrants since:2020-02-08 until:2020-02-14 filter:images" > tweet_data/immigration_2020-02/illegalimmigrants/tweets2.txt
-
-snscrape twitter-search "#illegalimmigrants since:2020-02-15 until:2020-02-21 filter:images" > tweet_data/immigration_2020-02/illegalimmigrants/tweets3.txt
-
-snscrape twitter-search "#illegalimmigrants since:2020-02-22 until:2020-02-28 filter:images" > tweet_data/immigration_2020-02/illegalimmigrants/tweets4.txt
-
-snscrape twitter-search "#illegalimmigrants since:2020-02-29 until:2020-02-29 filter:images" > tweet_data/immigration_2020-02/illegalimmigrants/tweets5.txt
-
-snscrape twitter-search "#DeportThemAll since:2020-02-01 until:2020-02-07 filter:images" > tweet_data/immigration_2020-02/DeportThemAll/tweets1.txt
-
-snscrape twitter-search "#DeportThemAll since:2020-02-08 until:2020-02-14 filter:images" > tweet_data/immigration_2020-02/DeportThemAll/tweets2.txt
-
-snscrape twitter-search "#DeportThemAll since:2020-02-15 until:2020-02-21 filter:images" > tweet_data/immigration_2020-02/DeportThemAll/tweets3.txt
-
-snscrape twitter-search "#DeportThemAll since:2020-02-22 until:2020-02-28 filter:images" > tweet_data/immigration_2020-02/DeportThemAll/tweets4.txt
-
-snscrape twitter-search "#DeportThemAll since:2020-02-29 until:2020-02-29 filter:images" > tweet_data/immigration_2020-02/DeportThemAll/tweets5.txt
-
-snscrape twitter-search "#BuildTheWall since:2020-02-01 until:2020-02-07 filter:images" > tweet_data/immigration_2020-02/BuildTheWall/tweets1.txt
-
-snscrape twitter-search "#BuildTheWall since:2020-02-08 until:2020-02-14 filter:images" > tweet_data/immigration_2020-02/BuildTheWall/tweets2.txt
-
-snscrape twitter-search "#BuildTheWall since:2020-02-15 until:2020-02-21 filter:images" > tweet_data/immigration_2020-02/BuildTheWall/tweets3.txt
-
-snscrape twitter-search "#BuildTheWall since:2020-02-22 until:2020-02-28 filter:images" > tweet_data/immigration_2020-02/BuildTheWall/tweets4.txt
-
-snscrape twitter-search "#BuildTheWall since:2020-02-29 until:2020-02-29 filter:images" > tweet_data/immigration_2020-02/BuildTheWall/tweets5.txt
-
-snscrape twitter-search "#stoptheinvasion since:2020-02-01 until:2020-02-07 filter:images" > tweet_data/immigration_2020-02/stoptheinvasion/tweets1.txt
-
-snscrape twitter-search "#stoptheinvasion since:2020-02-08 until:2020-02-14 filter:images" > tweet_data/immigration_2020-02/stoptheinvasion/tweets2.txt
-
-snscrape twitter-search "#stoptheinvasion since:2020-02-15 until:2020-02-21 filter:images" > tweet_data/immigration_2020-02/stoptheinvasion/tweets3.txt
-
-snscrape twitter-search "#stoptheinvasion since:2020-02-22 until:2020-02-28 filter:images" > tweet_data/immigration_2020-02/stoptheinvasion/tweets4.txt
-
-snscrape twitter-search "#stoptheinvasion since:2020-02-29 until:2020-02-29 filter:images" > tweet_data/immigration_2020-02/stoptheinvasion/tweets5.txt
-
-snscrape twitter-search "#BorderCrisis since:2020-02-01 until:2020-02-07 filter:images" > tweet_data/immigration_2020-02/BorderCrisis/tweets1.txt
-
-snscrape twitter-search "#BorderCrisis since:2020-02-08 until:2020-02-14 filter:images" > tweet_data/immigration_2020-02/BorderCrisis/tweets2.txt
-
-snscrape twitter-search "#BorderCrisis since:2020-02-15 until:2020-02-21 filter:images" > tweet_data/immigration_2020-02/BorderCrisis/tweets3.txt
-
-snscrape twitter-search "#BorderCrisis since:2020-02-22 until:2020-02-28 filter:images" > tweet_data/immigration_2020-02/BorderCrisis/tweets4.txt
-
-snscrape twitter-search "#BorderCrisis since:2020-02-29 until:2020-02-29 filter:images" > tweet_data/immigration_2020-02/BorderCrisis/tweets5.txt
-
-snscrape twitter-search "#deport since:2020-02-01 until:2020-02-07 filter:images" > tweet_data/immigration_2020-02/deport/tweets1.txt
-
-snscrape twitter-search "#deport since:2020-02-08 until:2020-02-14 filter:images" > tweet_data/immigration_2020-02/deport/tweets2.txt
-
-snscrape twitter-search "#deport since:2020-02-15 until:2020-02-21 filter:images" > tweet_data/immigration_2020-02/deport/tweets3.txt
-
-snscrape twitter-search "#deport since:2020-02-22 until:2020-02-28 filter:images" > tweet_data/immigration_2020-02/deport/tweets4.txt
-
-snscrape twitter-search "#deport since:2020-02-29 until:2020-02-29 filter:images" > tweet_data/immigration_2020-02/deport/tweets5.txt
-
-7 tweets in file tweet_data/immigration_2020-02/BorderCrisis/tweets1.txt
-5 tweets in file tweet_data/immigration_2020-02/BorderCrisis/tweets2.txt
-6 tweets in file tweet_data/immigration_2020-02/BorderCrisis/tweets3.txt
-3 tweets in file tweet_data/immigration_2020-02/BorderCrisis/tweets4.txt
-0 tweets in file tweet_data/immigration_2020-02/BorderCrisis/tweets5.txt
-338 tweets in file tweet_data/immigration_2020-02/BuildTheWall/tweets1.txt
-360 tweets in file tweet_data/immigration_2020-02/BuildTheWall/tweets2.txt
-391 tweets in file tweet_data/immigration_2020-02/BuildTheWall/tweets3.txt
-364 tweets in file tweet_data/immigration_2020-02/BuildTheWall/tweets4.txt
-0 tweets in file tweet_data/immigration_2020-02/BuildTheWall/tweets5.txt
-3 tweets in file tweet_data/immigration_2020-02/DeportThemAll/tweets1.txt
-9 tweets in file tweet_data/immigration_2020-02/DeportThemAll/tweets2.txt
-15 tweets in file tweet_data/immigration_2020-02/DeportThemAll/tweets3.txt
-5 tweets in file tweet_data/immigration_2020-02/DeportThemAll/tweets4.txt
-0 tweets in file tweet_data/immigration_2020-02/DeportThemAll/tweets5.txt
-8 tweets in file tweet_data/immigration_2020-02/deport/tweets1.txt
-9 tweets in file tweet_data/immigration_2020-02/deport/tweets2.txt
-4 tweets in file tweet_data/immigration_2020-02/deport/tweets3.txt
-7 tweets in file tweet_data/immigration_2020-02/deport/tweets4.txt
-0 tweets in file tweet_data/immigration_2020-02/deport/tweets5.txt
-24 tweets in file tweet_data/immigration_2020-02/illegalaliens/tweets1.txt
-46 tweets in file tweet_data/immigration_2020-02/illegalaliens/tweets2.txt
-50 tweets in file tweet_data/immigration_2020-02/illegalaliens/tweets3.txt
-29 tweets in file tweet_data/immigration_2020-02/illegalaliens/tweets4.txt
-0 tweets in file tweet_data/immigration_2020-02/illegalaliens/tweets5.txt
-9 tweets in file tweet_data/immigration_2020-02/illegalimmigrants/tweets1.txt
-21 tweets in file tweet_data/immigration_2020-02/illegalimmigrants/tweets2.txt
-14 tweets in file tweet_data/immigration_2020-02/illegalimmigrants/tweets3.txt
-11 tweets in file tweet_data/immigration_2020-02/illegalimmigrants/tweets4.txt
-0 tweets in file tweet_data/immigration_2020-02/illegalimmigrants/tweets5.txt
-13 tweets in file tweet_data/immigration_2020-02/illegalimmigration/tweets1.txt
-55 tweets in file tweet_data/immigration_2020-02/illegalimmigration/tweets2.txt
-52 tweets in file tweet_data/immigration_2020-02/illegalimmigration/tweets3.txt
-25 tweets in file tweet_data/immigration_2020-02/illegalimmigration/tweets4.txt
-0 tweets in file tweet_data/immigration_2020-02/illegalimmigration/tweets5.txt
-16 tweets in file tweet_data/immigration_2020-02/stoptheinvasion/tweets1.txt
-12 tweets in file tweet_data/immigration_2020-02/stoptheinvasion/tweets2.txt
-12 tweets in file tweet_data/immigration_2020-02/stoptheinvasion/tweets3.txt
-8 tweets in file tweet_data/immigration_2020-02/stoptheinvasion/tweets4.txt
-0 tweets in file tweet_data/immigration_2020-02/stoptheinvasion/tweets5.txt
-CSV FILE COUNT: 40
-  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:01<01:08,  1.75s/it]  5%|▌         | 2/40 [00:02<00:45,  1.18s/it]  8%|▊         | 3/40 [00:03<00:47,  1.27s/it] 10%|█         | 4/40 [00:04<00:33,  1.08it/s] 15%|█▌        | 6/40 [01:27<12:45, 22.51s/it] 18%|█▊        | 7/40 [03:08<24:12, 44.00s/it] 20%|██        | 8/40 [05:00<33:40, 63.14s/it] 22%|██▎       | 9/40 [06:40<38:05, 73.71s/it] 28%|██▊       | 11/40 [06:40<19:39, 40.66s/it] 30%|███       | 12/40 [06:42<14:34, 31.22s/it] 32%|███▎      | 13/40 [06:44<10:38, 23.65s/it] 35%|███▌      | 14/40 [06:45<07:37, 17.60s/it] 40%|████      | 16/40 [06:47<04:09, 10.38s/it] 42%|████▎     | 17/40 [06:49<03:09,  8.24s/it] 45%|████▌     | 18/40 [06:50<02:20,  6.40s/it] 48%|████▊     | 19/40 [06:51<01:46,  5.07s/it] 52%|█████▎    | 21/40 [06:58<01:21,  4.31s/it] 55%|█████▌    | 22/40 [07:11<01:53,  6.31s/it] 57%|█████▊    | 23/40 [07:24<02:17,  8.10s/it] 60%|██████    | 24/40 [07:31<02:04,  7.78s/it] 65%|██████▌   | 26/40 [07:33<01:07,  4.84s/it] 68%|██████▊   | 27/40 [07:37<01:02,  4.80s/it] 70%|███████   | 28/40 [07:42<00:55,  4.65s/it] 72%|███████▎  | 29/40 [07:45<00:47,  4.30s/it] 78%|███████▊  | 31/40 [07:48<00:28,  3.17s/it] 80%|████████  | 32/40 [08:03<00:46,  5.76s/it] 82%|████████▎ | 33/40 [08:16<00:53,  7.63s/it] 85%|████████▌ | 34/40 [08:23<00:45,  7.58s/it] 90%|█████████ | 36/40 [08:26<00:20,  5.02s/it] 92%|█████████▎| 37/40 [08:28<00:12,  4.29s/it] 95%|█████████▌| 38/40 [08:31<00:07,  3.78s/it] 98%|█████████▊| 39/40 [08:32<00:03,  3.25s/it]100%|██████████| 40/40 [08:32<00:00, 12.82s/it]
-/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
-Job end!

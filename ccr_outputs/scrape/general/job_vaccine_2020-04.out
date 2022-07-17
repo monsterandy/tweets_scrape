@@ -1,215 +1,0 @@
-cpn-k07-07-01.compute.cbls.ccr.buffalo.edu
-/projects/academic/hongxinh/anaconda/bin/python
-SLURM_JOBID=6427744
-SLURM_JOB_NODELIST=cpn-k07-07-01
-SLURM_NNODES=1
-SLURMTMPDIR=/scratch/6427744
-working directory = /projects/academic/hongxinh/zheyuanm/tweets_scrape
- Anaconda Python 3.8 version 2021.05 has been loaded. 
-/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
-/projects/academic/hongxinh/zheyuanm/tweets_scrape
-Job start!
-snscrape twitter-search "#CoronavirusVaccine since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/CoronavirusVaccine/tweets1.txt
-snscrape twitter-search "#CoronavirusVaccine since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/CoronavirusVaccine/tweets2.txt
-snscrape twitter-search "#CoronavirusVaccine since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/CoronavirusVaccine/tweets3.txt
-snscrape twitter-search "#CoronavirusVaccine since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/CoronavirusVaccine/tweets4.txt
-snscrape twitter-search "#CoronavirusVaccine since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/CoronavirusVaccine/tweets5.txt
-snscrape twitter-search "#covidvaccine since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/covidvaccine/tweets1.txt
-snscrape twitter-search "#covidvaccine since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/covidvaccine/tweets2.txt
-snscrape twitter-search "#covidvaccine since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/covidvaccine/tweets3.txt
-snscrape twitter-search "#covidvaccine since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/covidvaccine/tweets4.txt
-snscrape twitter-search "#covidvaccine since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/covidvaccine/tweets5.txt
-snscrape twitter-search "#VaccinesWork since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/VaccinesWork/tweets1.txt
-snscrape twitter-search "#VaccinesWork since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/VaccinesWork/tweets2.txt
-snscrape twitter-search "#VaccinesWork since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/VaccinesWork/tweets3.txt
-snscrape twitter-search "#VaccinesWork since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/VaccinesWork/tweets4.txt
-snscrape twitter-search "#VaccinesWork since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/VaccinesWork/tweets5.txt
-snscrape twitter-search "#CovidHoax since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/CovidHoax/tweets1.txt
-snscrape twitter-search "#CovidHoax since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/CovidHoax/tweets2.txt
-snscrape twitter-search "#CovidHoax since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/CovidHoax/tweets3.txt
-snscrape twitter-search "#CovidHoax since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/CovidHoax/tweets4.txt
-snscrape twitter-search "#CovidHoax since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/CovidHoax/tweets5.txt
-snscrape twitter-search "#COVID19Vaccine since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/COVID19Vaccine/tweets1.txt
-snscrape twitter-search "#COVID19Vaccine since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/COVID19Vaccine/tweets2.txt
-snscrape twitter-search "#COVID19Vaccine since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/COVID19Vaccine/tweets3.txt
-snscrape twitter-search "#COVID19Vaccine since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/COVID19Vaccine/tweets4.txt
-snscrape twitter-search "#COVID19Vaccine since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/COVID19Vaccine/tweets5.txt
-snscrape twitter-search "#FauciTheFraud since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/FauciTheFraud/tweets1.txt
-snscrape twitter-search "#FauciTheFraud since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/FauciTheFraud/tweets2.txt
-snscrape twitter-search "#FauciTheFraud since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/FauciTheFraud/tweets3.txt
-snscrape twitter-search "#FauciTheFraud since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/FauciTheFraud/tweets4.txt
-snscrape twitter-search "#FauciTheFraud since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/FauciTheFraud/tweets5.txt
-snscrape twitter-search "#BillGatesBioTerrorist since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/BillGatesBioTerrorist/tweets1.txt
-snscrape twitter-search "#BillGatesBioTerrorist since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/BillGatesBioTerrorist/tweets2.txt
-snscrape twitter-search "#BillGatesBioTerrorist since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/BillGatesBioTerrorist/tweets3.txt
-snscrape twitter-search "#BillGatesBioTerrorist since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/BillGatesBioTerrorist/tweets4.txt
-snscrape twitter-search "#BillGatesBioTerrorist since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/BillGatesBioTerrorist/tweets5.txt
-snscrape twitter-search "#FireFauci since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/FireFauci/tweets1.txt
-snscrape twitter-search "#FireFauci since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/FireFauci/tweets2.txt
-snscrape twitter-search "#FireFauci since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/FireFauci/tweets3.txt
-snscrape twitter-search "#FireFauci since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/FireFauci/tweets4.txt
-snscrape twitter-search "#FireFauci since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/FireFauci/tweets5.txt
-snscrape twitter-search "#scamdemic2020 since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/scamdemic2020/tweets1.txt
-snscrape twitter-search "#scamdemic2020 since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/scamdemic2020/tweets2.txt
-snscrape twitter-search "#scamdemic2020 since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/scamdemic2020/tweets3.txt
-snscrape twitter-search "#scamdemic2020 since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/scamdemic2020/tweets4.txt
-snscrape twitter-search "#scamdemic2020 since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/scamdemic2020/tweets5.txt
-snscrape twitter-search "#vaccinesSaveLives since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/vaccinesSaveLives/tweets1.txt
-snscrape twitter-search "#vaccinesSaveLives since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/vaccinesSaveLives/tweets2.txt
-snscrape twitter-search "#vaccinesSaveLives since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/vaccinesSaveLives/tweets3.txt
-snscrape twitter-search "#vaccinesSaveLives since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/vaccinesSaveLives/tweets4.txt
-snscrape twitter-search "#vaccinesSaveLives since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/vaccinesSaveLives/tweets5.txt
-snscrape twitter-search "#depopulation since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/depopulation/tweets1.txt
-snscrape twitter-search "#depopulation since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/depopulation/tweets2.txt
-snscrape twitter-search "#depopulation since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/depopulation/tweets3.txt
-snscrape twitter-search "#depopulation since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/depopulation/tweets4.txt
-snscrape twitter-search "#depopulation since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/depopulation/tweets5.txt
-snscrape twitter-search "#antivaxxers since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/antivaxxers/tweets1.txt
-snscrape twitter-search "#antivaxxers since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/antivaxxers/tweets2.txt
-snscrape twitter-search "#antivaxxers since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/antivaxxers/tweets3.txt
-snscrape twitter-search "#antivaxxers since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/antivaxxers/tweets4.txt
-snscrape twitter-search "#antivaxxers since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/antivaxxers/tweets5.txt
-snscrape twitter-search "#GetVaccinated since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/GetVaccinated/tweets1.txt
-snscrape twitter-search "#GetVaccinated since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/GetVaccinated/tweets2.txt
-snscrape twitter-search "#GetVaccinated since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/GetVaccinated/tweets3.txt
-snscrape twitter-search "#GetVaccinated since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/GetVaccinated/tweets4.txt
-snscrape twitter-search "#GetVaccinated since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/GetVaccinated/tweets5.txt
-snscrape twitter-search "#Convid19 since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/Convid19/tweets1.txt
-snscrape twitter-search "#Convid19 since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/Convid19/tweets2.txt
-snscrape twitter-search "#Convid19 since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/Convid19/tweets3.txt
-snscrape twitter-search "#Convid19 since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/Convid19/tweets4.txt
-snscrape twitter-search "#Convid19 since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/Convid19/tweets5.txt
-snscrape twitter-search "#FauciLiedPeopleDied since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/FauciLiedPeopleDied/tweets1.txt
-snscrape twitter-search "#FauciLiedPeopleDied since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/FauciLiedPeopleDied/tweets2.txt
-snscrape twitter-search "#FauciLiedPeopleDied since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/FauciLiedPeopleDied/tweets3.txt
-snscrape twitter-search "#FauciLiedPeopleDied since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/FauciLiedPeopleDied/tweets4.txt
-snscrape twitter-search "#FauciLiedPeopleDied since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/FauciLiedPeopleDied/tweets5.txt
-snscrape twitter-search "#billgatesofhell since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/billgatesofhell/tweets1.txt
-snscrape twitter-search "#billgatesofhell since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/billgatesofhell/tweets2.txt
-snscrape twitter-search "#billgatesofhell since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/billgatesofhell/tweets3.txt
-snscrape twitter-search "#billgatesofhell since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/billgatesofhell/tweets4.txt
-snscrape twitter-search "#billgatesofhell since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/billgatesofhell/tweets5.txt
-snscrape twitter-search "#VaccineFreedom since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/VaccineFreedom/tweets1.txt
-snscrape twitter-search "#VaccineFreedom since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/VaccineFreedom/tweets2.txt
-snscrape twitter-search "#VaccineFreedom since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/VaccineFreedom/tweets3.txt
-snscrape twitter-search "#VaccineFreedom since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/VaccineFreedom/tweets4.txt
-snscrape twitter-search "#VaccineFreedom since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/VaccineFreedom/tweets5.txt
-snscrape twitter-search "#covidvaccinesideeffects since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/covidvaccinesideeffects/tweets1.txt
-snscrape twitter-search "#covidvaccinesideeffects since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/covidvaccinesideeffects/tweets2.txt
-snscrape twitter-search "#covidvaccinesideeffects since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/covidvaccinesideeffects/tweets3.txt
-snscrape twitter-search "#covidvaccinesideeffects since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/covidvaccinesideeffects/tweets4.txt
-snscrape twitter-search "#covidvaccinesideeffects since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/covidvaccinesideeffects/tweets5.txt
-snscrape twitter-search "#WakeUpWiseUp since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/WakeUpWiseUp/tweets1.txt
-snscrape twitter-search "#WakeUpWiseUp since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/WakeUpWiseUp/tweets2.txt
-snscrape twitter-search "#WakeUpWiseUp since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/WakeUpWiseUp/tweets3.txt
-snscrape twitter-search "#WakeUpWiseUp since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/WakeUpWiseUp/tweets4.txt
-snscrape twitter-search "#WakeUpWiseUp since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/WakeUpWiseUp/tweets5.txt
-snscrape twitter-search "#CovidVaxFacts since:2020-04-01 until:2020-04-07 filter:images" > tweet_data_general/vaccine_2020-04/CovidVaxFacts/tweets1.txt
-snscrape twitter-search "#CovidVaxFacts since:2020-04-08 until:2020-04-14 filter:images" > tweet_data_general/vaccine_2020-04/CovidVaxFacts/tweets2.txt
-snscrape twitter-search "#CovidVaxFacts since:2020-04-15 until:2020-04-21 filter:images" > tweet_data_general/vaccine_2020-04/CovidVaxFacts/tweets3.txt
-snscrape twitter-search "#CovidVaxFacts since:2020-04-22 until:2020-04-28 filter:images" > tweet_data_general/vaccine_2020-04/CovidVaxFacts/tweets4.txt
-snscrape twitter-search "#CovidVaxFacts since:2020-04-29 until:2020-04-30 filter:images" > tweet_data_general/vaccine_2020-04/CovidVaxFacts/tweets5.txt
-19 tweets in file tweet_data_general/vaccine_2020-04/BillGatesBioTerrorist/tweets1.txt
-57 tweets in file tweet_data_general/vaccine_2020-04/BillGatesBioTerrorist/tweets2.txt
-141 tweets in file tweet_data_general/vaccine_2020-04/BillGatesBioTerrorist/tweets3.txt
-100 tweets in file tweet_data_general/vaccine_2020-04/BillGatesBioTerrorist/tweets4.txt
-23 tweets in file tweet_data_general/vaccine_2020-04/BillGatesBioTerrorist/tweets5.txt
-40 tweets in file tweet_data_general/vaccine_2020-04/COVID19Vaccine/tweets1.txt
-35 tweets in file tweet_data_general/vaccine_2020-04/COVID19Vaccine/tweets2.txt
-38 tweets in file tweet_data_general/vaccine_2020-04/COVID19Vaccine/tweets3.txt
-84 tweets in file tweet_data_general/vaccine_2020-04/COVID19Vaccine/tweets4.txt
-14 tweets in file tweet_data_general/vaccine_2020-04/COVID19Vaccine/tweets5.txt
-822 tweets in file tweet_data_general/vaccine_2020-04/Convid19/tweets1.txt
-631 tweets in file tweet_data_general/vaccine_2020-04/Convid19/tweets2.txt
-522 tweets in file tweet_data_general/vaccine_2020-04/Convid19/tweets3.txt
-368 tweets in file tweet_data_general/vaccine_2020-04/Convid19/tweets4.txt
-58 tweets in file tweet_data_general/vaccine_2020-04/Convid19/tweets5.txt
-82 tweets in file tweet_data_general/vaccine_2020-04/CoronavirusVaccine/tweets1.txt
-79 tweets in file tweet_data_general/vaccine_2020-04/CoronavirusVaccine/tweets2.txt
-78 tweets in file tweet_data_general/vaccine_2020-04/CoronavirusVaccine/tweets3.txt
-137 tweets in file tweet_data_general/vaccine_2020-04/CoronavirusVaccine/tweets4.txt
-26 tweets in file tweet_data_general/vaccine_2020-04/CoronavirusVaccine/tweets5.txt
-19 tweets in file tweet_data_general/vaccine_2020-04/CovidHoax/tweets1.txt
-63 tweets in file tweet_data_general/vaccine_2020-04/CovidHoax/tweets2.txt
-42 tweets in file tweet_data_general/vaccine_2020-04/CovidHoax/tweets3.txt
-55 tweets in file tweet_data_general/vaccine_2020-04/CovidHoax/tweets4.txt
-14 tweets in file tweet_data_general/vaccine_2020-04/CovidHoax/tweets5.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/CovidVaxFacts/tweets1.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/CovidVaxFacts/tweets2.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/CovidVaxFacts/tweets3.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/CovidVaxFacts/tweets4.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/CovidVaxFacts/tweets5.txt
-1 tweets in file tweet_data_general/vaccine_2020-04/FauciLiedPeopleDied/tweets1.txt
-6 tweets in file tweet_data_general/vaccine_2020-04/FauciLiedPeopleDied/tweets2.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/FauciLiedPeopleDied/tweets3.txt
-5 tweets in file tweet_data_general/vaccine_2020-04/FauciLiedPeopleDied/tweets4.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/FauciLiedPeopleDied/tweets5.txt
-1 tweets in file tweet_data_general/vaccine_2020-04/FauciTheFraud/tweets1.txt
-80 tweets in file tweet_data_general/vaccine_2020-04/FauciTheFraud/tweets2.txt
-22 tweets in file tweet_data_general/vaccine_2020-04/FauciTheFraud/tweets3.txt
-39 tweets in file tweet_data_general/vaccine_2020-04/FauciTheFraud/tweets4.txt
-9 tweets in file tweet_data_general/vaccine_2020-04/FauciTheFraud/tweets5.txt
-682 tweets in file tweet_data_general/vaccine_2020-04/FireFauci/tweets1.txt
-1429 tweets in file tweet_data_general/vaccine_2020-04/FireFauci/tweets2.txt
-462 tweets in file tweet_data_general/vaccine_2020-04/FireFauci/tweets3.txt
-212 tweets in file tweet_data_general/vaccine_2020-04/FireFauci/tweets4.txt
-40 tweets in file tweet_data_general/vaccine_2020-04/FireFauci/tweets5.txt
-3 tweets in file tweet_data_general/vaccine_2020-04/GetVaccinated/tweets1.txt
-2 tweets in file tweet_data_general/vaccine_2020-04/GetVaccinated/tweets2.txt
-2 tweets in file tweet_data_general/vaccine_2020-04/GetVaccinated/tweets3.txt
-7 tweets in file tweet_data_general/vaccine_2020-04/GetVaccinated/tweets4.txt
-1 tweets in file tweet_data_general/vaccine_2020-04/GetVaccinated/tweets5.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/VaccineFreedom/tweets1.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/VaccineFreedom/tweets2.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/VaccineFreedom/tweets3.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/VaccineFreedom/tweets4.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/VaccineFreedom/tweets5.txt
-167 tweets in file tweet_data_general/vaccine_2020-04/VaccinesWork/tweets1.txt
-164 tweets in file tweet_data_general/vaccine_2020-04/VaccinesWork/tweets2.txt
-291 tweets in file tweet_data_general/vaccine_2020-04/VaccinesWork/tweets3.txt
-1584 tweets in file tweet_data_general/vaccine_2020-04/VaccinesWork/tweets4.txt
-370 tweets in file tweet_data_general/vaccine_2020-04/VaccinesWork/tweets5.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/WakeUpWiseUp/tweets1.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/WakeUpWiseUp/tweets2.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/WakeUpWiseUp/tweets3.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/WakeUpWiseUp/tweets4.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/WakeUpWiseUp/tweets5.txt
-79 tweets in file tweet_data_general/vaccine_2020-04/antivaxxers/tweets1.txt
-50 tweets in file tweet_data_general/vaccine_2020-04/antivaxxers/tweets2.txt
-65 tweets in file tweet_data_general/vaccine_2020-04/antivaxxers/tweets3.txt
-53 tweets in file tweet_data_general/vaccine_2020-04/antivaxxers/tweets4.txt
-5 tweets in file tweet_data_general/vaccine_2020-04/antivaxxers/tweets5.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/billgatesofhell/tweets1.txt
-5 tweets in file tweet_data_general/vaccine_2020-04/billgatesofhell/tweets2.txt
-6 tweets in file tweet_data_general/vaccine_2020-04/billgatesofhell/tweets3.txt
-24 tweets in file tweet_data_general/vaccine_2020-04/billgatesofhell/tweets4.txt
-9 tweets in file tweet_data_general/vaccine_2020-04/billgatesofhell/tweets5.txt
-22 tweets in file tweet_data_general/vaccine_2020-04/covidvaccine/tweets1.txt
-25 tweets in file tweet_data_general/vaccine_2020-04/covidvaccine/tweets2.txt
-31 tweets in file tweet_data_general/vaccine_2020-04/covidvaccine/tweets3.txt
-43 tweets in file tweet_data_general/vaccine_2020-04/covidvaccine/tweets4.txt
-4 tweets in file tweet_data_general/vaccine_2020-04/covidvaccine/tweets5.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/covidvaccinesideeffects/tweets1.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/covidvaccinesideeffects/tweets2.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/covidvaccinesideeffects/tweets3.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/covidvaccinesideeffects/tweets4.txt
-0 tweets in file tweet_data_general/vaccine_2020-04/covidvaccinesideeffects/tweets5.txt
-42 tweets in file tweet_data_general/vaccine_2020-04/depopulation/tweets1.txt
-52 tweets in file tweet_data_general/vaccine_2020-04/depopulation/tweets2.txt
-53 tweets in file tweet_data_general/vaccine_2020-04/depopulation/tweets3.txt
-48 tweets in file tweet_data_general/vaccine_2020-04/depopulation/tweets4.txt
-9 tweets in file tweet_data_general/vaccine_2020-04/depopulation/tweets5.txt
-6 tweets in file tweet_data_general/vaccine_2020-04/scamdemic2020/tweets1.txt
-15 tweets in file tweet_data_general/vaccine_2020-04/scamdemic2020/tweets2.txt
-8 tweets in file tweet_data_general/vaccine_2020-04/scamdemic2020/tweets3.txt
-8 tweets in file tweet_data_general/vaccine_2020-04/scamdemic2020/tweets4.txt
-1 tweets in file tweet_data_general/vaccine_2020-04/scamdemic2020/tweets5.txt
-70 tweets in file tweet_data_general/vaccine_2020-04/vaccinesSaveLives/tweets1.txt
-31 tweets in file tweet_data_general/vaccine_2020-04/vaccinesSaveLives/tweets2.txt
-35 tweets in file tweet_data_general/vaccine_2020-04/vaccinesSaveLives/tweets3.txt
-51 tweets in file tweet_data_general/vaccine_2020-04/vaccinesSaveLives/tweets4.txt
-6 tweets in file tweet_data_general/vaccine_2020-04/vaccinesSaveLives/tweets5.txt
-CSV FILE COUNT: 100
-  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:02<03:57,  2.40s/it]  2%|▏         | 2/100 [00:09<08:37,  5.28s/it]  3%|▎         | 3/100 [00:30<20:05, 12.43s/it]  4%|▍         | 4/100 [00:44<21:02, 13.15s/it]  5%|▌         | 5/100 [00:48<15:08,  9.56s/it]  6%|▌         | 6/100 [00:58<15:15,  9.74s/it]  7%|▋         | 7/100 [01:04<13:27,  8.68s/it]  8%|▊         | 8/100 [01:12<13:06,  8.54s/it]  9%|▉         | 9/100 [01:32<18:10, 11.99s/it] 10%|█         | 10/100 [01:37<14:32,  9.69s/it] 11%|█         | 11/100 [03:44<1:07:58, 45.83s/it] 12%|█▏        | 12/100 [05:20<1:29:17, 60.88s/it] 13%|█▎        | 13/100 [06:51<1:41:47, 70.21s/it] 14%|█▍        | 14/100 [07:43<1:32:33, 64.57s/it] 15%|█▌        | 15/100 [07:50<1:06:50, 47.18s/it] 16%|█▌        | 16/100 [08:05<52:47, 37.71s/it]   17%|█▋        | 17/100 [08:23<43:40, 31.57s/it] 18%|█▊        | 18/100 [08:45<39:21, 28.80s/it] 19%|█▉        | 19/100 [09:16<39:47, 29.47s/it] 20%|██        | 20/100 [09:22<29:56, 22.46s/it] 21%|██        | 21/100 [09:26<22:21, 16.98s/it] 22%|██▏       | 22/100 [09:40<20:38, 15.88s/it] 23%|██▎       | 23/100 [09:49<17:52, 13.93s/it] 24%|██▍       | 24/100 [10:02<17:09, 13.55s/it] 25%|██▌       | 25/100 [10:06<13:31, 10.82s/it] 32%|███▏      | 32/100 [10:07<03:06,  2.74s/it] 34%|███▍      | 34/100 [10:08<02:29,  2.27s/it] 36%|███▌      | 36/100 [10:08<01:52,  1.75s/it] 37%|███▋      | 37/100 [10:24<04:04,  3.88s/it] 38%|███▊      | 38/100 [10:29<04:07,  3.99s/it] 39%|███▉      | 39/100 [10:38<05:05,  5.01s/it] 40%|████      | 40/100 [10:40<04:18,  4.31s/it] 41%|████      | 41/100 [12:41<32:11, 32.74s/it] 42%|████▏     | 42/100 [17:29<1:35:20, 98.63s/it] 43%|████▎     | 43/100 [19:04<1:32:47, 97.67s/it] 44%|████▍     | 44/100 [19:46<1:16:44, 82.23s/it] 45%|████▌     | 45/100 [19:53<55:35, 60.65s/it]   46%|████▌     | 46/100 [19:53<38:53, 43.21s/it] 47%|████▋     | 47/100 [19:53<27:09, 30.74s/it] 48%|████▊     | 48/100 [19:54<18:56, 21.85s/it] 49%|████▉     | 49/100 [19:56<13:43, 16.15s/it] 50%|█████     | 50/100 [19:57<09:31, 11.44s/it] 56%|█████▌    | 56/100 [20:34<05:36,  7.66s/it] 57%|█████▋    | 57/100 [21:25<10:00, 13.97s/it] 58%|█████▊    | 58/100 [22:52<18:35, 26.57s/it] 59%|█████▉    | 59/100 [30:18<1:14:50, 109.53s/it] 60%|██████    | 60/100 [31:59<1:11:47, 107.68s/it] 66%|██████▌   | 66/100 [32:11<21:51, 38.56s/it]    67%|██████▋   | 67/100 [32:20<19:05, 34.70s/it] 68%|██████▊   | 68/100 [32:35<16:47, 31.50s/it] 69%|██████▉   | 69/100 [32:46<14:15, 27.58s/it] 70%|███████   | 70/100 [32:47<10:57, 21.90s/it] 72%|███████▏  | 72/100 [32:48<06:27, 13.85s/it] 73%|███████▎  | 73/100 [32:49<05:00, 11.13s/it] 74%|███████▍  | 74/100 [32:51<03:59,  9.22s/it] 75%|███████▌  | 75/100 [32:52<02:58,  7.15s/it] 76%|███████▌  | 76/100 [32:57<02:37,  6.57s/it] 77%|███████▋  | 77/100 [33:03<02:27,  6.42s/it] 78%|███████▊  | 78/100 [33:12<02:32,  6.95s/it] 79%|███████▉  | 79/100 [33:22<02:44,  7.82s/it] 80%|████████  | 80/100 [33:22<01:55,  5.77s/it] 86%|████████▌ | 86/100 [33:29<00:34,  2.47s/it] 87%|████████▋ | 87/100 [33:40<00:48,  3.70s/it] 88%|████████▊ | 88/100 [33:50<00:57,  4.78s/it] 89%|████████▉ | 89/100 [34:01<01:06,  6.06s/it] 90%|█████████ | 90/100 [34:03<00:51,  5.16s/it] 91%|█████████ | 91/100 [34:04<00:36,  4.11s/it] 92%|█████████▏| 92/100 [34:08<00:31,  3.98s/it] 93%|█████████▎| 93/100 [34:10<00:23,  3.40s/it] 94%|█████████▍| 94/100 [34:12<00:19,  3.18s/it] 95%|█████████▌| 95/100 [34:12<00:11,  2.31s/it] 96%|█████████▌| 96/100 [34:20<00:15,  3.88s/it] 97%|█████████▋| 97/100 [34:23<00:11,  3.71s/it] 98%|█████████▊| 98/100 [34:29<00:08,  4.33s/it] 99%|█████████▉| 99/100 [34:38<00:05,  5.73s/it]100%|██████████| 100/100 [34:40<00:00,  4.54s/it]100%|██████████| 100/100 [34:40<00:00, 20.80s/it]
-/projects/academic/hongxinh/anaconda/envs/tweets/bin/python
-Job end!
